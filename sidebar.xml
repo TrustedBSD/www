@@ -1,0 +1,35 @@
+<sidebar>
+  <section match="home">
+    <p align="center"><a href="news.html">TrustedBSD News - TrustedBSD
+      at BSDCan 2005!</a></p>
+  </section>
+
+  <section match="components">
+    <h2 class="section">Components</h2>
+    <ul>
+      <li><a href="components.html#acls">Access Control Lists</a></li>
+      <li><a href="components.html#audit">Event Auditing and OpenBSM</a></li>
+      <li><a href="components.html#eas">Extended Attributes</a></li>
+      <li><a href="components.html#capabilities">Fine-Grained
+	Capabilities</a></li>
+      <li><a href="mac.html">Mandatory Access Control</a></li>
+      <li><a href="sebsd.html">Security-Enhanced BSD (SEBSD)</a></li>
+      <li><a href="sedarwin.html">Security-Enhanced Darwin (SEDarwin)</a></li>
+      <!-- To be completed: Historical Patches -->
+    </ul>
+  </section>
+
+  <section match="docs">
+    <ul>
+      <li><a href="#documentation">Documentation</a></li>
+      <li><a href="#implementation-papers">Implementation Papers</a></li>
+    </ul>
+  </section>
+
+  <section match="mailinglists">
+    <ul>
+      <li><a href="#tbsdlists">TrustedBSD Mailing Lists</a></li>
+      <li><a href="#posix1e">POSIX.1e Mailing Lists</a></li>
+    </ul>
+  </section>
+</sidebar>

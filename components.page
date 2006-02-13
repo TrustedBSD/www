@@ -1,0 +1,215 @@
+<!--
+     Copyright (c) 2000, 2001, 2005 Robert N. M. Watson
+     Copyright (c) 2001 Leigh Denault
+     Copyright (c) 2002, 2003 Networks Associates Technology, Inc.
+     All rights reserved.
+     
+     This software was developed for the FreeBSD Project by Chris
+     Costello at Safeport Network Services and Network Associates
+     Laboratories, the Security Research Division of Network Associates,
+     Inc. under DARPA/SPAWAR contract N66001-01-C-8035 ("CBOSS"), as part
+     of the DARPA CHATS research program.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="components">
+  <title>Components</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $FreeBSD: projects/trustedbsd/www/components.page,v 1.21 2005/04/29 10:25:02 rwatson Exp $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>Components</title>
+
+    <html>
+      <p>Code associated with the TrustedBSD Project is generally under
+	a two-clause BSD-style license, permitting broad open source,
+	closed source, non-commercial, and commercial reuse.
+	For more information on licensing, see <a href="legal.html">Legal
+	Information</a>.
+	All code currently available for download on this page is
+	extremely experimental, and not intended for use by those who are
+	not experienced kernel programmers.
+	Comments on code, as well as on new features and bug fixes, are
+	welcome.</p>
+
+      <p>TrustedBSD is developed in a <a href="http://www.perforce.com/">
+	Perforce</a> repository, and is made available via <a
+	href="http://www.polstra.com/projects/freeware/CVSup/">CVSup</a>
+	server <span id="fqdn">cvsup10.FreeBSD.org</span>.  A <a
+	href="trustedbsd-supfile">sample supfile</a> is available.  See the
+	list below for information on the collection names associated with
+	the various development branches.  As features reach maturity,
+	the are merged into the main FreeBSD development tree, and in
+	some cases, have also been adopted into the OpenBSD and Darwin
+	development trees.</p>
+
+      <p>To subscribe to the trustedbsd-cvs mailing list, see the
+	instructions on the mailing lists page.  This provides access
+	to CVS and Perforce commit messages associated with development
+	occuring in the TrustedBSD development trees, including the
+	Base (vendor) branch, Capabilities branch, Audit branch, MAC
+	branch, SEBSD branch, and SEDarwin branch.</p>
+
+      <p>There are seven main branches of TrustedBSD development:</p>
+
+      <dl>
+	<a name="acls" />
+        <dt><p>Access Control Lists</p></dt>
+
+        <dd>
+          <p>Access control lists allow more fine-grained discretionary
+            access controls to be placed on files and directories.
+            Currently, ACLs are backed to extended attributes on UFS file
+            systems.  An extended attribute implementation was layered
+	    onto UFS1, and a native implementation is available as part
+	    of UFS2.  The finished ACL implementation has been available
+	    as part of FreeBSD since the 5.0 release.  Some further
+	    application adaptation work is on-going, and is taking place
+	    in the FreeBSD development tree.</p>
+        </dd>
+
+	<a name="audit" />
+        <dt><p>Event Auditing and OpenBSM</p></dt>
+
+	<dd>
+          <p>
+            <span id="collection-label">Collection:</span>
+
+            <span id="cvsup-collection">p4-cvs-trustedbsd-audit3</span>
+          </p>
+
+	  <p>Event auditing permits the selective logging of
+	    security-relevant system events for the purposes of
+	    analysis.  Several experimental implementations of audit
+	    for FreeBSD have been explored; the current implementation is
+	    based on <a href="openbsm.html">OpenBSM</a>, an open source
+	    implementation of Sun's Basic Security Module (BSM) API and file
+	    format donated by Apple Computer, Inc.</p>
+        </dd>
+
+	<a name="eas" />
+        <dt><p>Extended Attributes</p></dt>
+
+        <dd>
+          <p>Extended attributes allow the kernel and userland
+            processes to tag files with arbitrary named data.  This
+            provides a location to store the extensive security data
+            required for the various TrustedBSD security extensions,
+            including ACLs, capabilities and MAC labels.  Extended
+	    attribute support has been developed for FreeBSD's UFS1
+	    file system and integrated with the FreeBSD development
+	    tree, and was included in FreeBSD 5.0.  UFS2 was
+	    implemented to provide improved performance and reliability
+	    for extended attributes, and has been available since
+	    FreeBSD 5.0.  UFS2 became the default in FreeBSD 5.1,
+	    and is the recommended file system for TrustedBSD
+	    functionality.</p>
+        </dd>
+
+	<a name="capabilities" />
+        <dt><p>Fine-Grained Capabilities</p></dt>
+
+	<dd>
+	  <p>
+	    <span id="collection-label">Collection:</span>
+
+	    <span id="cvsup-collection">p4-cvs-trustedbsd-cap</span>
+	  </p>
+
+	  <p>Capabilities provide support for fine-grained process
+	    capabilities to authorize non-root processes to access
+	    privileged system resources, reducing requirements for a
+	    superuser account, and reducing risk in the event of
+	    compromise.  The capabilities development branch is
+	    largely complete, but is based on an older FreeBSD
+	    5.0-CURRENT snapshot.  Elements of this implementation
+	    are being updated for FreeBSD 5.2 and will be available
+	    in 2003Q3 as part of the MAC Framework.</p>
+        </dd>
+
+	<a name="mac" />
+        <dt><p>Mandatory Access Control</p></dt>
+
+        <dd>
+          <p>
+            <span id="collection-label">Collection:</span>
+
+            <span id="cvsup-collection">p4-cvs-trustedbsd-mac</span>
+          </p>
+
+          <p>Mandatory access controls extend discretionary access
+            controls by allowing administrators to enforce additional
+            security for all subjects (e.g. processes or sockets) and
+            objects (e.g. sockets, file system objects, sysctl nodes) in
+            the system.  Development of those new access control models
+	    is facilitated by the development of a flexible kernel
+	    access control extension framework, the TrustedBSD MAC
+	    Framework.  This permits new access control models to be
+	    introduced as kernel modules.</p>
+
+	  <p>More information on the TrustedBSD MAC Framework and
+	    available policy modules, including Biba integrity,
+	    Multi-Level Security (MLS), and a port of NSA's FLASK
+	    architecture and Type Enforcement to FreeBSD, may be
+	    found on the <a href="mac.html">MAC page</a>.</p>
+        </dd>
+
+	<a name="sebsd" />
+	<dt><p>Security-Enhanced BSD (SEBSD)</p></dt>
+
+	<dd>
+	  <p>
+	    <span id="collection-label">Collection:</span>
+
+	    <span id="cvsup-collection">p4-cvs-trustedbsd-sebsd</span>
+	  </p>
+
+	  <p>More information on the port of NSA's FLASK/TE implementation
+	    in SELinux to run on FreeBSD as a plug-in module to the MAC
+	    Framework may be found on the <a href="sebsd.html">SEBSD
+	    page</a>.</p>
+	</dd>
+
+	<a name="sedarwin" />
+	<dt><p>Security-Enhanced Darwin (SEDarwin)</p></dt>
+
+	<dd>
+	  <p>
+	    <span id="collection-label">Collection:</span>
+
+	    <span id="cvsup-collection">p4-cvs-trustedbsd-sedarwin</span>
+	  </p>
+
+	  <p>More information on the port of the TrustedBSD MAC Framework,
+	    sample policy modules, and SEBSD policy module to Apple's
+	    Darwin operating system may be found on the <a
+	    href="sedarwin.html">SEDarwin page</a>.</p>
+	</dd>
+      </dl>
+    </html>
+  </section>
+</page>

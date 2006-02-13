@@ -1,0 +1,140 @@
+<!--
+     Copyright (c) 2000, 2001 Robert N. M. Watson
+     Copyright (c) 2001 Leigh Denault
+     Copyright (c) 2002 Networks Associates Technology, Inc.
+     All rights reserved.
+     
+     This software was developed for the FreeBSD Project by Chris
+     Costello at Safeport Network Services and Network Associates
+     Laboratories, the Security Research Division of Network Associates,
+     Inc. under DARPA/SPAWAR contract N66001-01-C-8035 ("CBOSS"), as part
+     of the DARPA CHATS research program.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="mailinglists">
+  <title>Mailing Lists</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $FreeBSD: projects/trustedbsd/www/mailinglists.page,v 1.6 2006/02/11 23:23:16 rwatson Exp $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>Mailing Lists</title>
+
+    <html>
+      <ul>
+	<li><a href="#tbsdlists">TrustedBSD Project Mailing Lists</a></li>
+	<li><a href="#posix1e">POSIX.1e Mailing List</a></li>
+      </ul>
+    </html>
+  </section>
+
+  <section id="tbsdlists">
+    <title>TrustedBSD Project Mailing Lists</title>
+
+    <html>
+      <p>The TrustedBSD Project mailing lists are hosted on the <a
+	href="http://lists.freebsd.org/mailman/listinfo">lists.FreeBSD.org
+	mailman server</a>, where more information may be found on
+	subscribing to the mailing lists.</p>
+
+      <p>The following public mailing lists are currently available:</p>
+
+      <dl>
+	<dt><a href="http://lists.freebsd.org/mailman/listinfo/trustedbsd-announce">trustedbsd-announce</a></dt>
+
+	<dd>
+	  <p>TrustedBSD announcements mailing list, a moderated list that
+	    will carry only significant announcements.  Web <a
+	    href="http://lists.freebsd.org/pipermail/trustedbsd-announce/">mailing
+	    list archives</a> are available.</p>
+	</dd>
+
+	<dt><a href="http://lists.freebsd.org/mailman/listinfo/trustedbsd-audit">trustedbsd-audit</a></dt>
+
+	<dd>
+	  <p>TrustedBSD audit discussion mailing list, intended for the
+	    discussion of design and implementation issues relating to
+	    event auditing, including the gathering, processing, storage,
+	    reduction and analysis of audit records.  Web <a
+	    href="http://lists.freebsd.org/pipermail/trustedbsd-audit/">mailing
+	    list archives</a> are available.</p>
+	</dd>
+
+	<dt><a href="http://lists.freebsd.org/mailman/listinfo/trustedbsd-cvs">trustedbsd-cvs</a></dt>
+
+	<dd>
+	  <p>TrustedBSD CVS commit mailing list, providing access to
+	    relevant CVS and Perforce commit messages for the TrustedBSD
+	    development tree.  Subscribers may also want to consider
+	    subscribing to the FreeBSD cvs-all mailing list to see the
+	    commit messages associated with merging TrustedBSD into
+	    the main tree.  Web <a
+	    href="http://lists.freebsd.org/pipermail/trustedbsd-cvs/">mailing
+	    list archives</a> are available.</p>
+	</dd>
+
+	<dt><a href="http://lists.freebsd.org/mailman/listinfo/trustedbsd-discuss">trustedbsd-discuss</a></dt>
+
+	<dd>
+	  <p>TrustedBSD discussion mailing list, intended for general
+	    discussions of architecture, features, design, etc.  Web <a
+	    href="http://lists.freebsd.org/pipermail/trustedbsd-discuss/">mailing
+	    list archives</a> are available.</p>
+	</dd>
+      </dl>
+    </html>
+  </section>
+
+  <section id="posix1e">
+    <title>POSIX.1e Mailing List</title>
+
+    <html>
+      <p>POSIX.1e, the now-withdrawn POSIX draft defining interfaces for
+	operating system security extensions, continues to play an important
+	role in offering standard interfaces for ACLs, Capabilities, and to
+	a limited extent other services.  The POSIX.1e mailing list provides
+	a cross-platform forum for the discussion of the draft, as well as
+	practical implementation and portability issues.  More information on
+	POSIX.1e can be found by visiting <a
+	href="http://wt.xpilot.org/publications/posix.1e">http://wt.xpilot.org/publications/posix.1e</a>,
+	where a draft may also be downloaded.</p>
+
+      <p>The mailing list can be subscribed to by sending email to <a
+	href="mailto:posix1e-request@cyrus.watson.org">posix1e-request@cyrus.watson.org</a>
+	with a body of:</p>
+
+      <blockquote>
+	<pre>subscribe</pre>
+      </blockquote>
+
+      <p>Mailing list archives will be available in the near future; in the
+	mean time, they may be accessed via the <a
+	href="http://www.securityfocus.com/archive/64">web-based mailing list
+	archives at securityfocus.com</a>.</p>
+    </html>
+  </section>
+</page>

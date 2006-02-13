@@ -1,0 +1,97 @@
+<!--
+     Copyright (c) 2000, 2001 Robert N. M. Watson
+     Copyright (c) 2001 Leigh Denault
+     Copyright (c) 2002, 2003 Networks Associates Technology, Inc.
+     All rights reserved.
+     
+     This software was developed for the FreeBSD Project by Chris
+     Costello at Safeport Network Services and McAfee Research,
+     the Security Research Division of Network Associates, Inc. under
+     DARPA/SPAWAR contract N66001-01-C-8035 ("CBOSS"), as part of the
+     DARPA CHATS research program.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="components">
+  <title>TrustedBSD Mandatory Access Control (MAC) Framework</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $FreeBSD: projects/trustedbsd/www/mac.page,v 1.2 2005/04/29 10:26:08 rwatson Exp $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>TrustedBSD Mandatory Access Control (MAC) Framework</title>
+
+    <html>
+      <p>
+	<span id="collection-label">Perforce:</span>
+	<span id="cvsup-collection">//depot/projects/trustedbsd/mac/...</span>
+	<span id="collection-label">Collection:</span>
+	<span id="cvsup-collection">p4-cvs-trustedbsd-mac</span>
+      </p>
+
+      <p>Mandatory access controls extend discretionary access
+	controls by allowing administrators to enforce additional
+	security for all subjects (e.g. processes or sockets) and
+	objects (e.g. sockets, file system objects, sysctl nodes) in
+	the system.  Development of those new access control models
+	is facilitated by the development of a flexible kernel
+	access control extension framework, the TrustedBSD MAC
+	Framework.  This permits new access control models to be
+	introduced as kernel modules.</p>
+
+      <p>Currently, modules exist that implement MLS (Multi-Level
+	Security), a fixed-label Biba integrity policy, Type
+	Enforcement, and several other security policies that
+	reflect common requirements of typical FreeBSD deployment
+	environments, such as mandatory limits on inter-user
+	visibility in multi-user environments.  The current
+	implementation of Low-Watermark MAC (LOMAC) will also be
+	ported to use the module framework.  In addition, the
+	DARPA-funded Network Associates Laboratories' CBOSS Project
+	is porting the NSA FLASK/SELinux implementation (SEBSD) to
+	run as an extension model over the TrustedBSD MAC Framework.
+	More information on the SEBSD module may be found on the
+	<a href="sebsd.html">SEBSD page</a>.</p>
+
+      <p>This work is primarily occuring in a TrustedBSD Perforce
+	branch, but much of the framework has been merged to the
+	main FreeBSD development tree and was included in FreeBSD
+	5.0 and forwards.  The current implementation is appropriate
+	for experimental or limited production use; both internal
+	and exposed MAC APIs will not be frozen until 5.2-RELEASE.
+	All policy modules with the exception of the SEBSD
+	implementation have been merged into the FreeBSD tree at
+	this point.</p>
+
+      <p>Work has also recently begun on an experimental port of
+	the TrustedBSD MAC Framework from FreeBSD to Apple's
+	Darwin operating system.
+	Information on this port may be found on the <a
+	href="sedarwin.html">SEDarwin page</a>.</p>
+
+    </html>
+  </section>
+</page>

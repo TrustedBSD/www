@@ -1,0 +1,192 @@
+<!--
+     Copyright (c) 2002 Networks Associates Technology, Inc.
+     All rights reserved.
+     
+     This software was developed for the FreeBSD Project by Chris
+     Costello at Safeport Network Services and Network Associates
+     Laboratories, the Security Research Division of Network Associates,
+     Inc. under DARPA/SPAWAR contract N66001-01-C-8035 ("CBOSS"), as part
+     of the DARPA CHATS research program.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="home">
+  <title>News</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $FreeBSD: projects/trustedbsd/www/news.page,v 1.6 2005/04/29 16:57:38 rwatson Exp $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>News</title>
+
+    <html>
+      <p>News announcements and press clippings related to the TrustedBSD
+	Project.</p>
+
+<!--
+
+	SEBSD release will go here
+
+-->
+
+      <dl>
+	<dt>April 29, 2005 <b>TrustedBSD at BSDCan 2005</b></dt>
+
+	<dd><p>The TrustedBSD Project will be presenting on the TrustedBSD /
+	  OpenBSM / Darwin CAPP audit implementation, and the SEBSD port of
+	  NSA's FLASK and Type Enforcement technologies to FreeBSD as a MAC
+	  Framework policy module at the <a
+	  href="http://www.bsdcan.org/">2005 BSD Conference Canada</a>.
+	  TrustedBSD team members will also be attending WIPs, BoFs, and
+	  the FreeBSD Developer Summit to talk about the TrustedBSD work and
+	  integration of resulting components into the FreeBSD and Darwin
+	  operating systems.
+	  This grass-roots BSD conference is a great place to learn about
+	  TrustedBSD and other new BSD technologies, see you there!</p></dd>
+
+	<dt><a href=
+	  "http://www.FreeBSD.org/releases/5.1R/announce.html">June 9,
+	  2003 <b>FreeBSD Project release FreeBSD 5.1</b></a></dt>
+
+	<dd><p>The <a href="http://www.FreeBSD.org">FreeBSD Project</a>
+	  announces the release of FreeBSD 5.1, which includes substantial
+	  maturity improvements for the TrustedBSD feature set,
+	  including enhancements to the MAC Framework, additional MAC
+	  policies, and support for pluggable directory services through
+	  NSS.</p></dd>
+
+	<dt><a href=
+	  "http://www.FreeBSD.org/releases/5.0R/announce.html">January 19,
+	  2003 <b>FreeBSD Project releases FreeBSD 5.0</b></a></dt>
+
+	<dd><p>The <a href="http://www.FreeBSD.org">FreeBSD Project</a>
+	  announces the release of FreeBSD 5.0, which ships a variety
+	  of TrustedBSD features, including UFS2 with native extended
+	  attribute support, OpenPAM, file system access control lists,
+	  a prototype Mandatory Access Control (MAC) Framework with
+	  a set of simple policies including Biba and MLS, and encrypted
+	  swap and file system support.  In addition, FreeBSD 5.0
+	  included large numbers of architectural and structural
+	  improvements relating to access control and privilege.</p></dd>
+
+        <dt><a href=
+        "http://opensource.nailabs.com/news/20010709-cboss.html">July
+        9, 2001 <b>Network Associates Laboratories Partners with DARPA to
+	Secure Open Source Operating System</b></a></dt>
+
+        <dd>
+          <p><a href="http://www.nailabs.com/">Network Associates
+	  Laboratories</a> , together with a number of FreeBSD developers,
+	  announced that they have received a $1.2 million grant from DARPA
+	  to work on a variety of security tasks, many of which directly
+	  support the TrustedBSD Project. The Principal Investigators for
+	  this effort include Robert Watson, founder of the TrustedBSD
+          Project, FreeBSD core team member, and Network Associates
+	  Laboratories Research Scientist, and Lee Badger, Chief Scientist
+	  of Network Associates Laboratories. This is covered in a variety
+	  of news forums, including <a href=
+          "http://news.cnet.com/news/0-1003-200-6526301.html">CNET</a>
+          .</p>
+        </dd>
+
+        <dt><a href=
+        "http://slashdot.org/bsd/01/04/25/1216254.shtml">April 25, 2001
+        <b>www.slashdot.org carries FreeBSD ACL support
+        announcement</b></a></dt>
+
+        <dd>
+          <p>The online news service, <a href=
+          "http://www.slashdot.org/">www.slashdot.org</a> carried an
+          announcement by Chris Faulhaber describing support by Samba
+          for FreeBSD ACLs now available in the FreeBSD development
+          tree.</p>
+        </dd>
+
+        <dt><a href=
+        "http://slashdot.org/interviews/01/01/18/1251257.shtml">January
+        18, 2001 <b>Interview on www.slashdot.org</b></a></dt>
+
+        <dd>
+          <p>The online news service, <a href=
+          "http://www.slashdot.org/">www.slashdot.org</a> carried an
+          interview with Robert Watson discussing issues related to the
+          FreeBSD and TrustedBSD projects.</p>
+        </dd>
+
+        <dt><a href=
+        "http://www.maximumbsd.com/stories.php?story=00/09/12/2745894">September
+        19, 2000 <b>Article in www.maximumbsd.com</b></a></dt>
+
+        <dd>
+          <p>The online BSD news service, <a href=
+          "http://www.maximumbsd.com/">www.maximumbsd.com</a> , has an
+          article describing the September Boardwatch Magazine
+          interview concerning TrustedBSD.</p>
+        </dd>
+
+        <dt>September, 2000 <b>Article in Boardwatch Magazine</b></dt>
+
+        <dd>
+          <p>The September print edition of <a href=
+          "http://www.boardwatch.com/">Boardwatch Magazine</a> carried
+          an <a href=
+          "http://www.ispworld.com/bw/sep/Unix_Flavor.htm">interview
+          with Robert Watson</a> about the TrustedBSD Project.</p>
+        </dd>
+
+        <dt><a href=
+        "http://slashdot.org/bsd/00/04/09/1914239.shtml">April 9, 2000
+        <b>Article in www.slashdot.org</b></a></dt>
+
+        <dd>
+          <p>The online news service, <a href=
+          "http://www.slashdot.org/">www.slashdot.org</a> carried an
+          article about the initial TrustedBSD project
+          announcement.</p>
+        </dd>
+
+        <dt><a href=
+        "http://daily.daemonnews.org/view_story.php3?story_id=833">April
+        9, 2000 <b>Article in daily.daemonnews.org</b></a></dt>
+
+        <dd>
+          <p>The online BSD news service, <a href=
+          "http://daily.daemonnews.org/">daily.daemonnews.org</a>
+          carried an article about the initial TrustedBSD project
+          announcement.</p>
+        </dd>
+
+        <dt><a href=
+        "http://www.trustedbsd.org/20000809-trustedbsd-announcement.txt">April 9, 2000
+        <b>Project Announcement</b></a></dt>
+
+        <dd>
+          <p>Initial project announcement.</p>
+        </dd>
+      </dl>
+    </html>
+  </section>
+</page>

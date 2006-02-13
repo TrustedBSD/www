@@ -1,0 +1,79 @@
+<!--
+     Copyright (c) 2005 Robert N. M. Watson
+     All rights reserved.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="components">
+  <title>OpenBSM</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $FreeBSD: projects/trustedbsd/www/openbsm.page,v 1.2 2005/05/02 01:13:30 rwatson Exp $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>OpenBSM: Open Source Basic Security Module (BSM) Audit
+      Implementation</title>
+
+    <html>
+      <p>
+	<span id="collection-label">Perforce:</span>
+	<span id="cvsup-collection">//depot/projects/trustedbsd/openbsm/...</span>
+      </p>
+
+      <p>OpenBSM is an open source implementation of Sun's Basic Security
+	Module (BSM) Audit API and file format.
+	BSM, the de facto standard for Audit, describes a set of system call
+	and library interfaces for managing audit records, as well as a token
+	stream file format that permits extensible and generalized audit
+	trail processing.</p>
+
+      <p>OpenBSM includes system include files appropriate for inclusion in
+	an operating system implementation of Audit, libbsm, an
+	implementation of the BSM library interfaces for generating, parsing,
+	and managing audit records, auditreduce and praudit, audit reduction
+	and printing tools, API documentation, and sample /etc configuration
+	files.
+	Works in progress include extensions to the libbsm API to support
+	easier audit trail analysis, including a pattern matching
+	library.</p>
+
+      <p>OpenBSM is an important component of the <a
+	href="components.html#audit">TrustedBSD Audit Implementation</a> for
+	FreeBSD, providing tools, libraries, and include files.
+	The first official release of OpenBSM will be made shortly before
+	the <a href="news.html">TrustedBSD audit presentation at BSDCan</a>,
+	where members of the TrustedBSD team will describe the operation of
+	Audit on Darwin and FreeBSD, the components of OpenBSM, and how to
+	develop with the BSM APIs and file format.</p>
+
+      <p>OpenBSM is derived from the BSM audit implementation found in
+	Apple's open source Darwin operating system, generously released by
+	Apple under a BSD license.  The Darwin BSM implementation was
+	created by McAfee Research under contract to Apple Computer, and has
+	since been extended by the volunteer TrustedBSD team.</p>
+    </html>
+  </section>
+</page>

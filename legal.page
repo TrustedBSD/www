@@ -1,0 +1,71 @@
+<!--
+     Copyright (c) 2000, 2001 Robert N. M. Watson
+     Copyright (c) 2001 Leigh Denault
+     Copyright (c) 2002 Networks Associates Technology, Inc.
+     All rights reserved.
+     
+     This software was developed for the FreeBSD Project by Chris
+     Costello at Safeport Network Services and Network Associates
+     Laboratories, the Security Research Division of Network Associates,
+     Inc. under DARPA/SPAWAR contract N66001-01-C-8035 ("CBOSS"), as part
+     of the DARPA CHATS research program.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="home">
+  <title>Legal</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $FreeBSD: projects/trustedbsd/www/legal.page,v 1.5 2003/01/26 22:11:38 rwatson Exp $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>Legal Information</title>
+
+    <html>
+      <p>TrustedBSD extensions are intended for use with the FreeBSD
+	operating system, a liberally licensed free operating system based
+	on the Berkeley UNIX variant, BSD.  The extensions are released under
+	a <a href="license.txt">two-clause BSD license</a>, copyright held
+	by the authors of the component in question.  This license permits
+	both commercial and non-commercial use of the code, providing that
+	the copyright is observed and documented, and that the authors may
+	not be held liable for damages associated with use of the code.
+	Generally speaking, this places few if any restrictions on any
+	real-world use, and legally consumers of the code are under no
+	obligation to provide compensation to the authors.  However, machinery
+	is in place to accept donations to the TrustedBSD project to allow
+	further development, if anyone is interested.  If you are interested
+	in this opportunity, please email <a
+	href="mailto:trustedbsd-finances@TrustedBSD.org">trustedbsd-finances@TrustedBSD.org</a>
+	for more information.</p>
+
+      <p>The copyright on the BSD Daemon is held by Kirk McKusick; the
+	copyright for the TrustedBSD Daemon, Trusty, is held by Leigh
+	Denault.  For more information on using the BSD Daemon, see our <a
+	href="beastie.html">BSD Daemon Copyright page</a>.</p>
+    </html>
+  </section>
+</page>

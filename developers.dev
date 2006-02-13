@@ -1,0 +1,122 @@
+<!--
+     Copyright (c) 2002, 2003 Networks Associates Technology, Inc.
+     All rights reserved.
+     
+     This software was developed for the FreeBSD Project by Chris
+     Costello at Safeport Network Services and Network Associates
+     Laboratories, the Security Research Division of Network Associates,
+     Inc. under DARPA/SPAWAR contract N66001-01-C-8035 ("CBOSS"), as
+     part of the DARPA CHATS research program.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<developers>
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $FreeBSD: projects/trustedbsd/www/developers.dev,v 1.16 2006/02/07 22:46:16 rwatson Exp $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <entry>
+    <firstname>Chris</firstname> <surname>Costello</surname>
+    <url>http://www.FreeBSD.org/~chris/</url>
+    <email>chris@FreeBSD.org</email>
+    <area>Documentation</area>
+  </entry>
+
+  <entry>
+    <firstname>Chris</firstname> <surname>Faulhaber</surname>
+    <url>http://www.fxp.org/~jedgar/</url>
+    <email>jedgar@FreeBSD.org</email>
+    <area>Access Control Lists</area>
+  </entry>
+
+  <entry>
+    <firstname>Brian</firstname> <surname>Feldman</surname>
+    <email>green@FreeBSD.org</email>
+    <area>MAC, SEBSD/SELinux</area>
+  </entry>
+
+  <entry>
+    <firstname>Ilmar</firstname> <surname>Habibulin</surname>
+    <email>ilmar@watson.org</email>
+    <url>http://www.watson.org/~ilmar/</url>
+    <area>Capabilities, Mandatory Access Control</area>
+  </entry>
+
+  <entry>
+    <firstname>Thomas</firstname> <surname>Moestl</surname>
+    <email>tmm@FreeBSD.org</email>
+    <area>Capabilities</area>
+  </entry>
+
+  <entry>
+    <firstname>Christian</firstname> <surname>Peron</surname>
+    <email>csjp@FreeBSD.org</email>
+    <area>Access Control Lists, Audit, Mandatory Access Control</area>
+  </entry>
+
+  <entry>
+    <firstname>Andrew</firstname> <surname>Reiter</surname>
+    <email>arr@FreeBSD.org</email>
+    <url>http://www.watson.org/~arr/</url>
+    <area>Audit</area>
+  </entry>
+
+  <entry>
+    <firstname>Andrew</firstname> <surname>Reisse</surname>
+    <email>Andrew.Reisse@sparta.com</email>
+    <area>SEDarwin, Capabilities</area>
+  </entry>
+
+  <entry>
+    <firstname>Tom</firstname> <surname>Rhodes</surname>
+    <email>trhodes@FreeBSD.org</email>
+    <area>Audit, Documentation, MAC</area>
+  </entry>
+
+  <entry>
+    <firstname>Wayne</firstname> <surname>Salamon</surname>
+    <email>wsalamon@FreeBSD.org</email>
+    <area>SELinux, SEDarwin, Audit</area>
+  </entry>
+
+  <entry>
+    <firstname>Robert</firstname> <surname>Watson</surname>
+    <email>rwatson@FreeBSD.org</email>
+    <url>http://www.watson.org/~robert/</url>
+    <area>ACLs, MAC, SEBSD/SELinux, SEDarwin</area>
+  </entry>
+
+  <entry>
+    <firstname>Chris</firstname> <surname>Vance</surname>
+    <email>Christopher.Vance@sparta.com</email>
+    <area>MAC, SEBSD/SELinux, SEDarwin</area>
+  </entry>
+
+  <entry>
+    <firstname>Samy</firstname> <surname>Bahra</surname>
+    <email>samy@kerneled.org</email>
+    <area>MAC</area>
+  </entry>
+</developers>

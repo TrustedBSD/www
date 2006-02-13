@@ -1,0 +1,315 @@
+<!--
+     Copyright (c) 2002, 2003 Networks Associates Technology, Inc.
+     All rights reserved.
+
+     This software was developed for the FreeBSD Project by Chris
+     Costello at Safeport Network Services and Network Associates
+     Laboratories, the Security Research Division of Network Associates,
+     Inc. under DARPA/SPAWAR contract N66001-01-C-8035 ("CBOSS"), as part
+     of the DARPA CHATS research program.
+ 
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+ 
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<bibliography>
+  <title>Implementation Papers</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $FreeBSD: projects/trustedbsd/www/docs.bib,v 1.16 2005/01/21 18:39:28 rwatson Exp $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <entry role="paper" date="20030709">
+    <title>Security-Enhanced BSD</title>
+    <author>
+      <name>Chris Vance</name>
+
+      <affil>Network Associates Laboratories</affil>
+    </author>
+
+    <author>
+      <name>Robert Watson</name>
+
+      <affil>Network Associates Laboratories</affil>
+    </author>
+
+    <audience>
+      <venue>Network Associates Laboratories Technical Report</venue>
+
+      <city>Rockville</city> <state>MD</state>
+
+      <date>July 9, 2003</date>
+    </audience>
+
+    <download>
+      <file url="sebsd-july2003.pdf" format="PDF" />
+    </download>
+
+    <abstract>Network Associates Laboratories has completed an initial
+      port of the Flask security architecture and other components of
+      Security Enhanced Linux (SELinux) to the FreeBSD operating system.
+      This project, called Security Enhanced BSD (SEBSD), started with
+      the TrustedBSD MAC Framework and integrated the Flask access
+      vector cache and security server to make policy decisions.  Then,
+      support was added to the kernel to manage security fields and
+      enforce permissions on files and processes.  To demonstrate the
+      resulting kernel functionality, a policy compiler and file system
+      label management tools were ported.  Also, modifications to login,
+      ls, and the ps program were integrated into the corresponding
+      FreeBSD programs.  This paper discusses the TrustedBSD MAC Framework,
+      label management, access control checks, and differences between
+      SEBSD and SELinux.</abstract>
+  </entry>
+
+  <entry role="paper" date="20000908">
+    <title>Introducing Supporting Infrastructure for Trusted Operating
+      System Support in FreeBSD</title>
+
+    <author>
+      <name>Robert Watson</name>
+
+      <affil>FreeBSD Project</affil>
+    </author>
+
+    <audience>
+      <venue>BSDCon 2000</venue>
+
+      <city>Monterey</city> <state>CA</state>
+
+      <date>September 8, 2000</date>
+    </audience>
+
+    <download>
+      <file url="trustedbsd-bsdcon-2000.pdf" format="PDF" />
+    </download>
+
+    <abstract>Trusted operating systems provide a number of features
+      beyond the standard discretionary access control policies of
+      commercial, off-the-shelf operating systems. These include features
+      such as fine-grained event auditing, least-privilege design,
+      mandatory access control policies, and extensive design
+      documentation. The TrustedBSD project is adding trusted operating
+      system features to FreeBSD, an open source UNIX-like operating
+      system under a liberal license. However, TrustedBSD requires
+      extensive changes to the access control mechanisms in FreeBSD. At
+      this point in the project, we have implemented file system extended
+      attributes for storing security labels on files, revamped internal
+      handling of privilege in the operating systems, and are working on
+      an improved generalized access control system.</abstract>
+  </entry>
+
+  <entry role="paper" date="20010728">
+    <title>TrustedBSD: Adding Trusted Operating System Features to
+      FreeBSD</title>
+
+    <author>
+      <name>Robert Watson</name>
+
+      <affil>Network Associates Laboratories / FreeBSD Project</affil>
+    </author>
+
+    <audience>
+      <venue>USENIX Technical Conference</venue>
+
+      <city>Boston</city> <state>MA</state>
+
+      <date>June 28, 2001</date>
+    </audience>
+
+    <download>
+      <file url="trustedbsd-freenix-2001.pdf" format="PDF" />
+    </download>
+
+    <abstract>Trusted operating systems provide a ``next level'' of system
+      security, offering both new security features and higher
+      assurance that they are properly implemented. TrustedBSD
+      is an on-going project to integrate a number of trusted OS
+      features into the open source FreeBSD operating system,
+      and involves both architectural and development process
+      improvements. This paper describes how the open source
+      development practices of the FreeBSD Project impacted the
+      design and implementation choices for these features,
+      and describes lessons learned that will influence future
+      work. Several key TrustedBSD features are discussed as
+      examples of how new security services may be introduced in
+      such an environment.</abstract>
+  </entry>
+
+  <entry role="paper" date="20030600">
+    <title>The TrustedBSD MAC Framework: Extensible Kernel Access Control
+      for FreeBSD 5.0</title>
+
+    <author>
+      <name>Robert Watson</name>
+      <affil>Network Associates Laboratories / FreeBSD Project</affil>
+    </author>
+
+    <author>
+      <name>Wayne Morrison</name>
+      <affil>Network Associates Laboratories</affil>
+    </author>
+
+    <author>
+      <name>Chris Vance</name>
+      <affil>Network Associates Laboratories</affil>
+    </author>
+
+    <author>
+      <name>Brian Feldman</name>
+      <affil>FreeBSD Project</affil>
+    </author>
+
+    <audience>
+      <venue>USENIX Annual Technical Conference</venue>
+      <city>San Antonio</city> <state>TX</state>
+      <date>June, 2003</date>
+    </audience>
+
+    <download>
+      <file url="trustedbsd-usenix2003freenix.pdf" format="PDF" />
+    </download>
+
+    <abstract>We explore the requirements, design, and
+      implementation of the TrustedBSD MAC Framework.
+      The TrustedBSD MAC Framework, integrated into FreeBSD 5.0,
+      provides a flexible framework for kernel access control
+      extension, permitting extensions to be introduced
+      more easily, and avoiding the need for direct modification of
+      distributed kernel sources.
+      We also consider the performance impact of the Framework on the
+      FreeBSD 5.0 kernel in several test environments.</abstract>
+  </entry>
+
+  <entry role="doc">
+    <title>FreeBSD Handbook: File System Access Control Lists</title>
+
+    <author>
+      <name>Tom Rhodes</name>
+
+      <affil>FreeBSD Project</affil>
+    </author>
+
+    <download>
+      <file url="http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/fs-acl.html" format="HTML" />
+    </download>
+
+    <abstract>Brief introduction to configuring and using TrustedBSD
+      access control lists on FreeBSD 5.X.</abstract>
+  </entry>
+
+  <entry role="doc">
+    <title>FreeBSD Handbook: Mandatory Access Control (MAC)</title>
+
+    <author>
+      <name>Tom Rhodes</name>
+
+      <affil>FreeBSD Project</affil>
+    </author>
+
+    <download>
+      <file url="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mac.html" format="HTML" />
+    </download>
+
+    <abstract>Introduction to configuring and using the TrustedBSD
+      Mandatory Access Control (MAC) Framework, as well as a list of
+      currently shipped MAC policy modules and implementation
+      examples.</abstract>
+  </entry>
+
+  <entry role="doc">
+    <title>FreeBSD Developer's Handbook: The TrustedBSD MAC Framework</title>
+
+    <author>
+      <name>Robert Watson</name>
+
+      <affil>Network Associates Laboratories / FreeBSD Project</affil>
+    </author>
+
+    <author>
+      <name>Chris Costello</name>
+
+      <affil>Safeport Network Services / FreeBSD Project</affil>
+    </author>
+
+    <download>
+      <file url="http://www.freebsd.org/doc/en_US.ISO8859-1/books/arch-handbook/mac.html" format="HTML" />
+    </download>
+
+    <abstract>Work in progress.
+      Developer's introduction to the TrustedBSD MAC Framework,
+      targetted at writers of new MAC policy modules.</abstract>
+  </entry>
+
+  <entry role="paper" date="20030400">
+    <title>Design and Implementation of the TrustedBSD MAC Framework</title>
+
+    <author>
+      <name>Robert Watson</name>
+      <affil>Network Associates Laboratories / FreeBSD Project</affil>
+    </author>
+
+    <author>
+      <name>Brian Feldman</name>
+      <affil>Network Associates Laboratories / FreeBSD Project</affil>
+    </author>
+
+    <author>
+      <name>Adam Migus</name>
+      <affil>Network Associates Laboratories</affil>
+    </author>
+
+    <author>
+      <name>Chris Vance</name>
+      <affil>Network Associates Laboratories</affil>
+    </author>
+
+    <audience>
+      <venue>Third DARPA Information Survivability Conference and Exhibition
+	(DISCEX3); proceedings published by IEEE.</venue>
+      <city>Washington</city> <state>DC</state>
+      <date>April, 2003</date>
+    </audience>
+
+    <download>
+      <file url="trustedbsd-discex3.pdf" format="PDF" />
+    </download>
+
+    <abstract>Developing access control extensions for operating systems
+      is an expensive and time-consuming task.  Mechanisms available for
+      access control extension lag behind industry standard extension
+      solutions for file systems, process schedulers, and device drivers,
+      and suffer from a number of serious flaws in modern multi-processor,
+      multi-threaded kernels.  In this paper, we explore the limitations
+      of current technologies for security extension.  We describe 
+      the TrustedBSD MAC Framework, a flexible and modular environment
+      for operating system access control extensions on the open source
+      FreeBSD platform.  The TrustedBSD MAC Framework permits extensions
+      to be introduced at compile-time, boot-time, or at run-time, and
+      provides a number of services to support dynamically introduced
+      policies, including policy-agnostic object labeling services and
+      application interfaces.  We discuss the design and implementation of
+      the framework, as well as the an implementation of a fixed-label
+      Biba integrity policy based on the framework.</abstract>
+  </entry>
+
+</bibliography>

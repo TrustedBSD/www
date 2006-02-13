@@ -1,0 +1,67 @@
+
+From rwatson@freebsd.org Thu Oct 23 20:35:46 2003
+Date: Sun, 9 Apr 2000 12:26:28 -0400 (EDT)
+From: Robert Watson <rwatson@freebsd.org>
+Reply-To: TrustedBSD Discussion List <trustedbsd-discuss@trustedbsd.org>
+To: TrustedBSD Announcements List <trustedbsd-announce@trustedbsd.org>
+Subject: Announcement: TrustedBSD Extensions Project
+
+
+I'm happy to announce the TrustedBSD Project, a set of trusted operating
+system extensions for the FreeBSD operating system.  TrustedBSD consists
+of a set of kernel and user-land extensions targeting the Orange Book B1
+evaluation criteria.  Development is currently underway, and most of the
+code is destined to go back into the base FreeBSD operating system;
+however, as some components are both extensive and intrusive, the
+TrustedBSD project provides a forum for discussion, design, and
+development in the interim. 
+
+Trusted operating systems have a variety of requirements above and beyond
+the normal operating system feature set, including the requirement that
+they be extensively documented.  To whet your appetite, the following
+features are among those under development: 
+
+o Extensible and audited authorization framework for integrating
+  third-party authorization modules, including general-purpose subject and
+  object labeling and centralized policy management. 
+
+o Fine-grained capabilities for system functions so as to implement least-
+  privilege and reduce the risks of compromise. 
+
+o Mandatory access control for privacy and integrity, allowing FreeBSD to
+  be used in environments hosting mutually suspicious parties and
+  multi-level security models. 
+
+o Access control lists for the file system and other kernel resources
+  allowing fine-grained and manageable discretionary access control
+
+o Event auditing support and single-host modular IDS system to monitor
+  security events and notify administrators in the event of irregularities
+
+The TrustedBSD extensions will be made available under a two-clause
+BSD-style license, which permits integration of the extensions into
+projects under almost any licensing model, both free and commercial. 
+
+A web site is now online to act as a central source of information about
+the project, and as a distribution point for code not yet committed to the
+FreeBSD source repository.
+
+  http://www.trustedbsd.org/
+
+There are also two mailing lists, trustedbsd-discuss and
+trustedbsd-announce; more mailing lists will be created as necessary.  To
+subscribe to these mailing lists, please send email to:
+
+  majordomo@trustedbsd.org
+
+Further information is available on the web site. 
+
+  Robert N M Watson 
+
+robert@fledge.watson.org              http://www.watson.org/~robert/
+PGP key fingerprint: AF B5 5F FF A6 4A 79 37  ED 5F 55 E9 58 04 6A B1
+TIS Labs at Network Associates, Safeport Network Services
+
+
+To Unsubscribe: send mail to majordomo@cyrus.watson.org
+with "unsubscribe trustedbsd-announce" in the body of the message

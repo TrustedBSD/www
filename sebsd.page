@@ -1,0 +1,100 @@
+<!--
+     Copyright (c) 2005 SPARTA, Inc.
+     Copyright (c) 2003 Networks Associates Technology, Inc.
+     All rights reserved.
+     
+     This documentation was developed for the FreeBSD Project by McAfee
+     Research, the Security Research Division of Network Associates, Inc.
+     under DARPA/SPAWAR contract N66001-01-C-8035 ("CBOSS"), as part of
+     the DARPA CHATS research program.
+     
+     
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="components">
+  <title>SEBSD</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $FreeBSD: projects/trustedbsd/www/sebsd.page,v 1.6 2005/07/03 10:07:17 rwatson Exp $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>SEBSD: Port of SELinux FLASK and Type Enforcement to
+      TrustedBSD</title>
+
+    <html>
+      <p>
+	<span id="collection-label">Perforce:</span>
+	<span id="cvsup-collectoin">//depot/projects/trustedbsd/sebsd/...</span>
+	<span id="collection-label">Collection:</span>
+	<span id="cvsup-collection">p4-cvs-trustedbsd-sebsd</span>
+      </p>
+
+      <p>SEBSD is a port of NSA's FLASK/TE implementation in
+	SELinux to run on FreeBSD as a plug-in module to the <a
+	href="mac.html">TrustedBSD MAC Framework</a>, as well as the
+	policy files and necessary adaptations of FreeBSD's userland
+	applications.
+	At the time of this writing, the SEBSD module can be attached
+	to the kernel and run in enforcing mode using a sample
+	policy; many but not all relevant userland applications
+	have been updated to properly interact with FLASK
+	security contexts, including the login program.
+	The FLASK implementation provides access to Type Enforcement
+	(TE), as well as RBAC and a second MLS policy implementation.</p>
+
+      <p>McAfee Research, now <a href="http://www.isso.sparta.com/">SPARTA
+	ISSO</a>, provides an ISO snapshot and CVSUP source distribution of
+	SEBSD maintained on the FreeBSD Project Perforce Server.</p>
+
+      <p>The FLASK/TE implementation provided by NSA, SCC, and
+	SPARTA ISSO (McAfee Research), is licensed under the GNU
+	Public License (GPL), and will be distributed seperately
+	from the remainder of the TrustedBSD components due to
+	these licensing constraints.
+	However, these components are available as source code module
+	that plugs into the MAC Framework.</p>
+
+      <p>2005-06-24 6.0-SEBSD snapshot ISO: <a
+	href="downloads/20050624-6.0-SEBSD-i386-miniinst.iso">Download</a>.
+	<a href="downloads/20050624-6.0-SEBSDinstall.txt">Install notes</a>.
+	This SEBSD snapshot is based on a late-2004 snapshot of FreeBSD 6.x,
+	combined with SELinux sources from that time.  An updated SEBSD
+	snapshot to coincide with FreeBSD 6.0-RELEASE will be available in
+	the near future.</p>
+
+      <p>2004-01-08 5.1-SEBSD snapshot ISO: <a
+	href="downloads/20040108-5.1-SEBSD-i386-miniinst.iso">Download</a>.
+	<a href="downloads/20040108-5.1-SEBSD-install.txt">Install
+	notes</a>.</p>
+
+      <p>In addition, a port of the SEBSD module (along with MAC
+	Framework) to Apple's Darwin operating system is also underway;
+	see the <a href="sedarwin.html">SEDarwin page</a> for more
+	information.</p>
+    </html>
+  </section>
+</page>
