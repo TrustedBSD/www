@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $FreeBSD: projects/trustedbsd/www/beastie.page,v 1.4 2002/12/23 22:34:04 rwatson Exp $
+      $P4: //depot/projects/trustedbsd/www/beastie.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 

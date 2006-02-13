@@ -33,7 +33,7 @@
 <developers>
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $FreeBSD: projects/trustedbsd/www/developers.dev,v 1.16 2006/02/07 22:46:16 rwatson Exp $
+      $P4: //depot/projects/trustedbsd/www/developers.dev#2 $
     </cvs:keyword>
   </cvs:keywords>
 

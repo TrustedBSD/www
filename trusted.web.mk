@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $FreeBSD: projects/trustedbsd/www/trusted.web.mk,v 1.5 2003/01/03 03:28:22 chris Exp $
+# $P4: //depot/projects/trustedbsd/www/trusted.web.mk#2 $
 
 TIDY?=		tidy -i -m -f /dev/null
 XSLTPROC?=	xsltproc -nonet

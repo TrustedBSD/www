@@ -29,7 +29,7 @@
      OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
      SUCH DAMAGE.
  
-     $FreeBSD: projects/trustedbsd/www/bib-stylesheet.xsl,v 1.10 2003/08/01 17:19:56 chris Exp $
+     $P4: //depot/projects/trustedbsd/www/bib-stylesheet.xsl#2 $
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"

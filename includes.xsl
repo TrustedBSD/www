@@ -29,7 +29,7 @@
      OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
      SUCH DAMAGE.
      
-     $FreeBSD: projects/trustedbsd/www/includes.xsl,v 1.4 2003/01/17 22:31:43 chris Exp $
+     $P4: //depot/projects/trustedbsd/www/includes.xsl#2 $
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">

@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $FreeBSD: projects/trustedbsd/www/openbsm.page,v 1.2 2005/05/02 01:13:30 rwatson Exp $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 

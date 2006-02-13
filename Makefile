@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $FreeBSD: projects/trustedbsd/www/Makefile,v 1.17 2006/02/09 20:50:23 rwatson Exp $
+# $P4: //depot/projects/trustedbsd/www/Makefile#2 $
 
 STYLESHEET=	page.xsl
 

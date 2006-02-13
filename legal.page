@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $FreeBSD: projects/trustedbsd/www/legal.page,v 1.5 2003/01/26 22:11:38 rwatson Exp $
+      $P4: //depot/projects/trustedbsd/www/legal.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 
