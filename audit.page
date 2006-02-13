@@ -1,0 +1,80 @@
+<!--
+     Copyright 2005-2006 Robert N. M. Watson
+     All rights reserved.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+	notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+	notice, this list of conditions and the following disclaimer in the
+	documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="components">
+  <title>Security Event Audit</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $P4: //depot/projects/trustedbsd/www/audit.page#1 $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>TrustedBSD Security Event Audit</title>
+
+    <html>
+      <p>
+	<span id="collection-label">Perforce:</span>
+	<span id="cvsup-collection">//depot/projects/trustedbsd/audit3/...</span>
+	<span id="collection-label">Collection:</span>
+	<span id="cvsup-collection">p4-cvs-trustedbsd-audit3</span>
+      </p>
+
+      <p>Event auditing permits the selective and fine-grained logging of
+	security-relevant system events for the purposes of post-mortem
+	analysis, intrusion detection, and run-time monitoring.
+	analysis.  This includes the logging of authentication events, user
+	management events, and detailed logging of access control events,
+	including the ability to log system calls based on user and event
+	class.</p>
+
+      <p>The trustedbsd_audit3 implementation is the third generation
+	security audit implementation implemented by the TrustedBSD Project,
+	and is derived from work performed by members of the TrustedBSD team
+	working at McAfee Research under contract to Apple Computer, Inc.,
+	in support of the Mac OS X CAPP evaluation.  The audit3 code base
+	includes a kernel audit event engine, auditing of system calls
+	across all native and emulated ABIs, modifications to several user
+	space components, including login-related programs such as login and
+	sshd, audit print and reduction tools, audit management daemon,
+	"audit pipes" for live application monitoring of system events, and
+	an audit support library.</p>
+
+      <p>The file format and API are based on Sun's published Basic Security
+	Module (BSM), the de facto industry standard, and are provided via a
+	<a href="openbsm.html">BSD-licensed OpenBSM user space package</a>.
+	This package is portable to other operating systems, including
+	Apple's Mac OS X, Solaris, and Linux, and permits the writing of
+	portable audit-related applications.</p>
+
+      <p>The TrustedBSD Project greatfully acknowledges Apple Computer, Inc.,
+	for its generous donation of the Darwin audit implementation under a
+	BSD license.</p>
+
+    </html>
+  </section>
+</page>

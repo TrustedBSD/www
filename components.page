@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/components.page#2 $
+      $P4: //depot/projects/trustedbsd/www/components.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -103,12 +103,17 @@
           </p>
 
 	  <p>Event auditing permits the selective logging of
-	    security-relevant system events for the purposes of
-	    analysis.  Several experimental implementations of audit
-	    for FreeBSD have been explored; the current implementation is
-	    based on <a href="openbsm.html">OpenBSM</a>, an open source
-	    implementation of Sun's Basic Security Module (BSM) API and file
-	    format donated by Apple Computer, Inc.</p>
+	     security-relevant system events for the purposes of post-mortem
+	     analysis, intrusion detection, and system monitoring.  The
+	     <a href="audit.html">TrustedBSD audit implementation</a>
+	     provides a complete kernel audit event framework, extensive
+	     auditing of system events, and user space application
+	     integration.  The user space libraries, tools, and file format
+	     are based on the de facto industry standard Sun Basic Security
+	     Module (BSM) API and file format.  The <a href="openbsm.html">
+	     OpenBSM library and tool suite</a> provides a portable,
+	     BSD-licensed implementation, and is based on source code
+	     donated by Apple Computer, Inc.</p>
         </dd>
 
 	<a name="eas" />

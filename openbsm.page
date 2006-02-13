@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#2 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -45,10 +45,14 @@
 
       <p>OpenBSM is an open source implementation of Sun's Basic Security
 	Module (BSM) Audit API and file format.
-	BSM, the de facto standard for Audit, describes a set of system call
-	and library interfaces for managing audit records, as well as a token
-	stream file format that permits extensible and generalized audit
-	trail processing.</p>
+	BSM, the de facto industry standard for Audit, describes a set of
+	system call and library interfaces for managing audit records, as
+	well as a token stream file format that permits extensible and
+	generalized audit trail processing.
+	OpenBSM extends the BSM API and file format in a number of ways to
+	support features present in the Mac OS X and FreeBSD operating
+	systems, such as Mach task interfaces, sendfile(), and Linux system
+	calls present in the FreeBSD Linux emulation layer.</p>
 
       <p>OpenBSM includes system include files appropriate for inclusion in
 	an operating system implementation of Audit, libbsm, an
@@ -60,14 +64,12 @@
 	easier audit trail analysis, including a pattern matching
 	library.</p>
 
-      <p>OpenBSM is an important component of the <a
-	href="components.html#audit">TrustedBSD Audit Implementation</a> for
-	FreeBSD, providing tools, libraries, and include files.
-	The first official release of OpenBSM will be made shortly before
-	the <a href="news.html">TrustedBSD audit presentation at BSDCan</a>,
-	where members of the TrustedBSD team will describe the operation of
-	Audit on Darwin and FreeBSD, the components of OpenBSM, and how to
-	develop with the BSM APIs and file format.</p>
+      <p>OpenBSM is the core user space component of the <a
+	href="audit.html">TrustedBSD Audit Implementation</a> for
+	FreeBSD, providing tools, libraries, and include files.  Pre-releases
+	of OpenBSM are now available as part of the FreeBSD 7-CURRENT branch,
+	as integration of audit into the FreeBSD CVS tree is largely
+	complete.</p>
 
       <p>OpenBSM is derived from the BSM audit implementation found in
 	Apple's open source Darwin operating system, generously released by
