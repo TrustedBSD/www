@@ -1,8 +1,4 @@
 <sidebar>
-  <section match="home">
-    <p align="center"><a href="news.html">TrustedBSD News - TrustedBSD
-      at BSDCan 2005!</a></p>
-  </section>
 
   <section match="components">
     <h2 class="section">Components</h2>
