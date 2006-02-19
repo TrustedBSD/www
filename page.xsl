@@ -35,16 +35,7 @@
 	<tr>
 	  <td valign="top" width="100">
 	    <a href="beastie.html">
-	      <xsl:choose>
-		<!-- Only use the large daemon image on the main Web page;
-		     use the smaller version on all other pages. -->
-		<xsl:when test="$role = 'home'">
-		  <img src="trustyshadow.gif" alt="Trusty" border="0" />
-		</xsl:when>
-		<xsl:otherwise>
-		  <img src="trustyteenie.gif" alt="Trusty" border="0" />
-		</xsl:otherwise>
-	      </xsl:choose>
+	      <img src="trustyteenie.gif" alt="Trusty" border="0" />
 	    </a>
 	    <br />
 
@@ -100,8 +91,8 @@
       <ul>
 	<small>
 	  <br />
+	  Copyright 2000-2006 Robert Watson.  All rights reserved.<br />
 	  Copyright 2005 SPARTA, Inc.  All rights reserved.<br />
-	  Copyright 2000-2005 Robert Watson.  All rights reserved.<br />
           Copyright 2002, Leigh Denault.  All rights reserved.<br />
           Copyright 2002, 2003 Networks Associates, Inc.  All rights
 	  reserved.<br />

@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2000, 2001, 2005 Robert N. M. Watson
+     Copyright (c) 2000-2006 Robert N. M. Watson
      Copyright (c) 2001 Leigh Denault
      Copyright (c) 2002, 2003 Networks Associates Technology, Inc.
      All rights reserved.
@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/components.page#3 $
+      $P4: //depot/projects/trustedbsd/www/components.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -117,7 +117,8 @@
         </dd>
 
 	<a name="eas" />
-        <dt><p>Extended Attributes</p></dt>
+	<a name="ufs2" />
+        <dt><p>Extended Attributes and UFS2</p></dt>
 
         <dd>
           <p>Extended attributes allow the kernel and userland
@@ -156,6 +157,18 @@
 	    in 2003Q3 as part of the MAC Framework.</p>
         </dd>
 
+	<a name="geom" />
+	<dt><p>GEOM</p></dt>
+
+	<dd><p>GEOM is a modular I/O request transformation framework allowing
+	  kernel modules to attach to I/O devices providing a variety of
+	  layout and data transformations.
+	  GEOM was created as part of the TrustedBSD Project in order to
+	  support cryptographic disk services, such as GBDE, on the FreeBSD
+	  platform.  GEOM has been present in FreeBSD since FreeBSD
+	  5.0-RELEASE, with increasing numbers of transform modules.</p>
+	</dd>
+
 	<a name="mac" />
         <dt><p>Mandatory Access Control</p></dt>
 
@@ -182,6 +195,16 @@
 	    architecture and Type Enforcement to FreeBSD, may be
 	    found on the <a href="mac.html">MAC page</a>.</p>
         </dd>
+
+	<a name="openpam" />
+	<dt><p>OpenPAM</p></dt>
+
+	<dd>
+	  <p><a href="http://www.OpenPAM.org/">OpenPAM</a> is a BSD-licensed
+	      Pluggable Authentication Modules implementation now used in
+	      FreeBSD and NetBSD, and produced as part of the TrustedBSD
+	      Project.</p>
+	</dd>
 
 	<a name="sebsd" />
 	<dt><p>Security-Enhanced BSD (SEBSD)</p></dt>

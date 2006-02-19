@@ -1,18 +1,36 @@
 <sidebar>
 
+  <section match="home">
+    <p><center><a href="news.html">TrustedBSD News</a></center></p>
+    <ul>
+      <li><a href="components.html#acls">ACLs</a></li>
+      <li><a href="audit.html">Audit</a></li>
+      <li><a href="components.html#eas">Extended Attributes</a></li>
+      <li><a href="components.html#capabilities">Capabilities</a></li>
+      <li><a href="components.html#geom">GEOM</a></li>
+      <li><a href="mac.html">MAC</a></li>
+      <li><a href="openbsm.html">OpenBSM</a></li>
+      <li><a href="components.html#openpam">OpenPAM</a></li>
+      <li><a href="sebsd.html">SEBSD</a></li>
+      <li><a href="sedarwin.html">SEDarwin</a></li>
+      <li><a href="components.html#ufs2">UFS2</a></li>
+    </ul>
+  </section>
+
   <section match="components">
     <h2 class="section">Components</h2>
     <ul>
-      <li><a href="components.html#acls">Access Control Lists</a></li>
-      <li><a href="audit.html">Security Event Auditing</a></li>
+      <li><a href="components.html#acls">ACLs</a></li>
+      <li><a href="audit.html">Audit</a></li>
       <li><a href="components.html#eas">Extended Attributes</a></li>
-      <li><a href="components.html#capabilities">Fine-Grained
-	Capabilities</a></li>
-      <li><a href="mac.html">Mandatory Access Control</a></li>
+      <li><a href="components.html#capabilities">Capabilities</a></li>
+      <li><a href="components.html#geom">GEOM</a></li>
+      <li><a href="mac.html">MAC</a></li>
       <li><a href="openbsm.html">OpenBSM</a></li>
-      <li><a href="sebsd.html">Security-Enhanced BSD (SEBSD)</a></li>
-      <li><a href="sedarwin.html">Security-Enhanced Darwin (SEDarwin)</a></li>
-      <!-- To be completed: Historical Patches -->
+      <li><a href="components.html#openpam">OpenPAM</a></li>
+      <li><a href="sebsd.html">SEBSD</a></li>
+      <li><a href="sedarwin.html">SEDarwin</a></li>
+      <li><a href="components.html#ufs2">UFS2</a></li>
     </ul>
   </section>
 

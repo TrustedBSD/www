@@ -37,12 +37,12 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/home.page#2 $
+      $P4: //depot/projects/trustedbsd/www/home.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
   <section>
-    <title>About TrustedBSD</title>
+    <title>TrustedBSD Project</title>
 
     <html>
       <p>The TrustedBSD project provides a set of trusted operating system
@@ -89,7 +89,7 @@
       </ul>
 
       <p>The TrustedBSD Project is made possible through the generous
-	sponsorship and donations of a variety of organizations, including
+	sponsorship and support from a variety of organizations, including
 	the Defence Advanced Research Projects Agency (DARPA), the National
 	Security Agency (NSA), Network Associates Laboratories, Safeport
 	Network Services, the University of Pennsylvania, Yahoo!, McAfee
