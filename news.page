@@ -35,7 +35,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#3 $
+      $P4: //depot/projects/trustedbsd/www/news.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -46,13 +46,25 @@
       <p>News announcements and press clippings related to the TrustedBSD
 	Project.</p>
 
-<!--
-
-	SEBSD release will go here
-
--->
-
       <dl>
+	<dt>February 7, 2006 <b>TrustedBSD mailing lists moving to FreeBSD
+	  mailman server</b></dt>
+
+	<dd><p>In order to provide improved mailing list support in the
+	  future, including web-based mailing list management and
+	  archives, the TrustedBSD.org mailing lists will now be hosted
+	  on the FreeBSD mailman install.  All existing mailing addresses
+	  and subscriptions will continue to work.</p></dd>
+
+	<dt>February 1, 2006 <b>TrustedBSD Audit Integration into FreeBSD
+	  CVS</b></dt>
+
+	<dd><p>Robert Watson and Wayne Salamon announce the beginning of the
+	  merging of <a href="audit.html">CAPP Audit</a> support to the
+	  base FreeBSD CVS tree, which will take several weeks to complete.
+	  They also announce integration of an <a
+	  href="openbsm.html">OpenBSM</a> pre-release into CVS.</p></dd>
+
 	<dt>April 29, 2005 <b>TrustedBSD at BSDCan 2005</b></dt>
 
 	<dd><p>The TrustedBSD Project will be presenting on the TrustedBSD /
