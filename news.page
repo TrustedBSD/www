@@ -35,7 +35,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#4 $
+      $P4: //depot/projects/trustedbsd/www/news.page#5 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -47,6 +47,14 @@
 	Project.</p>
 
       <dl>
+	<dt>February 23, 2006 <b>OpenBSM 1.0 alpha 4 release</b></dt>
+
+	<dd><p>Robert Watson announces the availability of the OpenBSM 1.0
+	  alpha 4 release on the <a href="/openbsm.html">OpenBSM</a> web
+	  page.  This is the OpenBSM version currently integrated into the
+	  FreeBSD 7.x audit implementation, and is being made available as
+	  a tarball to make it more accessable to non-FreeBSD users.</p></dd>
+
 	<dt>February 7, 2006 <b>TrustedBSD mailing lists moving to FreeBSD
 	  mailman server</b></dt>
 
