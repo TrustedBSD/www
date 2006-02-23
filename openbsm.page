@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#4 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#5 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -70,6 +70,10 @@
 	of OpenBSM are now available as part of the FreeBSD 7-CURRENT branch,
 	as integration of audit into the FreeBSD CVS tree is largely
 	complete.</p>
+
+      <p>Discussion of the TrustedBSD Audit implementation, as well as the
+	OpenBSM package, takes place on the <a
+	href="mailinglists.html">trustedbsd-audit mailing list</a>.</p>
 
       <p>OpenBSM is derived from the BSM audit implementation found in
 	Apple's open source Darwin operating system, generously released by

@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/audit.page#1 $
+      $P4: //depot/projects/trustedbsd/www/audit.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -70,6 +70,10 @@
 	This package is portable to other operating systems, including
 	Apple's Mac OS X, Solaris, and Linux, and permits the writing of
 	portable audit-related applications.</p>
+
+      <p>Discussion of the TrustedBSD Audit implementation, as well as the
+	OpenBSM package, takes place on the <a
+	href="mailinglists.html">trustedbsd-audit mailing list</a>.</p>
 
       <p>The TrustedBSD Project greatfully acknowledges Apple Computer, Inc.,
 	for its generous donation of the Darwin audit implementation under a
