@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#3 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -54,12 +54,12 @@
 	systems, such as Mach task interfaces, sendfile(), and Linux system
 	calls present in the FreeBSD Linux emulation layer.</p>
 
-      <p>OpenBSM includes system include files appropriate for inclusion in
-	an operating system implementation of Audit, libbsm, an
-	implementation of the BSM library interfaces for generating, parsing,
-	and managing audit records, auditreduce and praudit, audit reduction
-	and printing tools, API documentation, and sample /etc configuration
-	files.
+      <p>The OpenBSM distribution includes system include files appropriate
+	for inclusion in an operating system implementation of Audit, libbsm,
+	an implementation of the BSM library interfaces for generating,
+	parsing, and managing audit records, auditreduce and praudit, audit
+	reduction and printing tools, API documentation, and sample /etc
+	configuration files.
 	Works in progress include extensions to the libbsm API to support
 	easier audit trail analysis, including a pattern matching
 	library.</p>
@@ -76,6 +76,11 @@
 	Apple under a BSD license.  The Darwin BSM implementation was
 	created by McAfee Research under contract to Apple Computer, and has
 	since been extended by the volunteer TrustedBSD team.</p>
+
+      <p>2006-02-23 - OpenBSM 1.0 alpha 4 release is an initial test release
+	of the OpenBSM code base, and matches what is present in FreeBSD CVS
+	at this date.  <a href="downloads/openbsm-1.0-alpha4.tgz">Download</a>.
+	</p>
     </html>
   </section>
 </page>
