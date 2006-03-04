@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#5 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#6 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -80,6 +80,13 @@
 	Apple under a BSD license.  The Darwin BSM implementation was
 	created by McAfee Research under contract to Apple Computer, and has
 	since been extended by the volunteer TrustedBSD team.</p>
+
+      <p>2006-03-04 - OpenBSM 1.0 alpha 5 release is a test release of the
+	OpenBSM code base, and matches what is present in FreeBSD CVS at
+	this date.  The primary change from alpha 4 is the introduction of
+	autoconf/automake support, which allows it to build on Darwin and
+	Linux.  <a href="downloads/openbsm-1.0-alpha5.tgz">Download</a>.
+	</p>
 
       <p>2006-02-23 - OpenBSM 1.0 alpha 4 release is an initial test release
 	of the OpenBSM code base, and matches what is present in FreeBSD CVS
