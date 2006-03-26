@@ -1,0 +1,75 @@
+<!--
+     Copyright (c) 2006 Robert N. M. Watson
+     All rights reserved.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="components">
+  <title>TrustedBSD POSIX.1e Capabilities</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $P4: //depot/projects/trustedbsd/www/cap.page#1 $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>TrustedBSD POSIX.1e Capabilities</title>
+
+    <html>
+      <p>
+	<span id="collection-label">Perforce:</span>
+	<span id="cvsup-collection">//depot/projects/trustedbsd/cap/...</span>
+	<span id="collection-label">Collection:</span>
+	<span id="cvsup-collection">p4-cvs-trustedbsd-cap</span>
+      </p>
+
+      <p>POSIX.1e breaks down root privilege into a set of capabilities, or
+	more strictly, privileges, which allow the meeting of specific
+	privilege requirements for POSIX calls, such as setuid().
+	The TrustedBSD capability project is currently inactive, but an
+	implementation of POSIX.1e capabilities for an older FreeBSD release
+	is available and functional, and may be found in Perforce/cvsup.
+	Certain key files are provided in a tarball for download on this
+	page.</p>
+
+      <p>The reason that these changes have not yet been integrated into
+	FreeBSD is that they represent a substantial risk, as they change
+	the superuser privilege model, and there have been a number of
+	vulnerabilities in other operating systems relating to both
+	implementation and logic errors with fine-grained privileges, and
+	this implementation has seen insufficient review.
+	Also, the in-kernel API for privilege checking is limited to a
+	32-bit or 64-bit privilege mask, which does not offer room for
+	sufficient future growth in privileges, or further fine-graining.</p>
+
+      <p>Up-to-date versions of the kernel API changes to perform
+	fine-grained privilege checking, without the capability model
+	itself, may be found in the <a href="sebsd.html">SEBSD branch</a>,
+	and include modifications to the TrustedBSD MAC Framework to allow
+	MAC modules to deny privilege based on the POSIX.1e privilege
+	categories.</p>
+
+    </html>
+  </section>
+</page>
