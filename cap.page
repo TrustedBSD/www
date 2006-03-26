@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/cap.page#1 $
+      $P4: //depot/projects/trustedbsd/www/cap.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -44,10 +44,14 @@
 	<span id="cvsup-collection">p4-cvs-trustedbsd-cap</span>
       </p>
 
-      <p>POSIX.1e breaks down root privilege into a set of capabilities, or
-	more strictly, privileges, which allow the meeting of specific
+      <p>POSIX.1e breaks root privilege into a set of capabilities, or
+	more strictly, privileges, which allow the granting of specific
 	privilege requirements for POSIX calls, such as setuid().
-	The TrustedBSD capability project is currently inactive, but an
+	POSIX.1e defines extension to process and file state to allow
+	privileges to be granted to processes, either by inheritence or
+	a file privilege model similar to setuid/setgid.</p>
+
+      <p>The TrustedBSD capability project is currently inactive, but an
 	implementation of POSIX.1e capabilities for an older FreeBSD release
 	is available and functional, and may be found in Perforce/cvsup.
 	Certain key files are provided in a tarball for download on this
