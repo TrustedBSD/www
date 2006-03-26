@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/cap.page#3 $
+      $P4: //depot/projects/trustedbsd/www/cap.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -75,7 +75,10 @@
 	categories.</p>
 
       <p>2006-03-26 FreeBSD 5.0 POSIX.1e capability reference files
-	snapshot <a href="downloads/20060326-cap.tgz">Download</a>.</p>
+	snapshot.  These are reference BSD-licensed POSIX.1e privilege
+	files derived from an early TrustedBSD implementation, and do
+	not represent a complete or supported implementation.
+	<a href="downloads/20060326-cap.tgz">Download</a>.</p>
 
     </html>
   </section>
