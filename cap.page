@@ -6,10 +6,10 @@
      modification, are permitted provided that the following conditions
      are met:
      1. Redistributions of source code must retain the above copyright
-        notice, this list of conditions and the following disclaimer.
+	notice, this list of conditions and the following disclaimer.
      2. Redistributions in binary form must reproduce the above copyright
-        notice, this list of conditions and the following disclaimer in the
-        documentation and/or other materials provided with the distribution.
+	notice, this list of conditions and the following disclaimer in the
+	documentation and/or other materials provided with the distribution.
      
      THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
      ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/cap.page#2 $
+      $P4: //depot/projects/trustedbsd/www/cap.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -73,6 +73,9 @@
 	and include modifications to the TrustedBSD MAC Framework to allow
 	MAC modules to deny privilege based on the POSIX.1e privilege
 	categories.</p>
+
+      <p>2006-03-26 FreeBSD 5.0 POSIX.1e capability reference files
+	snapshot <a href="downloads/20060326-cap.tgz">Download</a>.</p>
 
     </html>
   </section>
