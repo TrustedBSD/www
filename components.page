@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/components.page#4 $
+      $P4: //depot/projects/trustedbsd/www/components.page#5 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -153,8 +153,10 @@
 	    compromise.  The capabilities development branch is
 	    largely complete, but is based on an older FreeBSD
 	    5.0-CURRENT snapshot.  Elements of this implementation
-	    are being updated for FreeBSD 5.2 and will be available
-	    in 2003Q3 as part of the MAC Framework.</p>
+	    are being updated for FreeBSD 5.2 and are available as
+	    part of the SEBSD version of the TrustedBSD MAC Framework.
+	    For more information, see the <a href="cap.html">Capability
+	    Page</a>.</p>
         </dd>
 
 	<a name="geom" />
