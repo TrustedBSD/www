@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $P4: //depot/projects/trustedbsd/www/Makefile#4 $
+# $P4: //depot/projects/trustedbsd/www/Makefile#5 $
 
 STYLESHEET=	page.xsl
 
@@ -62,6 +62,7 @@ DATA+=		trustedbsd-discex3.pdf
 DATA+=		sebsd-july2003.pdf
 DATA+=		20000809-trustedbsd-announcement.txt
 DATA+=		robots.txt
+DATA+=		20060303-ukuug2006lisa-audit.pdf
 
 GLOBAL_XML=	sidebar.xml
 
