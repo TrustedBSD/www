@@ -35,7 +35,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/docs.bib#3 $
+      $P4: //depot/projects/trustedbsd/www/docs.bib#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -327,6 +327,43 @@
       application interfaces.  We discuss the design and implementation of
       the framework, as well as the an implementation of a fixed-label
       Biba integrity policy based on the framework.</abstract>
+  </entry>
+
+  <entry role="paper" date="20060303">
+    <title>The FreeBSD Audit System</title>
+
+    <author>
+      <name>Robert N. M. Watson</name>
+      <affil>University of Cambridge, TrustedBSD Project</affil>
+    </author>
+
+    <author>
+      <name>Wayne Salamon</name>
+      <affil>TrustedBSD Project</affil>
+    </author>
+
+    <audience>
+      <venue>UKUUG LISA Conference</venue>
+      <city>Durham</city> <state>UK</state>
+      <date>March, 2006</date>
+    </audience>
+
+    <download>
+      <file url="20060303-ukuug2006lisa-audit.pdf" format="PDF" />
+    </download>
+
+    <abstract>This paper describes the Common Criteria security event
+      auditing implementation added to the FreeBSD operating system by the
+      TrustedBSD Project.  Audit is a critical element in operating system
+      security evaluation and operation, but both the standards-based and
+      operational requirements are complex.  This paper describes the
+      requirements, FreeBSD kernel implementation, extensible file format
+      adopted from OpenSolaris BSM, mechanisms used for processing and
+      maintaining the audit trail, and the OpenBSM audit library and tool
+      set.  Of importance is not just the content of audit records, but
+      also the reliability guarantees associated with the queuing and
+      delivery mechanisms.</abstract>
+
   </entry>
 
 </bibliography>
