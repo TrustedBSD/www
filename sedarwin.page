@@ -36,7 +36,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sedarwin.page#3 $
+      $P4: //depot/projects/trustedbsd/www/sedarwin.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -53,23 +53,18 @@
       </p>
 
       <p>SEDarwin is a port of the <a href="mac.html">TrustedBSD MAC
-	Framework</a> access controle extension framework to Apple's
-	Darwin operating system platform, along with ports of a number
-	of policy modules including mac_biba, mac_mls, and the
-	<a href="sebsd.html">SEBSD policy</a>.
-	SEDarwin is highly experimental, but current sufficiently
+	Framework</a> access control extension framework to Apple's
+	Darwin operating system platform, along with a port of the
+	<a href="sebsd.html">SEBSD policy module</a>.
+	SEDarwin is highly experimental, but is currently sufficiently
 	functional to allow the enforcement of mandatory process
 	and file protections under Mac OS 10.3.8 and Darwin 7.3 on
 	a variety of Apple PowerPC hardware.
-	The current prototype software may be downloaded using
-	cvsup, and commits to the prototype implementation may
-	be followed on the trustedbsd-cvs mailing list.
-	As the prototype evolves, more information will be posted
-	here, including bootstrapping instructions and technical
-	reports.</p>
 
-      <p>2006-02-08 SEDarwin (Darwin 7.8) snapshot: <a
-	href="downloads/20060208-sedarwin78.tgz">Download tarball</a>.</p>
+	The SEDarwin project has recently moved to it's own website at
+	<a href-"http://www.sedarwin.org">www.sedarwin.org</a>. More 
+	information and current versions of SEDarwin can be found there.
+	</p>
 
       <p>The Darwin Security Extension Project (DSEP) complements the
 	SEDarwin work, but has a different goal. DSEP is primarily concerned
@@ -80,14 +75,8 @@
 	have the newest FLASK and SELinux components; they will be migrated
 	to the Tiger platform soon.</p>
 
-      <p>2006-02-13 DSEP (Darwin 8.4) snapshot: <a
-	href="downloads/20060213-dsep84.tgz">Download tarball</a>.</p>
-
-      <p>2005-05-31 DSEP7 drop 20050331: <a
-	href="downloads/20050531-dsep7-20050331.tgz">Download tarball</a>.</p>
-
-      <p>2005-02-04 DSEP73 drop 5: <a
-	href="downloads/20050204-dsep73-drop5.tgz">Download tarball</a>.</p>
+	<p>The DSEP sources have also recently moved to 
+	<a href="http://www.sedarwin.org>sedarwin.org</a>
 
     </html>
   </section>
