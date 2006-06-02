@@ -36,7 +36,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sedarwin.page#4 $
+      $P4: //depot/projects/trustedbsd/www/sedarwin.page#5 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -62,7 +62,7 @@
 	a variety of Apple PowerPC hardware.
 
 	The SEDarwin project has recently moved to it's own website at
-	<a href-"http://www.sedarwin.org">www.sedarwin.org</a>. More 
+	<a href="http://www.sedarwin.org">www.sedarwin.org</a>. More 
 	information and current versions of SEDarwin can be found there.
 	</p>
 
@@ -76,7 +76,7 @@
 	to the Tiger platform soon.</p>
 
 	<p>The DSEP sources have also recently moved to 
-	<a href="http://www.sedarwin.org>sedarwin.org</a>
+	<a href="http://www.sedarwin.org">sedarwin.org</a></p>
 
     </html>
   </section>
