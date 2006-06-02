@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#7 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#8 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -86,7 +86,8 @@
 	this date.  In this revision, the primary changes are the
 	introduction an experimental audit filter environment, improved
 	APIs for submitting audit records from applications, and general
-	bug fixing.</p>
+	bug fixing.  <a href="downloads/openbsm-1.0-alpha6.tgz">Download</a>.
+	</p>
 
       <p>2006-03-04 - OpenBSM 1.0 alpha 5 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
