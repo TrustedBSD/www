@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2005 Robert N. M. Watson
+     Copyright (c) 2005-2006 Robert N. M. Watson
      All rights reserved.
      
      Redistribution and use in source and binary forms, with or without
@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#6 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#7 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -80,6 +80,13 @@
 	Apple under a BSD license.  The Darwin BSM implementation was
 	created by McAfee Research under contract to Apple Computer, and has
 	since been extended by the volunteer TrustedBSD team.</p>
+
+      <p>2006-06-02 - OpenBSM 1.0 alpha 6 release is a test release of the
+	OpenBSM code base, and matches what is present in FreeBSD CVS at
+	this date.  In this revision, the primary changes are the
+	introduction an experimental audit filter environment, improved
+	APIs for submitting audit records from applications, and general
+	bug fixing.</p>
 
       <p>2006-03-04 - OpenBSM 1.0 alpha 5 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
