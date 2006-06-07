@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sebsd.page#3 $
+      $P4: //depot/projects/trustedbsd/www/sebsd.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -63,11 +63,10 @@
 	policy; many but not all relevant userland applications
 	have been updated to properly interact with FLASK
 	security contexts, including the login program.
-	The FLASK implementation provides access to Type Enforcement
-	(TE), as well as RBAC and a second MLS policy implementation.</p>
+	<p>
 
       <p>McAfee Research, now <a href="http://www.isso.sparta.com/">SPARTA
-	ISSO</a>, provides an ISO snapshot and CVSUP source distribution of
+	ISSO</a>, now provides a source tarball and CVSUP source distribution of
 	SEBSD maintained on the FreeBSD Project Perforce Server.</p>
 
       <p>The FLASK/TE implementation provided by NSA, SCC, and
