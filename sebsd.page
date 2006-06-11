@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sebsd.page#4 $
+      $P4: //depot/projects/trustedbsd/www/sebsd.page#5 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -62,8 +62,7 @@
 	to the kernel and run in enforcing mode using a sample
 	policy; many but not all relevant userland applications
 	have been updated to properly interact with FLASK
-	security contexts, including the login program.
-	<p>
+	security contexts, including the login program.</p>
 
       <p>McAfee Research, now <a href="http://www.isso.sparta.com/">SPARTA
 	ISSO</a>, now provides a source tarball and CVSUP source distribution of
