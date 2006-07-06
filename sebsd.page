@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sebsd.page#5 $
+      $P4: //depot/projects/trustedbsd/www/sebsd.page#6 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -75,6 +75,15 @@
 	these licensing constraints.
 	However, these components are available as source code module
 	that plugs into the MAC Framework.</p>
+
+      <p>2006-07-05 7.0-SEBSD supfile: <a href="downloads/20060705-7.0-SEBSD-supfile"> Download</a>.
+	<a href="downloads/20060705-7.0-SEBSDInstall.txt">Install notes</a>.
+	This SEBSD snapshot is based on a March 2006 snapshot of FreeBSD 7.x 
+        and SELinux sources from the same timeframe. It also includes the new 
+        <a href="http://serefpol.sourcefoge.net">SELinux Reference Policy</a>
+	as a new policy baseline. It should be noted that SEBSD will not 
+	currently function in enforcing mode as the new policy development
+	is still at a relatively early stage.</p>
 
       <p>2005-06-24 6.0-SEBSD snapshot ISO: <a
 	href="downloads/20050624-6.0-SEBSD-i386-miniinst.iso">Download</a>.
