@@ -5,7 +5,7 @@
     <ul>
       <li><a href="components.html#acls">ACLs</a></li>
       <li><a href="audit.html">Audit</a></li>
-      <li><a href="components.html#eas">Extended Attributes</a></li>
+      <li><a href="components.html#eas">Extended Attributes and UFS2</a></li>
       <li><a href="cap.html">Capabilities</a></li>
       <li><a href="components.html#geom">GEOM</a></li>
       <li><a href="mac.html">MAC</a></li>
@@ -13,7 +13,6 @@
       <li><a href="components.html#openpam">OpenPAM</a></li>
       <li><a href="sebsd.html">SEBSD</a></li>
       <li><a href="sedarwin.html">SEDarwin</a></li>
-      <li><a href="components.html#ufs2">UFS2</a></li>
     </ul>
   </section>
 
@@ -22,7 +21,7 @@
     <ul>
       <li><a href="components.html#acls">ACLs</a></li>
       <li><a href="audit.html">Audit</a></li>
-      <li><a href="components.html#eas">Extended Attributes</a></li>
+      <li><a href="components.html#eas">Extended Attributes and UFS2</a></li>
       <li><a href="cap.html">Capabilities</a></li>
       <li><a href="components.html#geom">GEOM</a></li>
       <li><a href="mac.html">MAC</a></li>
@@ -30,7 +29,6 @@
       <li><a href="components.html#openpam">OpenPAM</a></li>
       <li><a href="sebsd.html">SEBSD</a></li>
       <li><a href="sedarwin.html">SEDarwin</a></li>
-      <li><a href="components.html#ufs2">UFS2</a></li>
     </ul>
   </section>
 

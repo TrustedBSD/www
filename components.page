@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/components.page#5 $
+      $P4: //depot/projects/trustedbsd/www/components.page#6 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -117,7 +117,6 @@
         </dd>
 
 	<a name="eas" />
-	<a name="ufs2" />
         <dt><p>Extended Attributes and UFS2</p></dt>
 
         <dd>
