@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/mailinglists.page#2 $
+      $P4: //depot/projects/trustedbsd/www/mailinglists.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -123,18 +123,14 @@
 	href="http://wt.xpilot.org/publications/posix.1e">http://wt.xpilot.org/publications/posix.1e</a>,
 	where a draft may also be downloaded.</p>
 
-      <p>The mailing list can be subscribed to by sending email to <a
-	href="mailto:posix1e-request@cyrus.watson.org">posix1e-request@cyrus.watson.org</a>
-	with a body of:</p>
+	<dl>
+	  <dt><a href="http://lists.freebsd.org/mailman/listinfo/posix1e">posix1e</a></dt>
 
-      <blockquote>
-	<pre>subscribe</pre>
-      </blockquote>
+	  <dd><p>POSIX.1e mailing list, intended for discussion of the now
+	    defunct POSIX.1e draft standard.  Web <a href="http://lists.freebsd.org/pipermail/posix1e/">mailing list archives</a> are available.</p>
+	  </dd>
+	</dl>
 
-      <p>Mailing list archives will be available in the near future; in the
-	mean time, they may be accessed via the <a
-	href="http://www.securityfocus.com/archive/64">web-based mailing list
-	archives at securityfocus.com</a>.</p>
     </html>
   </section>
 </page>
