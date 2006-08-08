@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#9 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#10 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -43,8 +43,8 @@
 	<span id="cvsup-collection">//depot/projects/trustedbsd/openbsm/...</span>
       </p>
 
-      <p>OpenBSM is an open source implementation of Sun's Basic Security
-	Module (BSM) Audit API and file format.
+      <p>OpenBSM is a portable, open source implementation of Sun's Basic
+	Security Module (BSM) Audit API and file format.
 	BSM, the de facto industry standard for Audit, describes a set of
 	system call and library interfaces for managing audit records, as
 	well as a token stream file format that permits extensible and
@@ -52,7 +52,11 @@
 	OpenBSM extends the BSM API and file format in a number of ways to
 	support features present in the Mac OS X and FreeBSD operating
 	systems, such as Mach task interfaces, sendfile(), and Linux system
-	calls present in the FreeBSD Linux emulation layer.</p>
+	calls present in the FreeBSD Linux emulation layer.
+	OpenBSM is known to build on FreeBSD, Mac OS X, and Linux; some
+	components, such as the audit daemon, require up-to-date kernel
+	audit parts from the FreeBSD kernel audit implementation, but the
+	basic library and audit trail tools run on all three platforms.</p>
 
       <p>The OpenBSM distribution includes system include files appropriate
 	for inclusion in an operating system implementation of Audit, libbsm,
