@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#10 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#11 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -68,6 +68,19 @@
 	easier audit trail analysis, including a pattern matching
 	library.</p>
 
+    </html>
+  </section>
+
+  <section>
+    <title>History and Vendors</title>
+    <html>
+
+      <p>OpenBSM is derived from the BSM audit implementation found in
+	Apple's open source Darwin operating system, generously released by
+	Apple under a BSD license.  The Darwin BSM implementation was
+	created by McAfee Research under contract to Apple Computer, and has
+	since been extended by the volunteer TrustedBSD team.</p>
+
       <p>OpenBSM is the core user space component of the <a
 	href="audit.html">TrustedBSD Audit Implementation</a> for
 	FreeBSD, providing tools, libraries, and include files.  Pre-releases
@@ -75,15 +88,35 @@
 	as integration of audit into the FreeBSD CVS tree is largely
 	complete.</p>
 
+    </html>
+  </section>
+
+  <section>
+    <title>Mailing List</title>
+    <html>
+
       <p>Discussion of the TrustedBSD Audit implementation, as well as the
 	OpenBSM package, takes place on the <a
 	href="mailinglists.html">trustedbsd-audit mailing list</a>.</p>
 
-      <p>OpenBSM is derived from the BSM audit implementation found in
-	Apple's open source Darwin operating system, generously released by
-	Apple under a BSD license.  The Darwin BSM implementation was
-	created by McAfee Research under contract to Apple Computer, and has
-	since been extended by the volunteer TrustedBSD team.</p>
+    </html>
+  </section>
+
+  <section>
+    <title>Downloads</title>
+    <html>
+
+      <p>OpenBSM source code is available for download via occasional
+	snapshot and release tarballs, vendor integrated source code (such as
+	the FreeBSD source tree), cvsup, and the TrustedBSD Perforce
+	repository.
+	The first full release of OpenBSM, 1.0, is expected to take place in
+	October, 2006; current development snapshots are appropriate for use
+	in production systems, but consumers of these snapshots should be
+	aware that APIs, file formats, and tools are under active
+	development, and may change at any time.
+	Please see the file README present in the OpenBSM distribution for
+	build and installation instructions.</p>
 
       <p>2006-06-27 - OpenBSM 1.0 alpha 7 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
@@ -111,6 +144,7 @@
 	of the OpenBSM code base, and matches what is present in FreeBSD CVS
 	at this date.  <a href="downloads/openbsm-1.0-alpha4.tgz">Download</a>.
 	</p>
+
     </html>
   </section>
 </page>
