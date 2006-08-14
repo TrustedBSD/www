@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#11 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#12 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -41,6 +41,8 @@
       <p>
 	<span id="collection-label">Perforce:</span>
 	<span id="cvsup-collection">//depot/projects/trustedbsd/openbsm/...</span>
+	<span id="collection-label">cvsup:</span>
+	<span id="cvsup-collection">p4-cvs-trustedbsd-openbsm</span>
       </p>
 
       <p>OpenBSM is a portable, open source implementation of Sun's Basic
