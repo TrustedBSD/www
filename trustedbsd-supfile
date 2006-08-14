@@ -1,4 +1,4 @@
-# $P4: //depot/projects/trustedbsd/www/trustedbsd-supfile#2 $
+# $P4: //depot/projects/trustedbsd/www/trustedbsd-supfile#3 $
 #
 # This is the sample CVSup supfile for the TrustedBSD Project.
 #
@@ -51,3 +51,4 @@ p4-cvs-trustedbsd-cap
 p4-cvs-trustedbsd-mac
 p4-cvs-trustedbsd-openbsm
 p4-cvs-trustedbsd-sebsd
+p4-cvs-trustedbsd-sedarwin8
