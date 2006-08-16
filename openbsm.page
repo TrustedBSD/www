@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#12 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#13 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -120,32 +120,40 @@
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
 
+      <p>2006-08-16 - OpenBSM 1.0 alpha 8 release is a test release of the
+	OpenBSM code base, and matches what is present in FreeBSD CVS at
+	this date.  In this revision, the primary change is to renumber
+	non-Solaris audit events in order to avoid possible future
+	collisions, and to adopt a unique OpenBSM header token version
+	number.  There are also a number of bug fixes, cleanups, etc.
+	<a href="downloads/openbsm-1.0-alpha8.tgz">Download</a> (464K).</p>
+
       <p>2006-06-27 - OpenBSM 1.0 alpha 7 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
 	this date.  In this revision, the primary changes involve
 	improvements in the creation of subject tokens, and portability
-	improvements.  <a href="downloads/openbsm-1.0-alpha7.tgz">Download</a>.
-	</p>
+	improvements.  <a href="downloads/openbsm-1.0-alpha7.tgz">Download</a>
+	(464K).</p>
 
       <p>2006-06-02 - OpenBSM 1.0 alpha 6 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
 	this date.  In this revision, the primary changes are the
 	introduction an experimental audit filter environment, improved
 	APIs for submitting audit records from applications, and general
-	bug fixing.  <a href="downloads/openbsm-1.0-alpha6.tgz">Download</a>.
-	</p>
+	bug fixing.  <a href="downloads/openbsm-1.0-alpha6.tgz">Download</a>
+	(464K).</p>
 
       <p>2006-03-04 - OpenBSM 1.0 alpha 5 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
 	this date.  The primary change from alpha 4 is the introduction of
 	autoconf/automake support, which allows it to build on Darwin and
-	Linux.  <a href="downloads/openbsm-1.0-alpha5.tgz">Download</a>.
-	</p>
+	Linux.  <a href="downloads/openbsm-1.0-alpha5.tgz">Download</a>
+	(432K).</p>
 
       <p>2006-02-23 - OpenBSM 1.0 alpha 4 release is an initial test release
 	of the OpenBSM code base, and matches what is present in FreeBSD CVS
-	at this date.  <a href="downloads/openbsm-1.0-alpha4.tgz">Download</a>.
-	</p>
+	at this date.  <a href="downloads/openbsm-1.0-alpha4.tgz">Download</a>
+	(86K).</p>
 
     </html>
   </section>
