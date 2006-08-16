@@ -3,7 +3,7 @@
   <section match="home">
     <p><center><a href="news.html">TrustedBSD News</a></center></p>
     <ul>
-      <li><a href="components.html#acls">ACLs</a></li>
+      <li><a href="acls.html">ACLs</a></li>
       <li><a href="audit.html">Audit</a></li>
       <li><a href="components.html#eas">Extended Attributes and UFS2</a></li>
       <li><a href="cap.html">Capabilities</a></li>
@@ -19,7 +19,7 @@
   <section match="components">
     <h2 class="section">Components</h2>
     <ul>
-      <li><a href="components.html#acls">ACLs</a></li>
+      <li><a href="acls.html">ACLs</a></li>
       <li><a href="audit.html">Audit</a></li>
       <li><a href="components.html#eas">Extended Attributes and UFS2</a></li>
       <li><a href="cap.html">Capabilities</a></li>

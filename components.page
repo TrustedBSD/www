@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/components.page#6 $
+      $P4: //depot/projects/trustedbsd/www/components.page#7 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -83,13 +83,11 @@
         <dd>
           <p>Access control lists allow more fine-grained discretionary
             access controls to be placed on files and directories.
-            Currently, ACLs are backed to extended attributes on UFS file
-            systems.  An extended attribute implementation was layered
-	    onto UFS1, and a native implementation is available as part
-	    of UFS2.  The finished ACL implementation has been available
-	    as part of FreeBSD since the 5.0 release.  Some further
-	    application adaptation work is on-going, and is taking place
-	    in the FreeBSD development tree.</p>
+	    ACLs have been a production feature in the FreeBSD operating
+	    since being integrated in FreeBSD 5.0-RELEASE.
+	    Portions of the TrustedBSD ACLs implementation also appear in
+	    Mac OS X and Linux.  Visit the <a href="acls.html">TrustedBSD
+	    ACLs</a> web page for more information.</p>
         </dd>
 
 	<a name="audit" />

@@ -1,0 +1,66 @@
+<!--
+     Copyright (c) 2006 Robert N. M. Watson
+     All rights reserved.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="components">
+  <title>TrustedBSD Access Control Lists (ACLs)</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $P4: //depot/projects/trustedbsd/www/acls.page#1 $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>TrustedBSD File System Access Control Lists (ACLs)
+      Implementation</title>
+
+    <html>
+
+      <p>TrustedBSD provides a file system access control list implementation
+	that provides enhanced discretionary access control as required by
+	the CC CAPP specification at higher assurance levels.
+	This implementation is based on the POSIX.1eD17 draft specification,
+	and is API-compatible with the ACL implementations found on many
+	other UNIX systems.
+	The TrustedBSD implementation stores access control lists in file
+	system extended attributes, as found in the UFS1 and UFS2 file
+	systems on FreeBSD.
+	The TrustedBSD POSIX.1e ACL library may also found in Mac OS X,
+	although wrapping NTFS-style ACLs, and portions of the ACL library
+	documentation may be found in Linux.
+	TrustedBSD ACLs are present in FreeBSD 5.0 and greater, and are
+	supported by Samba, KDE, and a number of other applications.</p>
+
+      <p>Currently, prototyping work is being performed relating to adding
+	support for NFSv4-style ACLs behind the existing APIs in FreeBSD,
+	in a manner similar to Mac OS X.
+	This may provide improved compatibility with NFSv4 and NTFS.
+	Check back on this web page for future updates as this work
+	continues.</p>
+
+    </html>
+  </section>
+</page>
