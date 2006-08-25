@@ -1,5 +1,6 @@
 <!--
      Copyright (c) 2002 Networks Associates Technology, Inc.
+     Copyright (c) 2006 Robert N. M. Watson
      All rights reserved.
      
      This software was developed for the FreeBSD Project by Chris
@@ -35,7 +36,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#6 $
+      $P4: //depot/projects/trustedbsd/www/news.page#7 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -47,6 +48,18 @@
 	Project.</p>
 
       <dl>
+
+	<dt>August 16, 2006 <b>FreeBSD 6 merge beginning; FreeBSD 6.2
+	  to ship with experimental Audit support</b></dt>
+
+	<dd><p>Robert Watson announces that the merge of audit support to
+	  the FreeBSD 6-STABLE development branch will begin shortly.
+	  This will result in experimental audit support being present in
+	  FreeBSD 6.2 within a couple of months.
+	  With this work, FreeBSD 6.2 is believed to meet almost all technical
+	  requirements to complete a Common Criteria CAPP evaluation at at
+	  least EAL3.</p></dd>
+
 	<dt>February 23, 2006 <b>OpenBSM 1.0 alpha 4 release</b></dt>
 
 	<dd><p>Robert Watson announces the availability of the OpenBSM 1.0
