@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#13 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#14 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -119,6 +119,15 @@
 	development, and may change at any time.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
+
+      <p>2006-08-26 - OpenBSM 1.0 alpha 9 release is a test release of the
+	OpenBSM code base, and matches what is present in FreeBSD CVS at
+	this date.
+	In this revision, the primary changes are a renaming of many OpenBSM
+	BSM_/bsm_ constants to AUDIT_/audit_ constants, and refinment of the
+	audit filter module API.
+	There are also a number of bug fixes, cleanups, etc.
+	<a href="downloads/openbsm-1.0-alpha9.tgz">Download</a> (464K).</p>
 
       <p>2006-08-16 - OpenBSM 1.0 alpha 8 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
