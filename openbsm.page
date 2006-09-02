@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#14 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#15 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -119,6 +119,15 @@
 	development, and may change at any time.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
+
+      <p>2006-09-02 - OpenBSM 1.0 alpha 10 release is a test release of the
+	OpenBSM code base, and matches what is present in FreeBSD CVS at
+	this date.
+	In this revision, auditd has been modified to submit complete audit
+	records, including full return information, as part of its
+	operation, as required by upcoming changes to the FreeBSD audit3
+	implementation.
+	<a href="downloads/openbsm-1.0-alpha10.tgz">Download</a> (464K).</p>
 
       <p>2006-08-26 - OpenBSM 1.0 alpha 9 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
