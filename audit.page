@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/audit.page#2 $
+      $P4: //depot/projects/trustedbsd/www/audit.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -64,12 +64,19 @@
 	"audit pipes" for live application monitoring of system events, and
 	an audit support library.</p>
 
+      <p>As of FreeBSD 6.2-RELEASE, audit support is included in the base
+	FreeBSD distribution, and further development of the kernel
+	implementation will take place in the FreeBSD CVS repository rather
+	than Perforce.</p>
+
       <p>The file format and API are based on Sun's published Basic Security
 	Module (BSM), the de facto industry standard, and are provided via a
 	<a href="openbsm.html">BSD-licensed OpenBSM user space package</a>.
 	This package is portable to other operating systems, including
 	Apple's Mac OS X, Solaris, and Linux, and permits the writing of
-	portable audit-related applications.</p>
+	portable audit-related applications.
+	OpenBSM is maintained by the TrustedBSD Project, and new versions
+	are imported into the FreeBSD CVS repository intermittently.</p>
 
       <p>Discussion of the TrustedBSD Audit implementation, as well as the
 	OpenBSM package, takes place on the <a
