@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#16 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#17 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -119,6 +119,17 @@
 	development, and may change at any time.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
+
+      <p>2006-09-24 - OpenBSM 1.0 alpha 12 release is a test release of the
+	OpenBSM code base, and matches what is present in FreeBSD CVS at
+	this date.
+	In this revision, an audit_control(5) filesz configuration
+	parameter is added in order to support automated rotation of audit
+	trails based on file size, regular expression matching for paths is
+	added to auditreduce, an audit_warn event is generated on rotation,
+	and a number of other bug fixes and documentation improvements are
+	present.
+	<a href="downloads/openbsm-1.0-alpha12.tgz">Download</a> (480K).</p>
 
       <p>2006-09-20 - OpenBSM 1.0 alpha 11 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
