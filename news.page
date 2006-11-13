@@ -36,7 +36,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#7 $
+      $P4: //depot/projects/trustedbsd/www/news.page#8 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -48,6 +48,14 @@
 	Project.</p>
 
       <dl>
+
+	<dt>November 10, 2006 <b>SecurityFocus.com interview on the
+	  TrustedBSD Audit implementation</b></dt>
+
+	<dd><p>Robert Watson was <a href="http://www.securityfocus.com/columnists/422">
+	  interviewed by SecurityFocus.com</a> on the topic of the TrustedBSD
+	  Audit implementation included in upcoming FreeBSD 6.2
+	  release.</p></dd>
 
 	<dt>August 16, 2006 <b>FreeBSD 6 merge beginning; FreeBSD 6.2
 	  to ship with experimental Audit support</b></dt>
