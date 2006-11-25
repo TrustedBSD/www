@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#17 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#18 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -119,6 +119,13 @@
 	development, and may change at any time.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
+
+      <p>2006-11-25 - OpenBSM 1.0 alpha 13 release is a test release of the
+	OpenBSM code base.
+	In this revision, man page documentation is substantially improved,
+	XML printing support has been added to praudit(8), and there is
+	support for additional 64-bit token types.
+	<a href="downloads/openbsm-1.0-alpha13.tgz">Download</a> (480K).</p>
 
       <p>2006-09-24 - OpenBSM 1.0 alpha 12 release is a test release of the
 	OpenBSM code base, and matches what is present in FreeBSD CVS at
