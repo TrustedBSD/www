@@ -36,7 +36,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#8 $
+      $P4: //depot/projects/trustedbsd/www/news.page#9 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -48,6 +48,12 @@
 	Project.</p>
 
       <dl>
+
+	<dt>April 16, 2007 <b>OpenBSM 1.0 alpha 14 released</b></dt>
+
+	<dd><p>OpenBSM 1.0 alpha 14 has been released.  See the
+	  <a href="openbsm.html">OpenBSM web page</a> for more information.
+	  </p></dd>
 
 	<dt>November 10, 2006 <b>SecurityFocus.com interview on the
 	  TrustedBSD Audit implementation</b></dt>

@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#18 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#19 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -119,6 +119,14 @@
 	development, and may change at any time.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
+
+      <p>2007-04-16 - OpenBSM 1.0 alpha 14 release is a test release of the
+	OpenBSM code base.
+	In this revision, support for the zonename token type is added, a
+	variety of endian-related bugs in IPv6 addresses are fixed, OpenBSM
+	becomes warning clean for gcc1, and various man page updates are
+	made.
+	<a href="downloads/openbsm-1.0-alpha14.tgz">Download</a> (480K).</p>
 
       <p>2006-11-25 - OpenBSM 1.0 alpha 13 release is a test release of the
 	OpenBSM code base.
