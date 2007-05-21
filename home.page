@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/home.page#3 $
+      $P4: //depot/projects/trustedbsd/www/home.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -82,7 +82,7 @@
 	  resources allowing fine-grained and manageable discretionary
 	  access control.</li>
 
-	<li>Event auditing support, OpenBMS audit API and audit trail file
+	<li>Event auditing support, OpenBSM audit API and audit trail file
 	  format, and single-host modular IDS system to monitor security
 	  events and notify administrators in the event of
 	  irregularities.</li>
