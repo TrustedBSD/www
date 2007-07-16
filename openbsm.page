@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2005-2006 Robert N. M. Watson
+     Copyright (c) 2005-2007 Robert N. M. Watson
      All rights reserved.
      
      Redistribution and use in source and binary forms, with or without
@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#19 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#20 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -119,6 +119,14 @@
 	development, and may change at any time.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
+
+      <p>2007-07-16 - OpenBSM 1.0 alpha 15 release is a test release of the
+	OpenBSM code base.
+	In this revision, bugs are fixed in the handling of IPv6 addresses,
+	auditreduce, and additional audit event identifiers are added for
+	new system calls.
+	FreeBSD 7.0 will ship with this version of OpenBSM.
+	<a href="downloads/openbsm-1.0-alpha15.tgz">Download</a> (480K).</p>
 
       <p>2007-04-16 - OpenBSM 1.0 alpha 14 release is a test release of the
 	OpenBSM code base.

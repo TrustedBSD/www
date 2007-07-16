@@ -1,6 +1,6 @@
 <!--
      Copyright (c) 2002 Networks Associates Technology, Inc.
-     Copyright (c) 2006 Robert N. M. Watson
+     Copyright (c) 2006-2007 Robert N. M. Watson
      All rights reserved.
      
      This software was developed for the FreeBSD Project by Chris
@@ -36,7 +36,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#9 $
+      $P4: //depot/projects/trustedbsd/www/news.page#10 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -48,6 +48,12 @@
 	Project.</p>
 
       <dl>
+
+	<dt>July 16, 2007 <b>OpenBSM 1.0 alpha 15 released</b></dt>
+
+	<dd><p>OpenBSM 1.0 alpha 15 has been released.  See the
+	  <a href="openbsm.html">OpenBSM web page</a> for more information.
+	  </p></dd>
 
 	<dt>April 16, 2007 <b>OpenBSM 1.0 alpha 14 released</b></dt>
 
