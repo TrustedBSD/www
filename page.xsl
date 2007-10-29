@@ -91,7 +91,7 @@
       <ul>
 	<small>
 	  <br />
-	  Copyright 2000-2006 Robert Watson.  All rights reserved.<br />
+	  Copyright 2000-2007 Robert Watson.  All rights reserved.<br />
 	  Copyright 2005 SPARTA, Inc.  All rights reserved.<br />
           Copyright 2002, Leigh Denault.  All rights reserved.<br />
           Copyright 2002, 2003 Networks Associates, Inc.  All rights
