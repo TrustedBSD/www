@@ -36,7 +36,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#10 $
+      $P4: //depot/projects/trustedbsd/www/news.page#11 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -48,6 +48,14 @@
 	Project.</p>
 
       <dl>
+
+	<dt>October 28, 2007 <b>OpenBSM 1.0 released</b></dt>
+
+	<dd><p>OpenBSM 1.0 has been released; this is the first production
+	  release of the OpenBSM software package, and corresponds with the
+	  forthcoming release of FreeBSD 7.0.  See the <a
+	  href="openbsm.html">OpenBSM web page</a> for more
+	  information.</p></dd>
 
 	<dt>July 16, 2007 <b>OpenBSM 1.0 alpha 15 released</b></dt>
 

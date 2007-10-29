@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#20 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#21 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -120,12 +120,19 @@
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
 
+      <p>2007-10-20 - OpenBSM 1.0 is a production release of the OpenBSM
+	code base.  In this revision, a bug resulting in a crash in
+	auditreduce(8) is resolved, and now-unneeded AU_ constants are
+	removed.  The versions of autoconf and automake used to build
+	OpenBSM have been upgraded.  FreeBSD 7.0 will ship with this
+	version of OpenBSM.
+	<a href="downloads/openbsm-1.0.tgz">Download</a> (496K).</p>
+
       <p>2007-07-16 - OpenBSM 1.0 alpha 15 release is a test release of the
 	OpenBSM code base.
 	In this revision, bugs are fixed in the handling of IPv6 addresses,
 	auditreduce, and additional audit event identifiers are added for
 	new system calls.
-	FreeBSD 7.0 will ship with this version of OpenBSM.
 	<a href="downloads/openbsm-1.0-alpha15.tgz">Download</a> (480K).</p>
 
       <p>2007-04-16 - OpenBSM 1.0 alpha 14 release is a test release of the
