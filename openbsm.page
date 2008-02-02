@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#22 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#23 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -85,10 +85,12 @@
 
       <p>OpenBSM is the core user space component of the <a
 	href="audit.html">TrustedBSD Audit Implementation</a> for
-	FreeBSD, providing tools, libraries, and include files.  Pre-releases
-	of OpenBSM are now available as part of the FreeBSD 7-CURRENT branch,
-	as integration of audit into the FreeBSD CVS tree is largely
-	complete.</p>
+	FreeBSD, providing tools, libraries, and include files.  OpenBSM
+	ships with FreeBSD 6.2 and later, with the first full release of
+	OpenBSM (1.0) in FreeBSD 6.3 and FreeBSD 7.0.</p>
+
+      <p><a href="bsmtrace.html">BSMtrace</a> is a BSM-based host
+	intrusion detection system that relies on OpenBSM audit trails.</p>
 
     </html>
   </section>
