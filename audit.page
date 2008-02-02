@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/audit.page#4 $
+      $P4: //depot/projects/trustedbsd/www/audit.page#5 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -79,7 +79,7 @@
 	are imported into the FreeBSD CVS repository intermittently.</p>
 
       <p><a href="bsmtrace.html">BSMtrace</a> is an audit-based host
-	intrusion dection system.</p>
+	intrusion detection system.</p>
 
       <p>Discussion of the TrustedBSD Audit implementation, as well as the
 	OpenBSM package, takes place on the <a
