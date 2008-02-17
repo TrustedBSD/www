@@ -31,7 +31,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/bsmtrace.page#1 $
+      $P4: //depot/projects/trustedbsd/www/bsmtrace.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -41,7 +41,7 @@
     <html>
       <p>
 	<span id="collection-label">Perforce:</span>
-	<span id="cvsup-collection">//depot/user/csjp/bsmtrace/...</span>
+	<span id="cvsup-collection">//depot/projects/trustedbsd/bsmtrace/...</span>
       </p>
 
       <p>BSMtrace is a utility that processes audit trails, or real-time
