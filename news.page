@@ -1,6 +1,6 @@
 <!--
      Copyright (c) 2002 Networks Associates Technology, Inc.
-     Copyright (c) 2006-2007 Robert N. M. Watson
+     Copyright (c) 2006-2008 Robert N. M. Watson
      All rights reserved.
      
      This software was developed for the FreeBSD Project by Chris
@@ -36,7 +36,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#11 $
+      $P4: //depot/projects/trustedbsd/www/news.page#12 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -48,6 +48,14 @@
 	Project.</p>
 
       <dl>
+
+	<dt>July 31, 2008 <b>OpenBSM 1.1 alpha 1 released</b></dt>
+
+	<dd><p>OpenBSM 1.1 alpha 1 has been released; this is the first
+	  test release for OpenBSM 1.1, and includes updates to support Mac
+	  OS X Leopard.  The final OpenBSM 1.1 release will be included in
+	  FreeBSD 7.1.  See the <a href="openbsm.html">OpenBSM web page</a>
+	  for more information.</p></dd>
 
 	<dt>October 28, 2007 <b>OpenBSM 1.0 released</b></dt>
 

@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2005-2007 Robert N. M. Watson
+     Copyright (c) 2005-2008 Robert N. M. Watson
      All rights reserved.
      
      Redistribution and use in source and binary forms, with or without
@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#23 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#24 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -131,7 +131,7 @@
   </section>
 
   <section>
-    <title>Development Snapshots</title>
+    <title>Current Development Snapshot</title>
     <html>
       <p>Development snapshots reflect work-in-progress snapshots of the
 	OpenBSM development branch in Perforce.
@@ -140,6 +140,26 @@
 	are under active development, and may change at any time.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
+
+      <p>2008-07-31 - The <b>OpenBSM 1.1 alpha 1</b> snapshot is a test
+	release of the OpenBSM code base.
+	In this revision, support for Mac OS X 10.5 is introduced, including
+	new events specific to Leopard, and support for the Mach IPC audit
+	trigger method.
+	auditreduce(1) grows an in vert flag, and allows selecting of more
+	than one event.
+	A number of bugs are fixed, including in XML trail conversion, BSM
+	record writing, and audit_control file access.
+	<a href="downloads/openbsm-1.1-alpha1.tgz">Download</a> (496K).</p>
+
+    </html>
+  </section>
+
+  <section>
+    <title>Past Development Snapshots</title>
+    <html>
+      <p>This is an archive of past OpenBSM test snapshots; uses of these
+	versions is not recommended.</p>
 
       <p>2007-07-16 - The <b>OpenBSM 1.0 alpha 15</b> snapshot is a test
 	release of the OpenBSM code base.
