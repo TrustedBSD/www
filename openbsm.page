@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#26 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#27 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -126,15 +126,31 @@
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
 
-      <p>2007-10-28 - <b>OpenBSM 1.0</b> is a production release of the
-	OpenBSM code base.
-	Since the last test release, OpenBSM 1.0 alpha 15, a bug resulting in
-	a crash in auditreduce(8) is resolved, and now-unneeded AU_ constants
-	are removed.
-	The versions of autoconf and automake used to build OpenBSM have been
-	upgraded.
-	FreeBSD 7.0 will ship with this version of OpenBSM.
-	<a href="downloads/openbsm-1.0.tgz">Download</a> (496K).</p>
+      <table width="100%" border="0" cellspacing="2" cellpadding="6">
+	<tr>
+	  <td valign="top" bgcolor="#eeeeee"><b>Version</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Download</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0.tgz">openbsm-1.0.tgz</a></td>
+	  <td bgcolor="#eeeeee">496K</td>
+	  <td bgcolor="#eeeeee">2007-10-28</td>
+	  <td bgcolor="#eeeeee">
+	    <p>OpenBSM 1.0 is the first production release of the OpenBSM
+	      code base.
+	      Since the last test release, OpenBSM 1.0 alpha 16, a bug
+	      leading to a crash in auditreduce(8) has been resolved, and all
+	      AU_ constants have been removed.
+	      The versions of autoconf and automake used to build OpenBSM
+	      have been updated.</p>
+	  </td>
+	</tr>
+      </table>
+
     </html>
   </section>
 
@@ -150,16 +166,30 @@
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
 
-      <p>2008-07-31 - The <b>OpenBSM 1.1 alpha 1</b> snapshot is a test
-	release of the OpenBSM code base.
-	In this revision, support for Mac OS X 10.5 is introduced, including
-	new events specific to Leopard, and support for the Mach IPC audit
-	trigger method.
-	auditreduce(1) grows an in vert flag, and allows selecting of more
-	than one event.
-	A number of bugs are fixed, including in XML trail conversion, BSM
-	record writing, and audit_control file access.
-	<a href="downloads/openbsm-1.1-alpha1.tgz">Download</a> (496K).</p>
+      <table width="100%" border="0" cellspacing="2" cellpadding="6">
+	<tr>
+	  <td valign="top" bgcolor="#eeeeee"><b>Version</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Download</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.1 alpha 1</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-alpha1.tgz">openbsm-1.1-alpha1.tgz</a></td>
+	  <td bgcolor="#eeeeee">496K</td>
+	  <td bgcolor="#eeeeee">2008-07-31</td>
+	  <td bgcolor="#eeeeee">
+	    <p>In this revision, support for Mac OS X 10.5 is introduced,
+	      including new events specific to Leopard, and support for the
+	      Mach IPC audit trigger method.
+	      auditreduce(1) grows an invert flag, and allows selecting of
+	      more than one event.
+	      A number of bugs are fixed, including in XML trail conversion,
+	      BSM record writing, and audit_control file access.</p>
+	  </td>
+	</tr>
+      </table>
 
     </html>
   </section>
@@ -171,101 +201,146 @@
       <p>This is an archive of past OpenBSM test snapshots; use of these
 	versions is not recommended.</p>
 
-      <p>2007-07-16 - The <b>OpenBSM 1.0 alpha 15</b> snapshot is a test
-	release of the OpenBSM code base.
-	In this revision, bugs are fixed in the handling of IPv6 addresses,
-	auditreduce, and additional audit event identifiers are added for
-	new system calls.
-	<a href="downloads/openbsm-1.0-alpha15.tgz">Download</a> (480K).</p>
-
-      <p>2007-04-16 - The <b>OpenBSM 1.0 alpha 14</b> snapshot is a test
-	release of the OpenBSM code base.
-	In this revision, support for the zonename token type is added, a
-	variety of endian-related bugs in IPv6 addresses are fixed, OpenBSM
-	becomes warning clean for gcc1, and various man page updates are
-	made.
-	<a href="downloads/openbsm-1.0-alpha14.tgz">Download</a> (480K).</p>
-
-      <p>2006-11-25 - The <b>OpenBSM 1.0 alpha 13</b> snapshot is a test
-	release of the OpenBSM code base.
-	In this revision, man page documentation is substantially improved,
-	XML printing support has been added to praudit(8), and there is
-	support for additional 64-bit token types.
-	<a href="downloads/openbsm-1.0-alpha13.tgz">Download</a> (480K).</p>
-
-      <p>2006-09-24 - The <b>OpenBSM 1.0 alpha 12</b> snapshot is a test
-	release of the OpenBSM code base, and matches what is present in
-	FreeBSD CVS at this date.
-	In this revision, an audit_control(5) filesz configuration
-	parameter is added in order to support automated rotation of audit
-	trails based on file size, regular expression matching for paths is
-	added to auditreduce, an audit_warn event is generated on rotation,
-	and a number of other bug fixes and documentation improvements are
-	present.
-	<a href="downloads/openbsm-1.0-alpha12.tgz">Download</a> (480K).</p>
-
-      <p>2006-09-20 - The <b>OpenBSM 1.0 alpha 11</b> snapshot is a test
-	release of the OpenBSM code base, and matches what is present in
-	FreeBSD CVS at this date.
-	In this revision, audit_control(5) control of audit policy is
-	introduced, as well as a significant number of bug fixes relating
-	to execve(2) argument auditing and log rotation.
-	<a href="downloads/openbsm-1.0-alpha11.tgz">Download</a> (480K).</p>
-
-      <p>2006-09-02 - <b>OpenBSM 1.0 alpha 10</b> snapshot is a test release
-	of the OpenBSM code base, and matches what is present in FreeBSD CVS
-	at this date.
-	In this revision, auditd has been modified to submit complete audit
-	records, including full return information, as part of its
-	operation, as required by upcoming changes to the FreeBSD audit3
-	implementation.
-	<a href="downloads/openbsm-1.0-alpha10.tgz">Download</a> (464K).</p>
-
-      <p>2006-08-26 - <b>OpenBSM 1.0 alpha 9</b> snapshot is a test release
-	of the OpenBSM code base, and matches what is present in FreeBSD CVS
-	at this date.
-	In this revision, the primary changes are a renaming of many OpenBSM
-	BSM_/bsm_ constants to AUDIT_/audit_ constants, and refinment of the
-	audit filter module API.
-	There are also a number of bug fixes, cleanups, etc.
-	<a href="downloads/openbsm-1.0-alpha9.tgz">Download</a> (464K).</p>
-
-      <p>2006-08-16 - <b>OpenBSM 1.0 alpha 8</b> snapshot is a test release
-	of the OpenBSM code base, and matches what is present in FreeBSD CVS
-	at this date.
-	In this revision, the primary change is to renumber non-Solaris audit
-	events in order to avoid possible future collisions, and to adopt a
-	unique OpenBSM header token version number.
-	There are also a number of bug fixes, cleanups, etc.
-	<a href="downloads/openbsm-1.0-alpha8.tgz">Download</a> (464K).</p>
-
-      <p>2006-06-27 - <b>OpenBSM 1.0 alpha 7</b> snapshot is a test release
-	of the OpenBSM code base, and matches what is present in FreeBSD CVS
-	at this date.
-	In this revision, the primary changes involve improvements in the
-	creation of subject tokens, and portability improvements.
-	<a href="downloads/openbsm-1.0-alpha7.tgz">Download</a> (464K).</p>
-
-      <p>2006-06-02 - <b>OpenBSM 1.0 alpha 6</b> snapshot is a test release
-	of the OpenBSM code base, and matches what is present in FreeBSD CVS
-	at this date.
-	In this revision, the primary changes are the introduction an
-	experimental audit filter environment, improved APIs for submitting
-	audit records from applications, and general bug fixing.
-	<a href="downloads/openbsm-1.0-alpha6.tgz">Download</a> (464K).</p>
-
-      <p>2006-03-04 - <b>OpenBSM 1.0 alpha 5</b> snapshot is a test release
-	of the OpenBSM code base, and matches what is present in FreeBSD CVS
-	at this date.
-	The primary change from alpha 4 is the introduction of
-	autoconf/automake support, which allows it to build on Darwin and
-	Linux.
-	<a href="downloads/openbsm-1.0-alpha5.tgz">Download</a> (432K).</p>
-
-      <p>2006-02-23 - <b>OpenBSM 1.0 alpha 4</b> snapshot is an initial test
-	release of the OpenBSM code base, and matches what is present in
-	FreeBSD CVS at this date.
-	<a href="downloads/openbsm-1.0-alpha4.tgz">Download</a> (86K).</p>
+      <table width="100%" border="0" cellspacing="2" cellpadding="6">
+	<tr>
+	  <td valign="top" bgcolor="#eeeeee"><b>Version</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Download</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 15</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha15.tgz">openbsm-1.0-alpha15.tgz</a></td>
+	  <td bgcolor="#eeeeee">480K</td>
+	  <td bgcolor="#eeeeee">2007-07-16</td>
+	  <td bgcolor="#eeeeee">
+	    <p>Bugs fixed in the handling of IPv6 addresses, auditreduce, and
+	      additional audit event identifiers added for new system
+	      calls.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 14</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha14.tgz">openbsm-1.0-alpha14.tgz</a></td>
+	  <td bgcolor="#eeeeee">480KK</td>
+	  <td bgcolor="#eeeeee">2007-04-16</td>
+	  <td bgcolor="#eeeeee">
+	    <p>Support for the zonename token type added, a variety of
+	      endian-related bugs in IPv6 addresses fixed, OpenBSM becomes
+	      warning clean for gcc1, and various man page updated.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 13</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha13.tgz">openbsm-1.0-alpha13.tgz</a></td>
+	  <td bgcolor="#eeeeee">480K</td>
+	  <td bgcolor="#eeeeee">2006-11-25</td>
+	  <td bgcolor="#eeeeee">
+	    <p>Man page documentation substantially imrpved, XML printing
+	      support added to praudit(8), and support for more 64-bit token
+	      types.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 12</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha12.tgz">openbsm-1.0-alpha12.tgz</a></td>
+	  <td bgcolor="#eeeeee">480K</td>
+	  <td bgcolor="#eeeeee">2006-09-24</td>
+	  <td bgcolor="#eeeeee">
+	    <p>audit_control(5) filesz configuration added in order to
+	      support automated rotation of audit trails based on file size,
+	      regular expression matching for paths added to auditreduce, an
+	      audit_warn event is generated on rotation, and a number of
+	      other bugs fixed and documentation improved.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 11</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha11.tgz">openbsm-1.0-alpha11.tgz</a></td>
+	  <td bgcolor="#eeeeee">480K</td>
+	  <td bgcolor="#eeeeee">2006-09-20</td>
+	  <td bgcolor="#eeeeee">
+	    <p>audit_control(5) control of audit policy is introduced, and
+	      and significant number of bugs relating to execve(2) argument
+	      auditing and trail rotation are fixed.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 10</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha10.tgz">openbsm-1.0-alpha10.tgz</a></td>
+	  <td bgcolor="#eeeeee">464K</td>
+	  <td bgcolor="#eeeeee">2006-09-02</td>
+	  <td bgcolor="#eeeeee">
+	    <p>auditd(8) now submits complete audit records, including full
+	      return information, as part of its operation.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 9</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha9.tgz">openbsm-1.0-alpha9.tgz</a></td>
+	  <td bgcolor="#eeeeee">464K</td>
+	  <td bgcolor="#eeeeee">2006-08-26</td>
+	  <td bgcolor="#eeeeee">
+	    <p>Many BSM_/bsm_ constants are renamed to AUDIT_/audit_, the
+	      audit filter module API has been refined, and a number of bugs
+	      have been fixed..</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 8</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha8.tgz">openbsm-1.0-alpha8.tgz</a></td>
+	  <td bgcolor="#eeeeee">464K</td>
+	  <td bgcolor="#eeeeee">2006-08-16</td>
+	  <td bgcolor="#eeeeee">
+	    <p>Non-Solaris audit events have been renumbered to avoid future
+	      collisions, and a unique OpenBSM header token version number
+	      has been adopted.
+	      A variety of other bugs have been fixed, and cleanups made.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 7</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha7.tgz">openbsm-1.0-alpha7.tgz</a></td>
+	  <td bgcolor="#eeeeee">464K</td>
+	  <td bgcolor="#eeeeee">2006-06-27</td>
+	  <td bgcolor="#eeeeee">
+	    <p>Improvements in the creation of subject tokens and in code
+	      portability.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 6</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha6.tgz">openbsm-1.0-alpha6.tgz</a></td>
+	  <td bgcolor="#eeeeee">464K</td>
+	  <td bgcolor="#eeeeee">2006-06-02</td>
+	  <td bgcolor="#eeeeee">
+	    <p>An experimental audit filter API is introduced, APIs for
+	      application-submitted audit records are improved, and bugs are
+	      fixed.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 5</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha5.tgz">openbsm-1.0-alpha5.tgz</a></td>
+	  <td bgcolor="#eeeeee">432K</td>
+	  <td bgcolor="#eeeeee">2006-03-04</td>
+	  <td bgcolor="#eeeeee">
+	    <p>OpenBSM now uses autoconf/automake, allowing it to build on
+	      Mac OS X and Linux.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.0 alpha 4</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha4.tgz">openbsm-1.0-alpha4.tgz</a></td>
+	  <td bgcolor="#eeeeee">86K</td>
+	  <td bgcolor="#eeeeee">2006-02-23</td>
+	  <td bgcolor="#eeeeee">
+	    <p>This is the first version of OpenBSM and incorporates the
+	      OpenBSM code as present on FreeBSD CVS at this date.</p>
+	  </td>
+	</tr>
+      </table>
 
     </html>
   </section>
