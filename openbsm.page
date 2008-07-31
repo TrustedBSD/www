@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#24 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#25 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -46,29 +46,38 @@
       </p>
 
       <p>OpenBSM is a portable, open source implementation of Sun's Basic
-	Security Module (BSM) Audit API and file format.
-	BSM, the de facto industry standard for Audit, describes a set of
+	Security Module (BSM) security audit API and file format.
+	BSM, the de facto industry standard for audit, describes a set of
 	system call and library interfaces for managing audit records, as
 	well as a token stream file format that permits extensible and
 	generalized audit trail processing.
-	OpenBSM extends the BSM API and file format in a number of ways to
+	Records may describe both kernel events, such as system calls, as
+	well as application events, such as login, password changes,
+	etc.</p>
+
+      <p>OpenBSM extends the BSM API and file format in a number of ways to
 	support features present in the Mac OS X and FreeBSD operating
 	systems, such as Mach task interfaces, sendfile(), and Linux system
-	calls present in the FreeBSD Linux emulation layer.
-	OpenBSM is known to build on FreeBSD, Mac OS X, and Linux; some
-	components, such as the audit daemon, require up-to-date kernel
-	audit parts from the FreeBSD kernel audit implementation, but the
-	basic library and audit trail tools run on all three platforms.</p>
+	calls present in the FreeBSD Linux emulation layer, as well as
+	focusing on portability through an endian-independent version of the
+	trail format.</p>
 
-      <p>The OpenBSM distribution includes system include files appropriate
-	for inclusion in an operating system implementation of Audit, libbsm,
-	an implementation of the BSM library interfaces for generating,
-	parsing, and managing audit records, auditreduce and praudit, audit
-	reduction and printing tools, API documentation, and sample /etc
-	configuration files.
-	Works in progress include extensions to the libbsm API to support
-	easier audit trail analysis, including a pattern matching
-	library.</p>
+      <p>The OpenBSM distribution provides system include files, the libbsm
+	library, command-line tools such as praudit and auditreduce, sample
+	/etc configuration files, and an audit daemon for use on systems with
+	kernel support.
+	It is appropriate for use stand-alone in processing trails generated
+	by BSM-enabled systems, as well as for use as the foundation of OS
+	audit implementations requiring libraries, command-line tools,
+	etc.</p>
+
+      <p>OpenBSM is built and tested on several versions of FreeBSD, Mac OS
+	X, and Linux; some components, such as the audit daemon, require
+	kernel audit support (present in newer versions of FreeBSD and Mac
+	OS X), but the basic library and audit trail tools run on all three
+	platforms regardless of OS kernel support.
+	Written in portable C and built using autoconf/automake, it is easy
+	to adapt OpenBSM for use on new platforms.</p>
 
     </html>
   </section>
