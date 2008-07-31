@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#27 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#28 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -142,7 +142,7 @@
 	  <td bgcolor="#eeeeee">
 	    <p>OpenBSM 1.0 is the first production release of the OpenBSM
 	      code base.
-	      Since the last test release, OpenBSM 1.0 alpha 16, a bug
+	      Since the last test release, OpenBSM 1.0 alpha 15, a bug
 	      leading to a crash in auditreduce(8) has been resolved, and all
 	      AU_ constants have been removed.
 	      The versions of autoconf and automake used to build OpenBSM
