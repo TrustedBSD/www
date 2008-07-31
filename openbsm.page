@@ -29,14 +29,13 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#25 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#26 $
     </cvs:keyword>
   </cvs:keywords>
 
   <section>
     <title>OpenBSM: Open Source Basic Security Module (BSM) Audit
       Implementation</title>
-
     <html>
       <p>
 	<span id="collection-label">Perforce:</span>
@@ -142,6 +141,7 @@
   <section>
     <title>Current Development Snapshot</title>
     <html>
+
       <p>Development snapshots reflect work-in-progress snapshots of the
 	OpenBSM development branch in Perforce.
 	They are appropriate for use in production systems, but consumers of
@@ -165,9 +165,10 @@
   </section>
 
   <section>
-    <title>Past Development Snapshots</title>
+    <title>Historical Development Snapshots</title>
     <html>
-      <p>This is an archive of past OpenBSM test snapshots; uses of these
+
+      <p>This is an archive of past OpenBSM test snapshots; use of these
 	versions is not recommended.</p>
 
       <p>2007-07-16 - The <b>OpenBSM 1.0 alpha 15</b> snapshot is a test
