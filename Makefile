@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $P4: //depot/projects/trustedbsd/www/Makefile#14 $
+# $P4: //depot/projects/trustedbsd/www/Makefile#15 $
 
 STYLESHEET=	page.xsl
 
@@ -40,7 +40,6 @@ SRCS+=		developers.page
 SRCS+=		extattr.page
 SRCS+=		geom.page
 SRCS+=		mailinglists.page
-SRCS+=		components.page
 SRCS+=		docs.page
 SRCS+=		mac.page
 SRCS+=		openbsm.page
@@ -56,7 +55,6 @@ SRCS+=		bsmtrace.page
 IMGS=		acls.png acls-selected.png
 IMGS+=		audit.png audit-selected.png
 IMGS+=		bsmtrace.png bsmtrace-selected.png
-IMGS+=		components.png components-selected.png
 IMGS+=		developers.png developers-selected.png
 IMGS+=		docs.png docs-selected.png
 IMGS+=		extattr.png extattr-selected.png
