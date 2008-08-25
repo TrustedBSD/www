@@ -1,5 +1,5 @@
 <sidebar>
-
+<!--
   <section match="home">
     <p><center><a href="news.html">TrustedBSD News</a></center></p>
     <ul>
@@ -36,6 +36,7 @@
 
   <section match="developers">
   </section>
+-->
 
   <section match="docs">
     <ul>

@@ -1,0 +1,57 @@
+<!--
+     Copyright (c) 2006 Robert N. M. Watson
+     All rights reserved.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="extattr">
+  <title>TrustedBSD Extended Attributes and UFS2</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $P4: //depot/projects/trustedbsd/www/extattr.page#1 $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>TrustedBSD File System Access Extended Attributes and UFS2</title>
+
+    <html>
+
+      <p>Extended attributes allow the kernel and userland processes to tag
+	files with arbitrary named data. This provides a location to store
+	the extensive security data required for the various TrustedBSD
+	security extensions, including ACLs, privileges and MAC labels.
+	Extended attribute support has been developed for FreeBSD's UFS1 file
+	system and integrated with the FreeBSD development tree, and was
+	included in FreeBSD 5.0. UFS2 was implemented to provide improved
+	performance and reliability for extended attributes, and has been
+	available since FreeBSD 5.0. UFS2 became the default in FreeBSD 5.1,
+	and is the recommended file system for TrustedBSD functionality.</p>
+
+      <p>UFS1 extended attributes were implemented by Robert Watson.  UFS2
+	was implemented by Kirk McKusick and Poul-Henning Kamp.</p>
+
+    </html>
+  </section>
+</page>

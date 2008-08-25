@@ -113,9 +113,9 @@
 	    </xsl:call-template>
 
             <xsl:call-template name="image-tab">
-	      <xsl:with-param name="type" select="'components'" />
+	      <xsl:with-param name="type" select="'news'" />
 	      <xsl:with-param name="role" select="$role" />
-	      <xsl:with-param name="description" select="'Components'" />
+	      <xsl:with-param name="description" select="'News'" />
 	      <xsl:with-param name="width" select="100" />
 	      <xsl:with-param name="height" select="22" />
 	    </xsl:call-template>

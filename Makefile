@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $P4: //depot/projects/trustedbsd/www/Makefile#11 $
+# $P4: //depot/projects/trustedbsd/www/Makefile#12 $
 
 STYLESHEET=	page.xsl
 
@@ -37,11 +37,14 @@ SRCS+=		news.page
 SRCS+=		legal.page
 SRCS+=		beastie.page
 SRCS+=		developers.page
+SRCS+=		extattr.page
+SRCS+=		geom.page
 SRCS+=		mailinglists.page
 SRCS+=		components.page
 SRCS+=		docs.page
 SRCS+=		mac.page
 SRCS+=		openbsm.page
+SRCS+=		openpam.page
 SRCS+=		sebsd.page
 SRCS+=		sedarwin.page
 SRCS+=		audit.page
@@ -61,7 +64,9 @@ IMGS+=		home.png home-selected.png
 IMGS+=		horizontalbar1.gif
 IMGS+=		mac.png mac-selected.png
 IMGS+=		mailinglists.png mailinglists-selected.png
-IMGS+=		minipemaquidlight.jpg pemaquidlight.jpg powerlogo.gif
+IMGS+=		minipemaquidlight.jpg
+IMGS+=		news.png news-selected.png
+IMGS+=		pemaquidlight.jpg powerlogo.gif
 IMGS+=		openbsm.png openbsm-selected.png
 IMGS+=		openpam.png openpam-selected.png
 IMGS+=		privileges.png privileges-selected.png
