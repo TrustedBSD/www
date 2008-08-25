@@ -29,7 +29,7 @@
       <tbody>
         <tr>
 	  <td valign="top" bgcolor="#000000" colspan="6">
-	    <img src="trustyheader.png" alt="www.TrustedBSD.org" />
+	    <img border="0" src="trustyheader.png" alt="www.TrustedBSD.org" />
 	  </td>
 	</tr>
 	<tr>
@@ -82,7 +82,7 @@
 	      <xsl:with-param name="height" select="32" />
 	    </xsl:call-template>
 	  </td>
-	  <td valign="top" bgcolor="#000000" width="100%">
+	  <td valign="top" width="100%">
 	  </td>
 	</tr>
       </tbody>
