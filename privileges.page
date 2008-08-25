@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/privileges.page#2 $
+      $P4: //depot/projects/trustedbsd/www/privileges.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -45,6 +45,12 @@
 	<span id="collection-label">Collection:</span>
 	<span id="cvsup-collection">p4-cvs-trustedbsd-cap</span>
       </p>
+
+      <p>NB: Historically this project was referred to as fine-grained
+	capabilities, but due to a vocabulary conflict, it has been renamed
+	to fine-grained privileges. Information in this page currently refers
+	to a FreeBSD 5.x-era project to support fine-grained privileges, and
+	will shortly be superseded by a similar project for FreeBSD 8.x.</p>
 
       <p>POSIX.1e breaks root privilege into a set of privileges
 	(historically referred to as "Capabilities"), which allow the
