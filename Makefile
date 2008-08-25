@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $P4: //depot/projects/trustedbsd/www/Makefile#12 $
+# $P4: //depot/projects/trustedbsd/www/Makefile#13 $
 
 STYLESHEET=	page.xsl
 
@@ -87,7 +87,6 @@ DATA+=		20060303-ukuug2006lisa-audit.pdf
 
 GLOBAL_XML=	sidebar.xml
 
-STYLESHEETS=	dev		# Developers' listing.
 STYLESHEETS+=	bib		# Bibliography.
 
 INDEXLINK=	home.html
