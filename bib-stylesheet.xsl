@@ -29,7 +29,7 @@
      OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
      SUCH DAMAGE.
  
-     $P4: //depot/projects/trustedbsd/www/bib-stylesheet.xsl#3 $
+     $P4: //depot/projects/trustedbsd/www/bib-stylesheet.xsl#4 $
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
@@ -50,12 +50,9 @@
         <title>Documentation</title>
 
         <html>
-          <p>One feature of trusted operating systems is that their
-	    security architecture must be well-documented so that it may
-	    be analyzed for weaknesses.  TrustedBSD fills this role by
-	    having an open and freely available source base, as well as
-	    extensive design documentation that will be coming online
-	    as features mature.</p>
+          <p>This page contains both user documentation and <a
+	    href="#implementation-papers">implementation papers</a> that may
+	    be of use when using or working on TrustedBSD.</p>
 
 	  <table width="100%" border="0" cellspacing="2" cellpadding="3">
 	    <xsl:for-each select="entry">
