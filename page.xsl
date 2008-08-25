@@ -2,7 +2,9 @@
                 xmlns:cvs="http://www.FreeBSD.org/XML/CVS">
   <xsl:import href="includes.xsl"/>
   <xsl:import href="heading.xsl"/>
-  <xsl:output method="html" indent="yes" encoding="UTF-8" />
+  <xsl:output method="html" indent="yes" encoding="UTF-8"
+    doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"
+    doctype-system="http://www.w3.org/TR/html4/loose.dtd"/>
   <!-- doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" -->
   <!-- doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" /> -->
 
