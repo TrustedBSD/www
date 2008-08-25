@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/legal.page#2 $
+      $P4: //depot/projects/trustedbsd/www/legal.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -52,8 +52,9 @@
 	by the authors of the component in question.  This license permits
 	both commercial and non-commercial use of the code, providing that
 	the copyright is observed and documented, and that the authors may
-	not be held liable for damages associated with use of the code.
-	Generally speaking, this places few if any restrictions on any
+	not be held liable for damages associated with use of the code.</p>
+
+      <p>Generally speaking, this places few (if any) restrictions on any
 	real-world use, and legally consumers of the code are under no
 	obligation to provide compensation to the authors.  However, machinery
 	is in place to accept donations to the TrustedBSD project to allow
