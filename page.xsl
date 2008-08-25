@@ -2,7 +2,9 @@
                 xmlns:cvs="http://www.FreeBSD.org/XML/CVS">
   <xsl:import href="includes.xsl"/>
   <xsl:import href="heading.xsl"/>
-
+  <xsl:param name="role"/>
+  <xsl:param name="width"/>
+  <xsl:param name="heigh"/>
   <xsl:output type="html"/>
 
   <xsl:variable name="date">
