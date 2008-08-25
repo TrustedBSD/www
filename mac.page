@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/mac.page#5 $
+      $P4: //depot/projects/trustedbsd/www/mac.page#6 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -66,11 +66,16 @@
 	FreeBSD-based products make use of the TrustedBSD MAC Framework to
 	locally modify the operating system security policy.</p>
 
+      <p>MAC Framework and general MAC user documentation and a number of
+	implementation papers may be found on the <a
+	href="docs.html">documentation page</a>.</p>
+
       <p>The TrustedBSD MAC Framework is also present in Mac
 	OS X as of the Leopard release, where it is used to implement
-	Seatbelt and other system security services.  A port of FLASK and
-	SELinux is also available via <a
-	href="sedarwin.html">SEDarwin</a>.</p>
+	Seatbelt and other system security services.  The port of the MAC
+	Framework was performed initially as part of <a
+	href="sedarwin.html">SEDarwin</a>, which also included a port of
+	FLASK and SELinux to the Mac OS X platform.</p>
 
     </html>
   </section>

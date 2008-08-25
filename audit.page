@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/audit.page#8 $
+      $P4: //depot/projects/trustedbsd/www/audit.page#9 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -70,6 +70,10 @@
 	portable audit-related applications.
 	OpenBSM is maintained by the TrustedBSD Project, and new versions
 	are imported into the FreeBSD CVS repository intermittently.</p>
+
+      <p>Security event auditing user documentation and an implementation
+	paper may be found on the <a href="docs.html">documentation
+	page</a>.</p>
 
       <p><a href="bsmtrace.html">BSMtrace</a> is an audit-based host
 	intrusion detection system.</p>
