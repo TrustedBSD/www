@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $P4: //depot/projects/trustedbsd/www/Makefile#8 $
+# $P4: //depot/projects/trustedbsd/www/Makefile#9 $
 
 STYLESHEET=	page.xsl
 
@@ -49,13 +49,14 @@ SRCS+=		privileges.page
 SRCS+=		acls.page
 SRCS+=		bsmtrace.page
 
-IMGS=		components.gif componentsgray.gif
-IMGS+=		developers.gif developersgray.gif docs.gif
-IMGS+=		docsgray.gif home.gif homegray.gif
-IMGS+=		horizontalbar1.gif mailinglists.gif mailinglistsgray.gif
+IMGS=		components.png components-selected.png
+IMGS+=		developers.png developers-selected.png docs.png
+IMGS+=		docs-selected.png home.png home-selected.png
+IMGS+=		horizontalbar1.gif mailinglists.png mailinglists-selected.png
 IMGS+=		minipemaquidlight.jpg pemaquidlight.jpg powerlogo.gif
 IMGS+=		resources.gif trustydibmed2.jpg trustyshadow.gif
 IMGS+=		trustyteenie.gif verticalbar1.gif wwwheader.gif
+IMGS+=		trustyheader.png
 
 DATA=		trustedbsd-supfile trustedbsd-bsdcon-2000.pdf
 DATA+=		trustedbsd-freenix-2001.pdf

@@ -11,11 +11,11 @@
     <!-- "Grey out" the image that corresponds with this page's section. -->
     <xsl:choose>
       <xsl:when test="$role = $type">
-	<img border="0" src="{$type}gray.gif" alt="{$description}"
+	<img border="0" src="{$type}-selected.png" alt="{$description}"
 	  height="{$height}" width="{$width}" />
       </xsl:when>
       <xsl:otherwise>
-	<img border="0" src="{$type}.gif" alt="{$description}"
+	<img border="0" src="{$type}.png" alt="{$description}"
 	  height="{$height}" width="{$width}" />
       </xsl:otherwise>
     </xsl:choose>
@@ -25,11 +25,11 @@
   <xsl:template name="page-heading">
     <xsl:param name="role" />
 
-    <table border="0" cellspacing="0" cellpadding="0">
+    <table border="0" bgcolor="#000000" cellspacing="0" cellpadding="0" width="100%">
       <tbody>
         <tr>
-	  <td valign="top"  bgcolor="#000000" colspan="5">
-	    <img src="wwwheader.gif" alt="www.TrustedBSD.org" />
+	  <td valign="top" bgcolor="#000000" colspan="6">
+	    <img src="trustyheader.png" alt="www.TrustedBSD.org" />
 	  </td>
 	</tr>
 	<tr>
@@ -78,13 +78,15 @@
 	      <xsl:with-param name="type" select="'mailinglists'" />
 	      <xsl:with-param name="role" select="$role" />
 	      <xsl:with-param name="description" select="'Mailing Lists'" />
-	      <xsl:with-param name="width" select="174" />
+	      <xsl:with-param name="width" select="144" />
 	      <xsl:with-param name="height" select="32" />
 	    </xsl:call-template>
+	  </td>
+	  <td valign="top" bgcolor="#000000" width="100%">
 	  </td>
 	</tr>
       </tbody>
     </table>
-    <img src="horizontalbar1.gif" width="775" height="4" vspace="3" />
+    <!-- <img src="horizontalbar1.gif" width="775" height="4" vspace="3" /> -->
   </xsl:template>
 </xsl:stylesheet>
