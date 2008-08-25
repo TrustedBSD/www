@@ -36,7 +36,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#13 $
+      $P4: //depot/projects/trustedbsd/www/news.page#14 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -64,6 +64,18 @@
 	  forthcoming release of FreeBSD 7.0.  See the <a
 	  href="openbsm.html">OpenBSM web page</a> for more
 	  information.</p></dd>
+
+	<dt>October 26, 2007 <b>Mac OS X Leopard ships with TrustedBSD MAC
+	  Framework</b></dt>
+
+	<dd><p>Apple has now shipped Mac OS X Leopard, the first version of
+	  Mac OS X to incorporate the TrustedBSD MAC Framework as an
+	  extension mechanism for advanced access control, continuing a long
+	  history of code exchange between the TrustedBSD Project and Apple.
+	  Apple had previously incorporated portions of the TrustedBSD ACL
+	  implementation in Mac OS X Tiger, and the TrustedBSD Audit and
+	  OpenBSM implementations are derived from audit functionality
+	  shipped by Apple in Mac OS X Panther.</p></dd>
 
 	<dt>July 16, 2007 <b>OpenBSM 1.0 alpha 15 released</b></dt>
 
