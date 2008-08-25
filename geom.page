@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/geom.page#1 $
+      $P4: //depot/projects/trustedbsd/www/geom.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -42,8 +42,12 @@
 	kernel modules to attach to I/O devices providing a variety of layout
 	and data transformations. GEOM was created as part of the TrustedBSD
 	Project in order to support cryptographic disk services, such as
-	GBDE, on the FreeBSD platform. GEOM has been present in FreeBSD since
-	FreeBSD 5.0-RELEASE, with increasing numbers of transform modules.</p>
+	GBDE, on the FreeBSD platform.  GBDE implements strong crypographic
+	protection of file systems at the GEOM layer.</p>
+
+      <p>GEOM has been present in FreeBSD since FreeBSD 5.0-RELEASE, with
+	increasing numbers of transform modules over time, including the
+	GELI encryption and integrity protection module..</p>
 
       <p>GEOM and GBDE were implemented by Poul-Henning Kamp.</p>
 
