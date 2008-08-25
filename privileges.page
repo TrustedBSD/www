@@ -25,16 +25,16 @@
 -->
 
 <page role="components">
-  <title>TrustedBSD POSIX.1e Capabilities</title>
+  <title>TrustedBSD POSIX.1e Privileges</title>
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/privileges.page#1 $
+      $P4: //depot/projects/trustedbsd/www/privileges.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 
   <section>
-    <title>TrustedBSD POSIX.1e Capabilities</title>
+    <title>TrustedBSD POSIX.1e Privileges</title>
 
     <html>
       <p>
@@ -46,15 +46,16 @@
 	<span id="cvsup-collection">p4-cvs-trustedbsd-cap</span>
       </p>
 
-      <p>POSIX.1e breaks root privilege into a set of capabilities, or
-	more strictly, privileges, which allow the granting of specific
-	privilege requirements for POSIX calls, such as setuid().
+      <p>POSIX.1e breaks root privilege into a set of privileges
+	(historically referred to as "Capabilities"), which allow the
+	granting of specific privilege requirements for POSIX calls, such
+	as setuid().
 	POSIX.1e defines extension to process and file state to allow
 	privileges to be granted to processes, either by inheritence or
 	a file privilege model similar to setuid/setgid.</p>
 
-      <p>The TrustedBSD capability project is currently inactive, but an
-	implementation of POSIX.1e capabilities for an older FreeBSD release
+      <p>The TrustedBSD privileges project is currently inactive, but an
+	implementation of POSIX.1e privileges for an older FreeBSD release
 	is available and functional, and may be found in Perforce/cvsup.
 	Certain key files are provided in a tarball for download on this
 	page.</p>
@@ -70,17 +71,17 @@
 	sufficient future growth in privileges, or further fine-graining.</p>
 
       <p>Up-to-date versions of the kernel API changes to perform
-	fine-grained privilege checking, without the capability model
+	fine-grained privilege checking, without the privilege model
 	itself, may be found in the <a href="sebsd.html">SEBSD branch</a>,
 	and include modifications to the TrustedBSD MAC Framework to allow
 	MAC modules to deny privilege based on the POSIX.1e privilege
 	categories.</p>
 
-      <p>2006-03-26 FreeBSD 5.0 POSIX.1e capability reference files
+      <p>2006-03-26 FreeBSD 5.0 POSIX.1e privileges reference files
 	snapshot.  These are reference BSD-licensed POSIX.1e privilege
 	files derived from an early TrustedBSD implementation, and do
-	not represent a complete or supported implementation.
-	<a href="downloads/20060326-cap.tgz">Download</a>.</p>
+	not represent a complete or supported implementation.  Download
+	<a href="downloads/20060326-cap.tgz">20060326-cap.tgz</a> (60K).</p>
 
     </html>
   </section>

@@ -33,7 +33,7 @@
 <developers>
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/developers.dev#2 $
+      $P4: //depot/projects/trustedbsd/www/developers.dev#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -61,13 +61,13 @@
     <firstname>Ilmar</firstname> <surname>Habibulin</surname>
     <email>ilmar@watson.org</email>
     <url>http://www.watson.org/~ilmar/</url>
-    <area>Capabilities, Mandatory Access Control</area>
+    <area>Privileges, Mandatory Access Control</area>
   </entry>
 
   <entry>
     <firstname>Thomas</firstname> <surname>Moestl</surname>
     <email>tmm@FreeBSD.org</email>
-    <area>Capabilities</area>
+    <area>Privileges</area>
   </entry>
 
   <entry>
@@ -86,7 +86,7 @@
   <entry>
     <firstname>Andrew</firstname> <surname>Reisse</surname>
     <email>Andrew.Reisse@sparta.com</email>
-    <area>SEDarwin, Capabilities</area>
+    <area>SEDarwin, Privileges</area>
   </entry>
 
   <entry>

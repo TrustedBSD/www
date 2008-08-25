@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/mailinglists.page#3 $
+      $P4: //depot/projects/trustedbsd/www/mailinglists.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -115,7 +115,7 @@
     <html>
       <p>POSIX.1e, the now-withdrawn POSIX draft defining interfaces for
 	operating system security extensions, continues to play an important
-	role in offering standard interfaces for ACLs, Capabilities, and to
+	role in offering standard interfaces for ACLs, Privileges, and to
 	a limited extent other services.  The POSIX.1e mailing list provides
 	a cross-platform forum for the discussion of the draft, as well as
 	practical implementation and portability issues.  More information on

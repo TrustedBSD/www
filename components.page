@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/components.page#9 $
+      $P4: //depot/projects/trustedbsd/www/components.page#10 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -71,7 +71,7 @@
 	instructions on the mailing lists page.  This provides access
 	to CVS and Perforce commit messages associated with development
 	occuring in the TrustedBSD development trees, including the
-	Base (vendor) branch, Capabilities branch, Audit branch, MAC
+	Base (vendor) branch, Privileges branch, Audit branch, MAC
 	branch, SEBSD branch, and SEDarwin branch.</p>
 
       <p>There are seven main branches of TrustedBSD development:</p>
@@ -133,7 +133,7 @@
             processes to tag files with arbitrary named data.  This
             provides a location to store the extensive security data
             required for the various TrustedBSD security extensions,
-            including ACLs, capabilities and MAC labels.  Extended
+            including ACLs, privileges and MAC labels.  Extended
 	    attribute support has been developed for FreeBSD's UFS1
 	    file system and integrated with the FreeBSD development
 	    tree, and was included in FreeBSD 5.0.  UFS2 was
@@ -142,29 +142,6 @@
 	    FreeBSD 5.0.  UFS2 became the default in FreeBSD 5.1,
 	    and is the recommended file system for TrustedBSD
 	    functionality.</p>
-        </dd>
-
-	<a name="capabilities" />
-        <dt><p>Fine-Grained Capabilities</p></dt>
-
-	<dd>
-	  <p>
-	    <span id="collection-label">Collection:</span>
-
-	    <span id="cvsup-collection">p4-cvs-trustedbsd-cap</span>
-	  </p>
-
-	  <p>Capabilities provide support for fine-grained process
-	    capabilities to authorize non-root processes to access
-	    privileged system resources, reducing requirements for a
-	    superuser account, and reducing risk in the event of
-	    compromise.  The capabilities development branch is
-	    largely complete, but is based on an older FreeBSD
-	    5.0-CURRENT snapshot.  Elements of this implementation
-	    are being updated for FreeBSD 5.2 and are available as
-	    part of the SEBSD version of the TrustedBSD MAC Framework.
-	    For more information, see the <a href="cap.html">Capability
-	    Page</a>.</p>
         </dd>
 
 	<a name="geom" />
@@ -215,6 +192,37 @@
 	      FreeBSD and NetBSD, and produced as part of the TrustedBSD
 	      Project.</p>
 	</dd>
+
+	<a name="privileges" />
+        <dt><p>Fine-Grained Privileges</p></dt>
+
+	<dd>
+	  <p>
+	    <span id="collection-label">Collection:</span>
+
+	    <span id="cvsup-collection">p4-cvs-trustedbsd-cap</span>
+	  </p>
+
+	  <p>NB: Historically this project was referred to as fine-grained
+	    capabilities, but due to a vocabulary conflict, it has been
+	    renamed to fine-grained privileges.  Information in this
+	    section and on the privileges page currently refers to a
+	    FreeBSD 5.x-era project to support fine-grained privileges,
+	    and will shortly be superseded by a similar project for
+	    FreeBSD 8.x.</p>
+
+	  <p>Privileges provide support for fine-grained process
+	    privileges to authorize non-root processes to access
+	    privileged system resources, reducing requirements for a
+	    superuser account, and reducing risk in the event of
+	    compromise.  The privileges development branch is
+	    largely complete, but is based on an older FreeBSD
+	    5.0-CURRENT snapshot.  Elements of this implementation
+	    are being updated for FreeBSD 5.2 and are available as
+	    part of the SEBSD version of the TrustedBSD MAC Framework.
+	    For more information, see the <a href="privileges.html">
+	    Privileges Page</a>.</p>
+        </dd>
 
 	<a name="sebsd" />
 	<dt><p>Security-Enhanced BSD (SEBSD)</p></dt>

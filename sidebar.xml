@@ -7,11 +7,11 @@
       <li><a href="audit.html">Audit</a></li>
       <li><a href="bsmtrace.html">BSMtrace</a></li>
       <li><a href="components.html#eas">Extended Attributes and UFS2</a></li>
-      <li><a href="cap.html">Capabilities</a></li>
       <li><a href="components.html#geom">GEOM</a></li>
       <li><a href="mac.html">MAC</a></li>
       <li><a href="openbsm.html">OpenBSM</a></li>
       <li><a href="components.html#openpam">OpenPAM</a></li>
+      <li><a href="privileges.html">Privileges</a></li>
       <li><a href="sebsd.html">SEBSD</a></li>
       <li><a href="sedarwin.html">SEDarwin</a></li>
     </ul>
@@ -24,11 +24,11 @@
       <li><a href="audit.html">Audit</a></li>
       <li><a href="bsmtrace.html">BSMtrace</a></li>
       <li><a href="components.html#eas">Extended Attributes and UFS2</a></li>
-      <li><a href="cap.html">Capabilities</a></li>
       <li><a href="components.html#geom">GEOM</a></li>
       <li><a href="mac.html">MAC</a></li>
       <li><a href="openbsm.html">OpenBSM</a></li>
       <li><a href="components.html#openpam">OpenPAM</a></li>
+      <li><a href="privileges.html">Privileges</a></li>
       <li><a href="sebsd.html">SEBSD</a></li>
       <li><a href="sedarwin.html">SEDarwin</a></li>
     </ul>
