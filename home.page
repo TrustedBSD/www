@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2000, 2001 Robert N. M. Watson
+     Copyright (c) 2000-2008 Robert N. M. Watson
      Copyright (c) 2001 Leigh Denault
      Copyright (c) 2002 Networks Associates Technology, Inc.
      All rights reserved.
@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/home.page#5 $
+      $P4: //depot/projects/trustedbsd/www/home.page#6 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -45,48 +45,36 @@
     <title>TrustedBSD Project</title>
 
     <html>
-      <p>The TrustedBSD project provides a set of trusted operating system
-	extensions to the FreeBSD operating system, targeting the Common
-	Criteria for Information Technology Security Evaluation (CC).  This
-	project is still under development, and much of the code is destined
-	to make its way back into the base FreeBSD operating system.
-	This Web site will provide access to documentation,
-	code relating to features that are still under development, and
-	code that has its fingers in too many places to justify integrating
-	into the base operating system.  Targeted features include:</p>
+      <p>The TrustedBSD project is an open source project developing
+	advanced security features for the open source <a
+	href="http://www.FreeBSD.org/">FreeBSD</a> operating system,
+	including file system <a href="extattr.html">extended attributes and
+	UFS2</a>, <a href="acls.html">Access Control Lists</a>, <a
+	href="openpam.html">OpenPAM</a>, <a href="audit.html">security event
+	auditing</a> with <a href="openbsm.html">OpenBSM</a>, mandatory
+	access control and the <a href="mac.html">TrustedBSD MAC
+	Framework</a>, and the <a href="geom.html">GEOM</a> storage
+	framework.  Many technologies from TrustedBSD may also be found in
+	operating systems beyond FreeBSD, including Mac OS X, NetBSD,
+	OpenBSD, and Linux.</p>
 
-      <ul>
-	<li>Extensible and audited authorization framework to support
-	  access control modules.  This framework provides
-	  general-purpose labeling of kernel subjects/objects, centralized
-	  policy management, and access to a variety of run-time security
-	  events.  This will allow the compile-time, boot-time, and
-	  run-time extension of the operating system security model
-	  based in both TrustedBSD access control modules, and
-	  third-party modules that employ the extension framework.</li>
+     <p>The TrustedBSD Project originally targeted trusted operating system
+	functionality required by the Common Criteria for Information
+	Technology Security Evaluation (CC).  Work has gone significantly
+	further, including research and development into operating system
+	security extensibility, and work on local and distributed file
+	systems as required to meet security goals.  Despite significant
+	success in developing and deploying advanced security functions on
+	FreeBSD and elsewhere, the work of the TrustedBSD Project continues,
+	with new and enhanced features shipping with new operating system
+	versions.</p>
 
-	<li>Mandatory access control modules based on the framework
-	  supporting a variety of access control models, including fixed
-	  and floating label Biba integrity policies, the MLS
-	  confidentiality policy, Type Enforcement, and other customized
-	  policies designed for common FreeBSD deployment scenarios.
-	  In addition, the SELinux FLASK and Type Enforcement
-	  implementations will be provided via an SEBSD module, providing
-	  access to the higher level FLASK service abstraction, and
-	  mature TE implementation.</li>
-
-	<li>Improvements in system privilege to reduce the level of
-	  risk associated with common system management functions.</li>
-
-	<li>Access control lists for the file system and other kernel
-	  resources allowing fine-grained and manageable discretionary
-	  access control.</li>
-
-	<li>Event auditing support, OpenBSM audit API and audit trail file
-	  format, and single-host modular IDS system to monitor security
-	  events and notify administrators in the event of
-	  irregularities.</li>
-      </ul>
+      <p>This web site provides development information about TrustedBSD,
+	including early access to source code and on-going development work,
+	documentation and papers, historical information, and more.  The
+	TrustedBSD Project also hosts a number of <a
+	href="mailinglists.html">mailing lists</a> for discussion of on-going
+	work as well as user support.</p>
 
       <p>The TrustedBSD Project is made possible through the generous
 	sponsorship and support from a variety of organizations, including
