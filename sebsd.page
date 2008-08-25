@@ -32,12 +32,12 @@
      SUCH DAMAGE.
 -->
 
-<page role="components">
+<page role="sebsd">
   <title>SEBSD</title>
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sebsd.page#8 $
+      $P4: //depot/projects/trustedbsd/www/sebsd.page#9 $
     </cvs:keyword>
   </cvs:keywords>
 

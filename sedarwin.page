@@ -31,12 +31,12 @@
      SUCH DAMAGE.
 -->
 
-<page role="components">
+<page role="sedarwin">
   <title>SEDarwin</title>
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sedarwin.page#6 $
+      $P4: //depot/projects/trustedbsd/www/sedarwin.page#7 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -45,40 +45,18 @@
       policy module to Apple's Darwin operating system</title>
 
     <html>
-      <p>
-	<span id="collection-label">Perforce:</span>
-	<span id="cvsup-collection">//depot/projects/trustedbsd/sedarwin7/...</span>
-      </p>
-      <p>
-	<span id="collection-label">Collection:</span>
-	<span id="cvsup-collection">p4-cvs-trustedbsd-sedarwin</span>
-      </p>
 
-      <p>SEDarwin is a port of the <a href="mac.html">TrustedBSD MAC
-	Framework</a> access control extension framework to Apple's
-	Darwin operating system platform, along with a port of the
-	<a href="sebsd.html">SEBSD policy module</a>.
-	SEDarwin is highly experimental, but is currently sufficiently
-	functional to allow the enforcement of mandatory process
-	and file protections under Mac OS 10.3.8 and Darwin 7.3 on
-	a variety of Apple PowerPC hardware.
+      <p>The SEDarwin Project consisted of two parts: a port of the
+	<a href="mac.html">TrustedBSD MAC Framework</a> to the Mac OS X
+	operating system, and a similar adaptation of <a
+	href="sebsd.html">SEBSD</a> to MAC OS X based on that port.  This
+	port was made available against Mac OS X Panther and Mac OS X Tiger;
+	as of Mac OS X Leopard, the TrustedBSD MAC Framework is now
+	available as part of the shipping Mac OS X product.</p>
 
-	The SEDarwin project has recently moved to it's own website at
+      <p>The SEDarwin project has recently moved to it's own website at
 	<a href="http://www.sedarwin.org">www.sedarwin.org</a>. More 
-	information and current versions of SEDarwin can be found there.
-	</p>
-
-      <p>The Darwin Security Extension Project (DSEP) complements the
-	SEDarwin work, but has a different goal. DSEP is primarily concerned
-	with updating and maintaining the TrustedBSD MAC Framework on
-	Darwin.  While still experimental, the MAC Framework has been
-	updated to support Mac OS X "Tiger", currently supporting Mac OS X
-	10.4.3 (Darwin 8.4). Note that the DSEP releases typically won't
-	have the newest FLASK and SELinux components; they will be migrated
-	to the Tiger platform soon.</p>
-
-	<p>The DSEP sources have also recently moved to 
-	<a href="http://www.sedarwin.org">sedarwin.org</a></p>
+	information and current versions of SEDarwin can be found there.</p>
 
     </html>
   </section>

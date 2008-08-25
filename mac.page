@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/mac.page#4 $
+      $P4: //depot/projects/trustedbsd/www/mac.page#5 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -45,54 +45,32 @@
     <title>TrustedBSD Mandatory Access Control (MAC) Framework</title>
 
     <html>
-      <p>
-	<span id="collection-label">Perforce:</span>
-	<span id="cvsup-collection">//depot/projects/trustedbsd/mac/...</span>
-      </p>
-      <p>
-	<span id="collection-label">Collection:</span>
-	<span id="cvsup-collection">p4-cvs-trustedbsd-mac</span>
-      </p>
 
-      <p>Mandatory access controls extend discretionary access
-	controls by allowing administrators to enforce additional
-	security for all subjects (e.g. processes or sockets) and
-	objects (e.g. sockets, file system objects, sysctl nodes) in
-	the system.  Development of those new access control models
-	is facilitated by the development of a flexible kernel
-	access control extension framework, the TrustedBSD MAC
-	Framework.  This permits new access control models to be
-	introduced as kernel modules.</p>
+      <p>Mandatory access controls extend operating system access control
+	policy by allowing administrators to enforce additional constraints
+	on user and application behavior.
+	The TrustedBSD MAC Framework is a kernel programming interface
+	allowing loadable modules to augment the system security policy in
+	order to implement mandatory access control in a flexible manner.</p>
 
-      <p>Currently, modules exist that implement MLS (Multi-Level
-	Security), a fixed-label Biba integrity policy, Type
-	Enforcement, and several other security policies that
-	reflect common requirements of typical FreeBSD deployment
-	environments, such as mandatory limits on inter-user
-	visibility in multi-user environments.  The current
-	implementation of Low-Watermark MAC (LOMAC) will also be
-	ported to use the module framework.  In addition, the
-	DARPA-funded Network Associates Laboratories' CBOSS Project
-	is porting the NSA FLASK/SELinux implementation (SEBSD) to
-	run as an extension model over the TrustedBSD MAC Framework.
-	More information on the SEBSD module may be found on the
-	<a href="sebsd.html">SEBSD page</a>.</p>
+      <p>The TrustedBSD MAC Framework first shipped in FreeBSD 5.0, with
+	significant functionality, quality, and performance enhancements in
+	later releases.  Supported policy modules include rule-based file
+	system firewall support, TCP/UDP port access control lists,
+	inter-user process visibility controls, as well as classic mandatory
+	access control policies such as Multi-Level Security (MLS) with
+	compartments, and fixed- and floating-label Biba integrity policies.
+	Third party policy modules include cryptographic checksums on system
+	binaries, and <a href="sebsd.html">SEBSD</a>, a port of the NSA
+	FLASK/SELinux policy to FreeBSD.  A number of commercial
+	FreeBSD-based products make use of the TrustedBSD MAC Framework to
+	locally modify the operating system security policy.</p>
 
-      <p>This work is primarily occuring in a TrustedBSD Perforce
-	branch, but much of the framework has been merged to the
-	main FreeBSD development tree and was included in FreeBSD
-	5.0 and forwards.  The current implementation is appropriate
-	for experimental or limited production use; both internal
-	and exposed MAC APIs will not be frozen until 5.2-RELEASE.
-	All policy modules with the exception of the SEBSD
-	implementation have been merged into the FreeBSD tree at
-	this point.</p>
-
-      <p>Work has also recently begun on an experimental port of
-	the TrustedBSD MAC Framework from FreeBSD to Apple's
-	Darwin operating system.
-	Information on this port may be found on the <a
-	href="sedarwin.html">SEDarwin page</a>.</p>
+      <p>The TrustedBSD MAC Framework is also present in Mac
+	OS X as of the Leopard release, where it is used to implement
+	Seatbelt and other system security services.  A port of FLASK and
+	SELinux is also available via <a
+	href="sedarwin.html">SEDarwin</a>.</p>
 
     </html>
   </section>
