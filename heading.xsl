@@ -31,11 +31,13 @@
       <tbody>
         <tr>
 	  <td valign="top" bgcolor="#000000" colspan="10">
-	    <img border="0" width="752" height="72" src="trustyheader.png" alt="www.TrustedBSD.org" />
+	    <a href="home.html"><img border="0" width="752" height="72"
+	      src="trustyheader.png" alt="www.TrustedBSD.org" /></a>
 	  </td>
 	</tr>
 	<tr>
-	    <xsl:call-template name="image-tab">
+
+            <xsl:call-template name="image-tab">
 	      <xsl:with-param name="type" select="'home'" />
 	      <xsl:with-param name="role" select="$role" />
 	      <xsl:with-param name="description" select="'Home'" />
@@ -55,22 +57,6 @@
 	      <xsl:with-param name="type" select="'docs'" />
 	      <xsl:with-param name="role" select="$role" />
 	      <xsl:with-param name="description" select="'Documentation'" />
-	      <xsl:with-param name="width" select="100" />
-	      <xsl:with-param name="height" select="22" />
-	    </xsl:call-template>
-
-            <xsl:call-template name="image-tab">
-	      <xsl:with-param name="type" select="'mailinglists'" />
-	      <xsl:with-param name="role" select="$role" />
-	      <xsl:with-param name="description" select="'Mailing Lists'" />
-	      <xsl:with-param name="width" select="100" />
-	      <xsl:with-param name="height" select="22" />
-	    </xsl:call-template>
-
-            <xsl:call-template name="image-tab">
-	      <xsl:with-param name="type" select="'components'" />
-	      <xsl:with-param name="role" select="$role" />
-	      <xsl:with-param name="description" select="'Components'" />
 	      <xsl:with-param name="width" select="100" />
 	      <xsl:with-param name="height" select="22" />
 	    </xsl:call-template>
@@ -100,6 +86,41 @@
 	    </xsl:call-template>
 
             <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'extattr'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'ExtAttr + UFS2'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+            <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'geom'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'GEOM + GBDE'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+	</tr>
+	<tr>
+
+            <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'mailinglists'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'Mailing Lists'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+            <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'components'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'Components'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+            <xsl:call-template name="image-tab">
 	      <xsl:with-param name="type" select="'mac'" />
 	      <xsl:with-param name="role" select="$role" />
 	      <xsl:with-param name="description" select="'MAC Framework'" />
@@ -111,6 +132,38 @@
 	      <xsl:with-param name="type" select="'openbsm'" />
 	      <xsl:with-param name="role" select="$role" />
 	      <xsl:with-param name="description" select="'OpenBSM'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+            <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'openpam'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'OpenPAM'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+            <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'privileges'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'Privileges'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+            <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'sebsd'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'SEBSD'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+            <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'sedarwin'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'SEDarwin'" />
 	      <xsl:with-param name="width" select="100" />
 	      <xsl:with-param name="height" select="22" />
 	    </xsl:call-template>

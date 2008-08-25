@@ -27,16 +27,25 @@
 
     <body xsl:use-attribute-sets="body-attributes">
 
+      <table border="0" width="800" cellpadding="0" cellspacing="0">
+      <tr>
+	<td>
+
       <!-- Generate Web page header. -->
       <xsl:call-template name="page-heading">
 	<xsl:with-param name="role" select="$role" />
       </xsl:call-template>
 
-      <table width="90%" border="0" cellspacing="1" cellpadding="2">
+	</td>
+      </tr>
+      <tr>
+	<td>
+	<table width="90%" border="0" cellspacing="1" cellpadding="2">
 	<tr>
 	  <td valign="top" width="100">
 	    <a href="beastie.html">
-	      <img src="trustyteenie.gif" alt="Trusty" border="0" />
+	      <img src="trustyteenie.gif" width="166" height="200"
+		alt="Trusty" border="0" />
 	    </a>
 	    <br />
 
@@ -100,6 +109,9 @@
 	  <xsl:value-of select="//cvs:keyword[@name='freebsd']" />
 	</small>
       </ul>
+	</td>
+      </tr>
+      </table>
     </body>
     </html>
   </xsl:template>

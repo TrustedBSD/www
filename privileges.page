@@ -24,12 +24,12 @@
      SUCH DAMAGE.
 -->
 
-<page role="components">
+<page role="privileges">
   <title>TrustedBSD POSIX.1e Privileges</title>
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/privileges.page#3 $
+      $P4: //depot/projects/trustedbsd/www/privileges.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
