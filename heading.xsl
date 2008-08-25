@@ -2,6 +2,9 @@
   <xsl:template name="image-tab">
     <xsl:param name="type" />
     <xsl:param name="description" />
+    <xsl:param name="role" />
+    <xsl:param name="width" />
+    <xsl:param name="height" />
 
     <!-- This forces the main page for the main page of each section to match
 	 the name of the section as seen in the role attribute of the page
