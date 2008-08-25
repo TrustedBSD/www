@@ -27,7 +27,7 @@
 
     <body xsl:use-attribute-sets="body-attributes">
 
-      <table border="0" width="800" cellpadding="0" cellspacing="0">
+      <table border="0" cellpadding="0" cellspacing="0">
       <tr>
 	<td>
 
