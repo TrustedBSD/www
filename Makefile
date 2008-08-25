@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $P4: //depot/projects/trustedbsd/www/Makefile#15 $
+# $P4: //depot/projects/trustedbsd/www/Makefile#16 $
 
 STYLESHEET=	page.xsl
 
@@ -70,7 +70,7 @@ IMGS+=		pemaquidlight.jpg powerlogo.gif
 IMGS+=		openbsm.png openbsm-selected.png
 IMGS+=		openpam.png openpam-selected.png
 IMGS+=		privileges.png privileges-selected.png
-IMGS+=		resources.gif trustydibmed2.jpg trustyshadow.gif
+IMGS+=		trustydibmed2.jpg trustyshadow.gif
 IMGS+=		sebsd.png sebsd-selected.png
 IMGS+=		sedarwin.png sedarwin-selected.png
 IMGS+=		sourcecode.png sourcecode-selected.png
