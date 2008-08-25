@@ -29,12 +29,12 @@
      OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
      SUCH DAMAGE.
  
-     $P4: //depot/projects/trustedbsd/www/bib-stylesheet.xsl#2 $
+     $P4: //depot/projects/trustedbsd/www/bib-stylesheet.xsl#3 $
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
                 xmlns:cvs="http://www.FreeBSD.org/XML/CVS">
-  <xsl:output type="xml" />
+  <xsl:output method="xml" indent="yes"/>
 
   <xsl:template match="bibliography">
     <page role="docs">

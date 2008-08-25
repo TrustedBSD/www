@@ -2,7 +2,9 @@
                 xmlns:cvs="http://www.FreeBSD.org/XML/CVS">
   <xsl:import href="includes.xsl"/>
   <xsl:import href="heading.xsl"/>
-  <xsl:output type="html"/>
+  <xsl:output method="html" indent="yes" encoding="UTF-8" />
+  <!-- doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" -->
+  <!-- doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" /> -->
 
   <xsl:variable name="date">
     <xsl:value-of select="//cvs:keyword[@name='freebsd']" />
