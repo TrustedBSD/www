@@ -4,7 +4,7 @@
   <xsl:import href="heading.xsl"/>
   <xsl:param name="role"/>
   <xsl:param name="width"/>
-  <xsl:param name="heigh"/>
+  <xsl:param name="height"/>
   <xsl:output type="html"/>
 
   <xsl:variable name="date">
