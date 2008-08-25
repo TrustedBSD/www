@@ -24,12 +24,12 @@
      SUCH DAMAGE.
 -->
 
-<page role="components">
+<page role="audit">
   <title>Security Event Audit</title>
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/audit.page#6 $
+      $P4: //depot/projects/trustedbsd/www/audit.page#7 $
     </cvs:keyword>
   </cvs:keywords>
 

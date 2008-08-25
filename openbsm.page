@@ -24,12 +24,12 @@
      SUCH DAMAGE.
 -->
 
-<page role="components">
+<page role="openbsm">
   <title>OpenBSM</title>
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#29 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#30 $
     </cvs:keyword>
   </cvs:keywords>
 

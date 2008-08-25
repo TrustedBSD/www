@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $P4: //depot/projects/trustedbsd/www/Makefile#9 $
+# $P4: //depot/projects/trustedbsd/www/Makefile#10 $
 
 STYLESHEET=	page.xsl
 
@@ -49,12 +49,22 @@ SRCS+=		privileges.page
 SRCS+=		acls.page
 SRCS+=		bsmtrace.page
 
-IMGS=		components.png components-selected.png
-IMGS+=		developers.png developers-selected.png docs.png
-IMGS+=		docs-selected.png home.png home-selected.png
-IMGS+=		horizontalbar1.gif mailinglists.png mailinglists-selected.png
+IMGS=		acls.png acls-selected.png
+IMGS+=		audit.png audit-selected.png
+IMGS+=		bsmtrace.png bsmtrace-selected.png
+IMGS+=		components.png components-selected.png
+IMGS+=		developers.png developers-selected.png
+IMGS+=		docs.png docs-selected.png
+IMGS+=		home.png home-selected.png
+IMGS+=		horizontalbar1.gif
+IMGS+=		mac.png mac-selected.png
+IMGS+=		mailinglists.png mailinglists-selected.png
 IMGS+=		minipemaquidlight.jpg pemaquidlight.jpg powerlogo.gif
+IMGS+=		openbsm.png openbsm-selected.png
+IMGS+=		privileges.png privileges-selected.png
 IMGS+=		resources.gif trustydibmed2.jpg trustyshadow.gif
+IMGS+=		sebsd.png sebsd-selected.png
+IMGS+=		sedarwin.png sedarwin-selected.png
 IMGS+=		trustyteenie.gif verticalbar1.gif wwwheader.gif
 IMGS+=		trustyheader.png
 

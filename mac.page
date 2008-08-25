@@ -32,12 +32,12 @@
      SUCH DAMAGE.
 -->
 
-<page role="components">
+<page role="mac">
   <title>TrustedBSD Mandatory Access Control (MAC) Framework</title>
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/mac.page#3 $
+      $P4: //depot/projects/trustedbsd/www/mac.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
