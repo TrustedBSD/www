@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/home.page#6 $
+      $P4: //depot/projects/trustedbsd/www/home.page#7 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -76,14 +76,14 @@
 	href="mailinglists.html">mailing lists</a> for discussion of on-going
 	work as well as user support.</p>
 
-      <p>The TrustedBSD Project is made possible through the generous
-	sponsorship and support from a variety of organizations, including
-	the Defence Advanced Research Projects Agency (DARPA), the National
-	Security Agency (NSA), Network Associates Laboratories, Safeport
-	Network Services, the University of Pennsylvania, Yahoo!, McAfee
-	Research, SPARTA, Inc., Apple Computer, Inc., nCirce Network
-	Security, Inc., Google, Inc., the University of Cambridge Computer
-	Laboratory, and others.
+      <p>The TrustedBSD Project is made possible through generous sponsorship
+	and support from a variety of organizations, including the Defence
+	Advanced Research Projects Agency (DARPA), the National Security
+	Agency (NSA), Network Associates Laboratories, Safeport Network
+	Services, the University of Pennsylvania, Yahoo!, McAfee Research,
+	SPARTA, Inc., Apple Computer, Inc., nCirce Network Security, Inc.,
+	Google, Inc., the University of Cambridge Computer Laboratory, and
+	others.
 	Contributions to support the TrustedBSD Project are welcome; please
 	consider making donations through the <a
 	href="http://www.freebsdfoundation.org/">FreeBSD Foundation</a>.</p>

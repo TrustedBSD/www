@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/developers.page#1 $
+      $P4: //depot/projects/trustedbsd/www/developers.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -84,7 +84,7 @@
       </table>
 
       <p>To reach the TrustedBSD developers, please send e-mail to the
-	trustedbsd-discuss mailing list.</p>
+	<a href="mailinglists.html">trustedbsd-discuss mailing list</a>.</p>
 
     </html>
   </section>
