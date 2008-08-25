@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/extattr.page#1 $
+      $P4: //depot/projects/trustedbsd/www/extattr.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -41,8 +41,9 @@
       <p>Extended attributes allow the kernel and userland processes to tag
 	files with arbitrary named data. This provides a location to store
 	the extensive security data required for the various TrustedBSD
-	security extensions, including ACLs, privileges and MAC labels.
-	Extended attribute support has been developed for FreeBSD's UFS1 file
+	security extensions, including ACLs, privileges and MAC labels.</p>
+
+      <p>Extended attribute support has been developed for FreeBSD's UFS1 file
 	system and integrated with the FreeBSD development tree, and was
 	included in FreeBSD 5.0. UFS2 was implemented to provide improved
 	performance and reliability for extended attributes, and has been
