@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $P4: //depot/projects/trustedbsd/www/Makefile#13 $
+# $P4: //depot/projects/trustedbsd/www/Makefile#14 $
 
 STYLESHEET=	page.xsl
 
@@ -49,6 +49,7 @@ SRCS+=		sebsd.page
 SRCS+=		sedarwin.page
 SRCS+=		audit.page
 SRCS+=		privileges.page
+SRCS+=		sourcecode.page
 SRCS+=		acls.page
 SRCS+=		bsmtrace.page
 
@@ -62,6 +63,7 @@ IMGS+=		extattr.png extattr-selected.png
 IMGS+=		geom.png geom-selected.png
 IMGS+=		home.png home-selected.png
 IMGS+=		horizontalbar1.gif
+IMGS+=		legal.png legal-selected.png
 IMGS+=		mac.png mac-selected.png
 IMGS+=		mailinglists.png mailinglists-selected.png
 IMGS+=		minipemaquidlight.jpg
@@ -73,6 +75,7 @@ IMGS+=		privileges.png privileges-selected.png
 IMGS+=		resources.gif trustydibmed2.jpg trustyshadow.gif
 IMGS+=		sebsd.png sebsd-selected.png
 IMGS+=		sedarwin.png sedarwin-selected.png
+IMGS+=		sourcecode.png sourcecode-selected.png
 IMGS+=		trustyteenie.gif verticalbar1.gif wwwheader.gif
 IMGS+=		trustyheader.png
 

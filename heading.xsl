@@ -62,6 +62,14 @@
 	    </xsl:call-template>
 
             <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'sourcecode'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'Source code'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+            <xsl:call-template name="image-tab">
 	      <xsl:with-param name="type" select="'acls'" />
 	      <xsl:with-param name="role" select="$role" />
 	      <xsl:with-param name="description" select="'ACLs'" />
@@ -116,6 +124,14 @@
 	      <xsl:with-param name="type" select="'news'" />
 	      <xsl:with-param name="role" select="$role" />
 	      <xsl:with-param name="description" select="'News'" />
+	      <xsl:with-param name="width" select="100" />
+	      <xsl:with-param name="height" select="22" />
+	    </xsl:call-template>
+
+            <xsl:call-template name="image-tab">
+	      <xsl:with-param name="type" select="'legal'" />
+	      <xsl:with-param name="role" select="$role" />
+	      <xsl:with-param name="description" select="'Legal'" />
 	      <xsl:with-param name="width" select="100" />
 	      <xsl:with-param name="height" select="22" />
 	    </xsl:call-template>

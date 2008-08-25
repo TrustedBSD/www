@@ -32,12 +32,12 @@
      SUCH DAMAGE.
 -->
 
-<page role="home">
-  <title>Legal</title>
+<page role="legal">
+  <title>Legal Information</title>
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/legal.page#3 $
+      $P4: //depot/projects/trustedbsd/www/legal.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 

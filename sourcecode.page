@@ -1,0 +1,67 @@
+<!--
+     Copyright (c) 2000-2006 Robert N. M. Watson
+     All rights reserved.
+     
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     
+     THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS ``AS IS'' AND
+     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+     FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+     DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+     OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+     LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+     SUCH DAMAGE.
+-->
+
+<page role="sourcecode">
+  <title>Source Code</title>
+
+  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
+    <cvs:keyword name="freebsd">
+      $P4: //depot/projects/trustedbsd/www/sourcecode.page#1 $
+    </cvs:keyword>
+  </cvs:keywords>
+
+  <section>
+    <title>Source Code</title>
+
+    <html>
+      <p>Code associated with the TrustedBSD Project is generally under
+	a two-clause BSD-style license, permitting broad open source,
+	closed source, non-commercial, and commercial reuse.
+	For more information on licensing, see <a href="legal.html">Legal
+	Information</a>.
+	Code available for download from the TrustedBSD web site is
+	generally pre-release or experimental code, and not appropriate
+	for use by end-users, who will receive TrustedBSD components from
+	their operating system vendor directly.
+	Comments on code, as well as on new features and bug fixes, are
+	welcome.</p>
+
+      <p>TrustedBSD is developed in a <a href="http://www.perforce.com/">
+	Perforce</a> repository, and is made available via <a
+	href="http://www.polstra.com/projects/freeware/CVSup/">CVSup</a>
+	server <span id="fqdn">cvsup10.FreeBSD.org</span>.  A <a
+	href="trustedbsd-supfile">sample supfile</a> is available.  As
+	features reach maturity, the are merged into the main FreeBSD
+	development tree, and in some cases, have also been adopted into
+	other operating system distributions, including NetBSD, OpenBSD,
+	Linux, and Mac OS X.</p>
+
+      <p>Individual component web pages may include Perforce, CVSUP, or
+	direct source code download options.</p>
+
+    </html>
+  </section>
+</page>
