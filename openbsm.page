@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#30 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#31 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -225,7 +225,7 @@
 	<tr>
 	  <td bgcolor="#eeeeee">1.0 alpha 14</td>
 	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.0-alpha14.tgz">openbsm-1.0-alpha14.tgz</a></td>
-	  <td bgcolor="#eeeeee">480KK</td>
+	  <td bgcolor="#eeeeee">480K</td>
 	  <td bgcolor="#eeeeee">2007-04-16</td>
 	  <td bgcolor="#eeeeee">
 	    <p>Support for the zonename token type added, a variety of
