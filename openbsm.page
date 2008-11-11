@@ -1,5 +1,6 @@
 <!--
      Copyright (c) 2005-2008 Robert N. M. Watson
+     Copyright (c) 2008 Apple, Inc.
      All rights reserved.
      
      Redistribution and use in source and binary forms, with or without
@@ -29,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#31 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#32 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -177,6 +178,44 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
 	</tr>
 	<tr>
+	  <td bgcolor="#eeeeee">1.1 alpha 2</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-alpha2.tgz">openbsm-1.1-alpha2.tgz</a></td>
+	  <td bgcolor="#eeeeee">512K</td>
+	  <td bgcolor="#eeeeee">2008-11-11</td>
+	  <td bgcolor="#eeeeee">
+	    <p>In this revision, BSM include files required by OS vendors for
+	      use in kernels are broken out into a separate include
+	      directory, a configure option is added to force use of native
+	      rather than OpenBSM sys includes if desired, strlcpy() and
+	      strlcat() are used in preference to less robust APIs,
+	      compatibility defines for old Darwin event identifiers are
+	      removed, support for exended header tokens (containing host
+	      information) is added to the BSM library and auditd(8), and can
+	      be set in audit_control(5).</p>
+	  </td>
+	</tr>
+      </table>
+
+    </html>
+  </section>
+
+  <section>
+    <title>Historical Development Snapshots</title>
+    <html>
+
+      <p>This is an archive of past OpenBSM test snapshots; use of these
+	versions is not recommended.
+	These snapshots are from the development of OpenBSM 1.1:</p>
+
+      <table width="100%" border="0" cellspacing="2" cellpadding="6">
+	<tr>
+	  <td valign="top" bgcolor="#eeeeee"><b>Version</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Download</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
+	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
 	  <td bgcolor="#eeeeee">1.1 alpha 1</td>
 	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-alpha1.tgz">openbsm-1.1-alpha1.tgz</a></td>
 	  <td bgcolor="#eeeeee">496K</td>
@@ -193,15 +232,7 @@
 	</tr>
       </table>
 
-    </html>
-  </section>
-
-  <section>
-    <title>Historical Development Snapshots</title>
-    <html>
-
-      <p>This is an archive of past OpenBSM test snapshots; use of these
-	versions is not recommended.</p>
+	<p>These snapshots are from the development of OpenBSM 1.0:</p>
 
       <table width="100%" border="0" cellspacing="2" cellpadding="6">
 	<tr>
