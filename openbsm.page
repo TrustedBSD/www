@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#33 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#34 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -178,17 +178,24 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
 	</tr>
 	<tr>
-	  <td bgcolor="#eeeeee">1.1 alpha 3</td>
-	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-alpha3.tgz">openbsm-1.1-alpha3.tgz</a></td>
-	  <td bgcolor="#eeeeee">512K</td>
-	  <td bgcolor="#eeeeee">2008-12-07</td>
+	  <td bgcolor="#eeeeee">1.1 alpha 4</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-alpha4.tgz">openbsm-1.1-alpha4.tgz</a></td>
+	  <td bgcolor="#eeeeee">544K</td>
+	  <td bgcolor="#eeeeee">2008-12-19</td>
 	  <td bgcolor="#eeeeee">
-	    <p>In this revision, OpenBSM maps between local and wire values
-	      for the errno error space, bugs are fixed in the encoding of
-	      execve arguments and environmental variables, support for the
-	      portable AUT_SOCKET_EX token type is added, and the BSM header
-	      version is bumped to give OpenBSM 1.1 its own file format
-	      version due to non-trivial changes in tokens.</p>
+	    <p>In this revision, most functional components of auditd(8) are
+	      moved to a new libauditd(3), so that they can be shared by
+	      auditd(8) on FreeBSD and launchd(8) on Mac OS X.  In addition,
+	      audit_submit(3) is taught to accept local errno values (as it
+	      did before the additional of a BSM error number space), further
+	      cleanup of the user audit event ID space is performed in order
+	      to avoid collisions with other systems, au_strerror(3) is added
+	      to allow printing of error numbers without converting to local
+	      numbers (which may lose fidelity), and audit crash recovery is
+	      improved as auditd now maintains a current trail link and
+	      cleans up if it discovers auditd failed during the last
+	      rotation.  In Mac OS X, ASL(3) is used instead of syslog(3) for
+	      system logging.</p>
 	  </td>
 	</tr>
       </table>
@@ -211,6 +218,20 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.1 alpha 3</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-alpha3.tgz">openbsm-1.1-alpha3.tgz</a></td>
+	  <td bgcolor="#eeeeee">512K</td>
+	  <td bgcolor="#eeeeee">2008-12-07</td>
+	  <td bgcolor="#eeeeee">
+	    <p>In this revision, OpenBSM maps between local and wire values
+	      for the errno error space, bugs are fixed in the encoding of
+	      execve arguments and environmental variables, support for the
+	      portable AUT_SOCKET_EX token type is added, and the BSM header
+	      version is bumped to give OpenBSM 1.1 its own file format
+	      version due to non-trivial changes in tokens.</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td bgcolor="#eeeeee">1.1 alpha 2</td>
