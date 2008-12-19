@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#17 $
+      $P4: //depot/projects/trustedbsd/www/news.page#18 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -50,7 +50,7 @@
 
       <dl>
 
-	<dt>December 7, 2008 <b>OpenBSM 1.1 alpha 3 released</b></dt>
+	<dt>December 7, 2008 <b>OpenBSM 1.1 alpha 4 released</b></dt>
 
 	<dd><p>OpenBSM 1.1 alpha 4 has been released; this is a test release
 	  of OpenBSM, and primarily improves support for Mac OS X by
