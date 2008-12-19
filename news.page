@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#18 $
+      $P4: //depot/projects/trustedbsd/www/news.page#19 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -50,7 +50,7 @@
 
       <dl>
 
-	<dt>December 7, 2008 <b>OpenBSM 1.1 alpha 4 released</b></dt>
+	<dt>December 19, 2008 <b>OpenBSM 1.1 alpha 4 released</b></dt>
 
 	<dd><p>OpenBSM 1.1 alpha 4 has been released; this is a test release
 	  of OpenBSM, and primarily improves support for Mac OS X by
@@ -60,6 +60,8 @@
 	  recovery, and portable error mesage printing are also present.  See
 	  the <a href="openbsm.html">OpenBSM web page</a> for more
 	  information.</p></dd>
+
+	<dt>December 7, 2008 <b>OpenBSM 1.1 alpha 3 released</b></dt>
 
 	<dd><p>OpenBSM 1.1 alpha 3 has been released; this is a test release
 	  of OpenBSM, adding extended socket token support, mapping between
