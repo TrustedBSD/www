@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#35 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#36 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -178,18 +178,18 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
 	</tr>
 	<tr>
-	  <td bgcolor="#eeeeee">1.1 alpha 5</td>
-	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-alpha5.tgz">openbsm-1.1-alpha5.tgz</a></td>
+	  <td bgcolor="#eeeeee">1.1 beta 1</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-beta1.tgz">openbsm-1.1-beta1.tgz</a></td>
 	  <td bgcolor="#eeeeee">544K</td>
-	  <td bgcolor="#eeeeee">2009-01-11</td>
+	  <td bgcolor="#eeeeee">2009-02-24</td>
 	  <td bgcolor="#eeeeee">
-	    <p>In this revision, OpenBSM is modified to map local protocol
-	      family constants and socket types to wire versions, as the
-	      specific constant values vary by OS; a stub libauditd(3) man
-	      page is added, errno constants are renamed, full error string
-	      text is not compiled into kernels when OpenBSM code is used
-	      there, warnings are fixed on many platforms, and the launchd
-	      label for audit is changed on Mac OS X.</p>
+	    <p>In this revision, OpenBSM's auditd(8) grows support for audit
+	      trail expiration based on age and trail size, various defaults
+	      in audit_control(5) are modernized (such as smaller percent
+	      free default, and enabling execve(2)argument auditing by
+	      default), socket types and domains are converted to BSM format
+	      when written out, and bugs are fixed in IPC permission token
+	      encoding.</p>
 	  </td>
 	</tr>
       </table>
@@ -212,6 +212,21 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.1 alpha 5</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-alpha5.tgz">openbsm-1.1-alpha5.tgz</a></td>
+	  <td bgcolor="#eeeeee">544K</td>
+	  <td bgcolor="#eeeeee">2009-01-11</td>
+	  <td bgcolor="#eeeeee">
+	    <p>In this revision, OpenBSM is modified to map local protocol
+	      family constants and socket types to wire versions, as the
+	      specific constant values vary by OS; a stub libauditd(3) man
+	      page is added, errno constants are renamed, full error string
+	      text is not compiled into kernels when OpenBSM code is used
+	      there, warnings are fixed on many platforms, and the launchd
+	      label for audit is changed on Mac OS X.</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td bgcolor="#eeeeee">1.1 alpha 4</td>

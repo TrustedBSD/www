@@ -1,7 +1,7 @@
 <!--
      Copyright (c) 2002 Networks Associates Technology, Inc.
      Copyright (c) 2006-2008 Robert N. M. Watson
-     Copyright (c) 2008 Apple, Inc.
+     Copyright (c) 2008-2009 Apple, Inc.
      All rights reserved.
      
      This software was developed for the FreeBSD Project by Chris
@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#20 $
+      $P4: //depot/projects/trustedbsd/www/news.page#21 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -49,6 +49,15 @@
 	Project.</p>
 
       <dl>
+
+	<dt>February 24, 2009 <b> OpenBSM 1.1 beta 1 released</b></dt>
+
+	<dd><p>OpenBSM 1.1 beta 1 has been released; this is a test release
+	  of OpenBSM, and primarily improves OpenBSM through the addition of
+	  size- and age-based audit trail expiration, as well as bug fixes
+	  and improvements in token encoding.  See the <a
+	  href="openbsm.html">OpenBSM web page</a> for more information.
+	  </p></dd>
 
 	<dt>January 11, 2009 <b> OpenBSM 1.1 alpha 5 released</b></dt>
 
