@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#21 $
+      $P4: //depot/projects/trustedbsd/www/news.page#22 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -49,6 +49,15 @@
 	Project.</p>
 
       <dl>
+
+	<dt>April 16, 2009 <b> OpenBSM 1.1 released</b></dt>
+	<dd><p>OpenBSM 1.1 has been released; this is a production release of
+	  OpenBSM, and improves OpenBSM through the addition of Mac OS X
+	  Snow Leopard and launchd(8) support, audit trail file expiration
+	  based on age and size, extended header support including IPv6
+	  address support, and improvements to the OpenBSM file format.  See
+	  the <a href="openbsm.html">OpenBSM web page</a> for more
+	  information.</p></dd>
 
 	<dt>February 24, 2009 <b> OpenBSM 1.1 beta 1 released</b></dt>
 

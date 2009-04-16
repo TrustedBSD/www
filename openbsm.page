@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#36 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#37 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -125,7 +125,7 @@
 	snapshot and release tarballs, vendor integrated source code (such as
 	the FreeBSD source tree), cvsup, and the TrustedBSD Perforce
 	repository.
-	The current release is OpenBSM 1.0, released on 28 October 2007.
+	The current release is OpenBSM 1.1, released on 16 April 2009.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
 
@@ -136,6 +136,46 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.1</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1.tgz">openbsm-1.1.tgz</a></td>
+	  <td bgcolor="#eeeeee">560K</td>
+	  <td bgcolor="#eeeeee">2009-04-16</td>
+	  <td bgcolor="#eeeeee">
+	    <p>OpenBSM 1.1 is the second production release of the OpenBSM
+	      code base.  Major changes since OpenBSM 1.0 include:</p>
+
+	    <ul>
+	      <li>Trail files now include the host where the trail is
+		generated.  Crash recovery has been improved.  Trail
+		expiration based on size and date is now supported; by
+		default trail files will be expired after 10MB of trails.
+		The default individual trail limit is now 2MB.</li>
+
+	      <li>Mac OS X Snow Leopard is now a fully supported platform;
+		launchd(8) can now be used to launchd auditd(8).  Command
+		line tools and libraries are now supported on Mac OS X
+		Leopard.</li>
+
+	      <li>Extended header tokens are now supported, allowing audit
+		trails to be tagged with a host identifier.  IPv6 addresses
+		are now supported in subject tokens.</li>
+
+	      <li>BSM token and record types have been further synchronized
+		to OpenSolaris; support for many new system calls has been
+		added.  Local errors and socket types are mapped to and from
+		BSM values.</li>
+	    </ul>
+
+	    <p>Since the last test release, OpenBSM 1.1 beta 1, 32/64-bit
+	      compatibility has been fixed for the auditon(2) system call.
+	      A default "expire-after" of 10MB is now set in
+	      audit_control(5).  Local fcntl(2) arguments are now mapped to
+	      wire BSM versions using new APIs.  The audit_submit(3) man
+	      page has been fixed.  A new audit event class has been added
+	      for post-login authentication and access control events.</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td bgcolor="#eeeeee">1.0</td>
@@ -177,21 +217,9 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
 	</tr>
-	<tr>
-	  <td bgcolor="#eeeeee">1.1 beta 1</td>
-	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-beta1.tgz">openbsm-1.1-beta1.tgz</a></td>
-	  <td bgcolor="#eeeeee">544K</td>
-	  <td bgcolor="#eeeeee">2009-02-24</td>
-	  <td bgcolor="#eeeeee">
-	    <p>In this revision, OpenBSM's auditd(8) grows support for audit
-	      trail expiration based on age and trail size, various defaults
-	      in audit_control(5) are modernized (such as smaller percent
-	      free default, and enabling execve(2)argument auditing by
-	      default), socket types and domains are converted to BSM format
-	      when written out, and bugs are fixed in IPC permission token
-	      encoding.</p>
-	  </td>
-	</tr>
+
+	<tr><td colspan="5">There have been no new development snapshots
+	  since OpenBSM 1.1.</td></tr>
       </table>
 
     </html>
@@ -212,6 +240,21 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.1 beta 1</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-beta1.tgz">openbsm-1.1-beta1.tgz</a></td>
+	  <td bgcolor="#eeeeee">544K</td>
+	  <td bgcolor="#eeeeee">2009-02-24</td>
+	  <td bgcolor="#eeeeee">
+	    <p>In this revision, OpenBSM's auditd(8) grows support for audit
+	      trail expiration based on age and trail size, various defaults
+	      in audit_control(5) are modernized (such as smaller percent
+	      free default, and enabling execve(2)argument auditing by
+	      default), socket types and domains are converted to BSM format
+	      when written out, and bugs are fixed in IPC permission token
+	      encoding.</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td bgcolor="#eeeeee">1.1 alpha 5</td>
