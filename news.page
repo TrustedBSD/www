@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#23 $
+      $P4: //depot/projects/trustedbsd/www/news.page#24 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -49,6 +49,14 @@
 	Project.</p>
 
       <dl>
+
+	<dt>August 2, 2009 <b> OpenBSM 1.1p2 released</b></dt>
+	<dd><p>OpenBSM 1.1p2 has been released; this is a production release
+	  of OpenBSM, and consists primarily of minor improvements since
+	  OpenBSM 1.1p1, including bug fixes for the openat(2) system call,
+	  build on Linux, and printing of class masks in the audump tool.
+	  See the <a href="openbsm.html">OpenBSM web page</a> for
+	  more information.</p></dd>
 
 	<dt>July 17, 2009 <b> OpenBSM 1.1p1 released</b></dt>
 	<dd><p>OpenBSM 1.1p1 has been released; this is a production release

@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#39 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#40 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -125,7 +125,7 @@
 	snapshot and release tarballs, vendor integrated source code (such as
 	the FreeBSD source tree), cvsup, and the TrustedBSD Perforce
 	repository.
-	The current release is OpenBSM 1.1p1, released on 17 July, 2009.
+	The current release is OpenBSM 1.1p2, released on 2 August, 2009.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
 
@@ -138,12 +138,25 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
 	</tr>
 	<tr>
+	  <td bgcolor="#eeeeee">1.1p2</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-p2.tgz">openbsm-1.1-p2.tgz</a></td>
+	  <td bgcolor="#eeeeee">560K</td>
+	  <td bgcolor="#eeeeee">2009-08-02</td>
+	  <td bgcolor="#eeeeee">
+	    <p>OpenBSM 1.1p2 is a minor patch release of the OpenBSM code base.
+	      There are no significant changes from OpenBSM 1.1p1, but there
+	      are several bug fixes relating to /etc/security/audit_event
+	      entries for the openat(2) system call, build fixes for Linux, and
+	      the printing of class masks by the audump tool.</p>
+	  </td>
+	</tr>
+	<tr>
 	  <td bgcolor="#eeeeee">1.1p1</td>
 	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.1-p1.tgz">openbsm-1.1-p1.tgz</a></td>
 	  <td bgcolor="#eeeeee">560K</td>
 	  <td bgcolor="#eeeeee">2009-07-17</td>
 	  <td bgcolor="#eeeeee">
-	    <p>OpenBSM 1.1p is a minor patch release of the OpenBSM code base.
+	    <p>OpenBSM 1.1p1 is a minor patch release of the OpenBSM code base.
 	      There are no significant changes from OpenBSM 1.1, but there are
 	      a number of bug fixes in token parsing and generation, and
 	      tolerance for whitespace variation in OpenBSM configuration
