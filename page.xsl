@@ -103,9 +103,9 @@
       <ul>
 	<small>
 	  <br />
-	  Copyright 2000-2008 Robert Watson.  All rights reserved.<br />
+	  Copyright 2000-2010 Robert N. M. Watson.  All rights reserved.<br />
 	  Copyright 2005 SPARTA, Inc.  All rights reserved.<br />
-          Copyright 2002, Leigh Denault.  All rights reserved.<br />
+          Copyright 2002, Leigh T. Denault.  All rights reserved.<br />
           Copyright 2002, 2003 Networks Associates, Inc.  All rights
 	  reserved.<br />
 	  <xsl:value-of select="//cvs:keyword[@name='freebsd']" />

@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/developers.page#2 $
+      $P4: //depot/projects/trustedbsd/www/developers.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -80,6 +80,11 @@
 	</tr>
 	<tr>
 	  <td>Stacey Son</td>
+	  <td>Edward Tomasz Napierala</td>
+	  <td>Zhouyi ZHOU</td>
+	</tr>
+	<tr>
+	  <td>Jonathan Anderson</td>
 	</tr>
       </table>
 
