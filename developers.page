@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/developers.page#3 $
+      $P4: //depot/projects/trustedbsd/www/developers.page#4 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -40,7 +40,7 @@
 
       <p>Countless developers have contributed in substantial ways to the
 	success of the TrustedBSD Project; a few are listed here by
-	(approximate) order of first contribition.</p>
+	(approximate) order of first contribution.</p>
 
       <table border="0" cellpadding="5" cellspacing="5">
 	<tr>
