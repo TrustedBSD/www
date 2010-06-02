@@ -35,7 +35,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/docs.bib#5 $
+      $P4: //depot/projects/trustedbsd/www/docs.bib#6 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -368,6 +368,46 @@
       also the reliability guarantees associated with the queuing and
       delivery mechanisms.</abstract>
 
+  </entry>
+
+  <entry role="paper" date="20100811">
+    <title>Capsicum: practical capabilities for UNIX</title>
+
+    <author>
+      <name>Robert N. M. Watson</name>
+      <affil>University of Cambridge</affil>
+    </author>
+
+    <author>
+      <name>Jonathan Anderson</name>
+      <affil>University of Cambridge</affil>
+    </author>
+
+    <author>
+      <name>Ben Laurie</name>
+      <affil>Google UK Ltd.</affil>
+    </author>
+
+    <author>
+      <name>Kris Kennaway</name>
+      <affil>Google UK Ltd.</affil>
+    </author>
+
+    <download>
+      <file url="2010usenix-security-capsicum-website.pdf" format="PDF" />
+    </download>
+
+    <abstract>Capsicum is a lightweight operating system capability and
+      sandbox framework planned for inclusion in FreeBSD 9. Capsicum extends,
+      rather than replaces, UNIX APIs, providing new kernel primitives
+      (sandboxed capability mode and capabilities) and a userspace sandbox
+      API. These tools support compartmentalisation of monolithic UNIX
+      applications into logical applications, an increasingly common goal
+      supported poorly by discretionary and mandatory access control. We
+      demonstrate our approach by adapting core FreeBSD utilities and
+      Google's Chromium web browser to use Capsicum primitives, and compare
+      the complexity and robustness of Capsicum with other sandboxing
+      techniques.</abstract>
   </entry>
 
 </bibliography>
