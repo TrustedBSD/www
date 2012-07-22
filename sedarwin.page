@@ -1,4 +1,5 @@
 <!--
+     Copyright (c) 2012 Robert N. M. Watson
      Copyright (c) 2003-2005 McAfee, Inc.
      All rights reserved.
      
@@ -36,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sedarwin.page#7 $
+      $P4: //depot/projects/trustedbsd/www/sedarwin.page#8 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -52,11 +53,15 @@
 	href="sebsd.html">SEBSD</a> to MAC OS X based on that port.  This
 	port was made available against Mac OS X Panther and Mac OS X Tiger;
 	as of Mac OS X Leopard, the TrustedBSD MAC Framework is now
-	available as part of the shipping Mac OS X product.</p>
+	available as part of the shipping Mac OS X product.
+	It also appears in Apple's iOS on the iPhone and iPad.</p>
 
-      <p>The SEDarwin project has recently moved to it's own website at
-	<a href="http://www.sedarwin.org">www.sedarwin.org</a>. More 
-	information and current versions of SEDarwin can be found there.</p>
+      <p>The SEDarwin project moved to it's own website at <a
+	href="http://www.sedarwin.org">www.sedarwin.org</a>, which
+	unfortunately appears to have gone down.  Please contact the
+	trustedbsd-discuss mailing list with any questions, or for access
+	to historic source code available via the FreeBSD Project Perforce
+	server.</p>
 
     </html>
   </section>
