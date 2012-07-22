@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#25 $
+      $P4: //depot/projects/trustedbsd/www/news.page#26 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -49,6 +49,20 @@
 	Project.</p>
 
       <dl>
+
+	<dt>July 22, 2012 <b>TrustedBSD web site updated</b></dt>
+	<dd><p>Following a period of quietude, the TrustedBSD web site has
+	  been updated to reflect the completion of a number of sub-projects
+	  over the last decade, including UFS2, GEOM, OpenPAM, POSIX.1e ACLs,
+	  NFSv4 ACLS, MAC, and Audit support.
+	  A few pages, such as the Privileges, SEBSD, and SEDarwin pages,
+	  have been updated to reflect their current "idle" status, with
+	  contact information for interested parties.
+	  Other active sub-projects, such as OpenBSM, have had their pages
+	  refreshed to reflect recent activity.
+	  A number of instances of adoption of TrustedBSD-developed features
+	  in industry have been highlighted, including in FreeBSD, Mac OS X,
+	  iOS, Junos, and McAfee's Sidewinder firewall.</p></dd>
 
 	<dt>July 22, 2012 <b> OpenBSM 1.2 alpha 1 released</b></dt>
 	<dd><p>OpenBSM 1.2 alpha 1 has been released; this is a test release
