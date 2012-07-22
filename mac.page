@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2000, 2001 Robert N. M. Watson
+     Copyright (c) 2000-2012 Robert N. M. Watson
      Copyright (c) 2001 Leigh Denault
      Copyright (c) 2002, 2003 Networks Associates Technology, Inc.
      All rights reserved.
@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/mac.page#6 $
+      $P4: //depot/projects/trustedbsd/www/mac.page#7 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -68,14 +68,22 @@
 
       <p>MAC Framework and general MAC user documentation and a number of
 	implementation papers may be found on the <a
-	href="docs.html">documentation page</a>.</p>
+	href="docs.html">documentation page</a>.  A detailed discussion of
+	the architecture and industry adoption of the MAC Framework,
+	including use in FreeBSD and Apple's Mac OS X and iOS, may be found
+	in Robert Watson's PhD Dissertation, <a
+	href="http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-818.html">New
+	Approaches to Operating System Security Extensibility</a>.</p>
 
-      <p>The TrustedBSD MAC Framework is also present in Mac
-	OS X as of the Leopard release, where it is used to implement
-	Seatbelt and other system security services.  The port of the MAC
+      <p>The TrustedBSD MAC Framework has also been present in Mac OS X
+	releases as of "Leopard", where it is used to implement Seatbelt
+	and other system security services; on the iPhone and iPad, the
+	MAC Framework is used for App sandboxing.  This port of the MAC
 	Framework was performed initially as part of <a
 	href="sedarwin.html">SEDarwin</a>, which also included a port of
-	FLASK and SELinux to the Mac OS X platform.</p>
+	FLASK and SELinux to the Mac OS X platform.  Other prominent
+	industry consumers of the MAC Framework include Juniper Networks
+	and McAfee (now Intel).</p>
 
     </html>
   </section>
