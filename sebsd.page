@@ -1,4 +1,5 @@
 <!--
+     Copyright (c) 2012 Robert N. M. Watson
      Copyright (c) 2005 SPARTA, Inc.
      Copyright (c) 2003 Networks Associates Technology, Inc.
      All rights reserved.
@@ -37,7 +38,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sebsd.page#9 $
+      $P4: //depot/projects/trustedbsd/www/sebsd.page#10 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -46,6 +47,31 @@
       TrustedBSD</title>
 
     <html>
+      <p><b>The SEBSD and SEDarwin projects ran from roughly 2004-2006, and
+	adapted the FLASK framework and Type Enforcement policy used in
+	SELinux to run in the FreeBSD kernel using the MAC Framework.
+	This abstraction of FLASK/TE paved the way for a later transition to
+	SELinux as an LSM module in the Linux community.</b></p>
+
+      <p><b>This project is currently idle; although changes to the MAC
+	Framework to support FLASK/TE were largely upstreamed to FreeBSD,
+	there appeared (at the time) to have been relatively little
+	community uptake of the project.
+	Interestingly, McAfee (now Intel) ships a MAC Framework Type
+	Enforcement module in their Sidewinder firewall product, albeit
+	from a pre-SELinux FLASK/TE source code base.</b></p>
+
+      <p><b>Forward-porting the 2006 version of SEBSD would be fairly
+	straight forward from a FreeBSD perspective, but non-trivial effort
+	would need to be invested in updating the FLASK/TE portions of the
+	work, as well as developing a reference policy.
+	Interested parties should e-mail the trustedbsd-discuss mailing list
+	for pointers, and would likely see a positive reception!
+	Discussion below is historical.</b></p>
+
+      <hr />
+
+      <!--
       <p>
 	<span id="collection-label">Perforce:</span>
 	<span id="cvsup-collection">//depot/projects/trustedbsd/sebsd/...</span>
@@ -54,6 +80,7 @@
 	<span id="collection-label">Collection:</span>
 	<span id="cvsup-collection">p4-cvs-trustedbsd-sebsd</span>
       </p>
+      -->
 
       <p>SEBSD is a port of NSA's FLASK/TE implementation in
 	SELinux to run on FreeBSD as a plug-in module to the <a
