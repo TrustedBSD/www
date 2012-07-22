@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2006 Robert N. M. Watson
+     Copyright (c) 2006-2012 Robert N. M. Watson
      All rights reserved.
      
      Redistribution and use in source and binary forms, with or without
@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/privileges.page#5 $
+      $P4: //depot/projects/trustedbsd/www/privileges.page#6 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -37,6 +37,7 @@
     <title>TrustedBSD POSIX.1e Privileges</title>
 
     <html>
+      <!--
       <p>
 	<span id="collection-label">Perforce:</span>
 	<span id="cvsup-collection">//depot/projects/trustedbsd/cap/...</span>
@@ -45,13 +46,26 @@
 	<span id="collection-label">Collection:</span>
 	<span id="cvsup-collection">p4-cvs-trustedbsd-cap</span>
       </p>
+      -->
 
-      <p><b>Historically this project was referred to as fine-grained
-	capabilities, but due to a vocabulary conflict, it has been renamed
+      <p><b>In this past, this project was referred to as fine-grained
+	capabilities, but due to a vocabulary conflict with the <i>capability
+	system model</i> used in Capsicum, it has been renamed
 	to fine-grained privileges. Information in this page currently refers
-	to a FreeBSD 5.x-era project to support fine-grained privileges, and
-	will shortly be superseded by a similar project for FreeBSD
-	8.x.</b></p>
+	to a FreeBSD 5.x-era project to support fine-grained
+	privileges.</b></p>
+
+       <p><b>In FreeBSD 7.0, the <a
+	href="http://www.freebsd.org/cgi/man.cgi?query=priv">priv(9) KPI</a>
+	was introduced, classifying all kernel uses of privileges and
+	exposing this information to a centralised kernel component.
+	The kernel's <a href="mac.html">mandatory access control framework</a>
+	allows MAC policy modules to deny (and grant) privileges, but
+	FreeBSD does not currently provide a userspace API for privilege
+	management.
+	Discussion below is historical.</b></p>
+
+      <hr />
 
       <p>POSIX.1e breaks root privilege into a set of privileges
 	(historically referred to as "Capabilities"), which allow the
