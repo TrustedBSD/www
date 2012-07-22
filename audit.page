@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/audit.page#9 $
+      $P4: //depot/projects/trustedbsd/www/audit.page#10 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -45,14 +45,14 @@
 	events, and detailed logging of access control events, including the
 	ability to log system calls based on user and event class.</p>
 
-      <p>The TrustedBSD audit implementation is present in FreeBSD 6.2 and
-	later, and there is continuing development work to expand its
-	feature set.  The current implementation is derived from the Mac OS
-	X audit implementation created by McAfee Research under contract to
-	Apple Computer, Inc. in support of the Mac OS X CAPP evaluation.
-	The TrustedBSD implementation has been substantially enhanced to add
-	new features, such as audit pipes allowing applications to attach
-	directly and selectively to the live event stream.</p>
+      <p>The TrustedBSD audit implementation appeared in FreeBSD 6.2, and
+	is also present in Mac OS X.  The current implementation is derived
+	from the Mac OS X audit implementation created by McAfee Research
+	under contract to Apple, Inc, in support of the Mac OS X CAPP
+	evaluation.  The TrustedBSD implementation has been substantially
+	enhanced to add new features, such as audit pipes allowing
+	intrusion detection and monitoring applications to attach to and
+	tailor the live event stream.</p>
 
       <p>The audit implementation includes a kernel audit event engine,
 	auditing of system calls across all native and emulated ABIs,

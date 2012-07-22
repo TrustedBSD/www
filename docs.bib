@@ -35,7 +35,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/docs.bib#6 $
+      $P4: //depot/projects/trustedbsd/www/docs.bib#7 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -408,6 +408,68 @@
       Google's Chromium web browser to use Capsicum primitives, and compare
       the complexity and robustness of Capsicum with other sandboxing
       techniques.</abstract>
+  </entry>
+
+  <entry role="paper" date="201204">
+    <title>New approaches to operating system security extensibility</title>
+
+    <author>
+      <name>Robert N. M. Watson</name>
+      <affil>University of Cambridge</affil>
+    </author>
+
+    <download>
+      <file url="http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-818.html"
+	format="Tech report page" />
+      <file url="http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-818.pdf"
+	format="PDF" />
+    </download>
+
+    <abstract><p>This dissertation proposes new approaches to commodity
+      computer operating system (OS) access control extensibility that
+      address historic problems with concurrency and technology transfer.
+      Access control extensibility addresses a lack of consensus on operating
+      system policy model at a time when security requirements are in flux:
+      OS vendors, anti-virus companies, firewall manufacturers, smart phone
+      developers, and application writers require new tools to express
+      policies tailored to their needs. By proposing principled approaches to
+      access control extensibility, this work allows OS security to be
+      "designed in" yet remain flexible in the face of diverse and changing
+      requirements.</p>
+
+      <p>I begin by analysing system call interposition, a popular extension
+      technology used in security research and products, and reveal
+      fundamental and readily exploited concurrency vulnerabilities.
+      Motivated by these failures, I propose two security extension models:
+      the TrustedBSD Mandatory Access Control (MAC) Framework, a flexible
+      kernel access control extension framework for the FreeBSD kernel, and
+      Capsicum, practical capabilities for UNIX.</p>
+
+      <p>The MAC Framework, a research project I began before starting my
+      PhD, allows policy modules to dynamically extend the kernel access
+      control policy.
+      The framework allows policies to integrate tightly with kernel
+      synchronisation, avoiding race conditions inherent to system call
+      interposition, as well as offering reduced development and technology
+      transfer costs for new security policies.
+      Over two chapters, I explore the framework itself, and its transfer to
+      and use in several products: the open source FreeBSD operating system,
+      nCircle's enforcement appliances, and Apple's Mac OS X and iOS
+      operating systems.</p>
+
+      <p>Capsicum is a new application-centric capability security model
+      extending POSIX.
+      Capsicum targets application writers rather than system designers,
+      reflecting a trend towards security-aware applications such as
+      Google's Chromium web browser, that map distributed security policies
+      into often inadequate local primitives.
+      I compare Capsicum with other sandboxing techniques, demonstrating
+      improved performance, programmability, and security.</p>
+
+      <p>This dissertation makes original contributions to challenging
+      research problems in security and operating system design.
+      Portions of this research have already had a significant impact on
+      industry practice.</p></abstract>
   </entry>
 
 </bibliography>

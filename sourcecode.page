@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2000-2006 Robert N. M. Watson
+     Copyright (c) 2000-2012 Robert N. M. Watson
      All rights reserved.
      
      Redistribution and use in source and binary forms, with or without
@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sourcecode.page#1 $
+      $P4: //depot/projects/trustedbsd/www/sourcecode.page#2 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -41,23 +41,13 @@
 	a two-clause BSD-style license, permitting broad open source,
 	closed source, non-commercial, and commercial reuse.
 	For more information on licensing, see <a href="legal.html">Legal
-	Information</a>.
-	Code available for download from the TrustedBSD web site is
-	generally pre-release or experimental code, and not appropriate
-	for use by end-users, who will receive TrustedBSD components from
-	their operating system vendor directly.
-	Comments on code, as well as on new features and bug fixes, are
-	welcome.</p>
+	Information</a>.</p>
 
-      <p>TrustedBSD is developed in a <a href="http://www.perforce.com/">
-	Perforce</a> repository, and is made available via <a
-	href="http://www.polstra.com/projects/freeware/CVSup/">CVSup</a>
-	server <span id="fqdn">cvsup10.FreeBSD.org</span>.  A <a
-	href="trustedbsd-supfile">sample supfile</a> is available.  As
-	features reach maturity, the are merged into the main FreeBSD
-	development tree, and in some cases, have also been adopted into
-	other operating system distributions, including NetBSD, OpenBSD,
-	Linux, and Mac OS X.</p>
+      <p>With the exception of active development projects, almost all
+	TrustedBSD code should be obtained from operating system vendors such
+	as the <a href="http://www.freebsd.org">FreeBSD Project</a> or
+	<a href="http://www.apple.com/">Apple</a>, rather than downloaded
+	directly from the TrustedBSD site by end users.</p>
 
       <p>Individual component web pages may include Perforce, CVSUP, or
 	direct source code download options.</p>

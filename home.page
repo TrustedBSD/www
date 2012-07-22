@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2000-2008 Robert N. M. Watson
+     Copyright (c) 2000-2012 Robert N. M. Watson
      Copyright (c) 2001 Leigh Denault
      Copyright (c) 2002 Networks Associates Technology, Inc.
      All rights reserved.
@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/home.page#7 $
+      $P4: //depot/projects/trustedbsd/www/home.page#8 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -45,29 +45,25 @@
     <title>TrustedBSD Project</title>
 
     <html>
-      <p>The TrustedBSD project is an open source project developing
+      <p>The TrustedBSD Project is an open source community developing
 	advanced security features for the open source <a
-	href="http://www.FreeBSD.org/">FreeBSD</a> operating system,
-	including file system <a href="extattr.html">extended attributes and
-	UFS2</a>, <a href="acls.html">Access Control Lists</a>, <a
-	href="openpam.html">OpenPAM</a>, <a href="audit.html">security event
-	auditing</a> with <a href="openbsm.html">OpenBSM</a>, mandatory
-	access control and the <a href="mac.html">TrustedBSD MAC
-	Framework</a>, and the <a href="geom.html">GEOM</a> storage
-	framework.  Many technologies from TrustedBSD may also be found in
-	operating systems beyond FreeBSD, including Mac OS X, NetBSD,
-	OpenBSD, and Linux.</p>
+	href="http://www.FreeBSD.org/">FreeBSD</a> operating system.
+	Started in April 2000, the project developed support for extended
+	attributes, access control lists (ACLs), UFS2, OpenPAM, security
+	event auditing, OpenBSM, a flexible kernel access control framework,
+	mandatory access control, and the GEOM storage layer.
+	The results of this work may be found not just in FreeBSD, but also
+	NetBSD, OpenBSD, Linux, and Apple's Mac OS X and iOS operating
+	systems.
+	Today, the project continues to maintain and enhance these
+	mature features in FreeBSD.</p>
 
      <p>The TrustedBSD Project originally targeted trusted operating system
 	functionality required by the Common Criteria for Information
 	Technology Security Evaluation (CC).  Work has gone significantly
 	further, including research and development into operating system
 	security extensibility, and work on local and distributed file
-	systems as required to meet security goals.  Despite significant
-	success in developing and deploying advanced security functions on
-	FreeBSD and elsewhere, the work of the TrustedBSD Project continues,
-	with new and enhanced features shipping with new operating system
-	versions.</p>
+	systems as required to meet security goals.</p>
 
       <p>This web site provides development information about TrustedBSD,
 	including early access to source code and on-going development work,
@@ -82,8 +78,8 @@
 	Agency (NSA), Network Associates Laboratories, Safeport Network
 	Services, the University of Pennsylvania, Yahoo!, McAfee Research,
 	SPARTA, Inc., Apple Computer, Inc., nCirce Network Security, Inc.,
-	Google, Inc., the University of Cambridge Computer Laboratory, and
-	others.
+	Google, Inc., the University of Cambridge Computer Laboratory, the
+	FreeBSD Foundation, and others.
 	Contributions to support the TrustedBSD Project are welcome; please
 	consider making donations through the <a
 	href="http://www.freebsdfoundation.org/">FreeBSD Foundation</a>.</p>
