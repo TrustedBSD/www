@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#24 $
+      $P4: //depot/projects/trustedbsd/www/news.page#25 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -49,6 +49,12 @@
 	Project.</p>
 
       <dl>
+
+	<dt>July 22, 2012 <b> OpenBSM 1.2 alpha 1 released</b></dt>
+	<dd><p>OpenBSM 1.2 alpha 1 has been released; this is a test release
+	  of OpenBSM, and includes a number of important bug fixes, as well
+	  as Capsicum event support.  See the <a href="openbsm.html">OpenBSM
+	  web page</a> for more information.</p></dd>
 
 	<dt>August 2, 2009 <b> OpenBSM 1.1p2 released</b></dt>
 	<dd><p>OpenBSM 1.1p2 has been released; this is a production release
