@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2005-2009 Robert N. M. Watson
+     Copyright (c) 2005-2012 Robert N. M. Watson
      Copyright (c) 2008-2009 Apple, Inc.
      All rights reserved.
      
@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#40 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#41 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -75,9 +75,9 @@
 
       <p>OpenBSM is built and tested on several versions of FreeBSD, Mac OS
 	X, and Linux; some components, such as the audit daemon, require
-	kernel audit support (present in newer versions of FreeBSD and Mac
-	OS X), but the basic library and audit trail tools run on all three
-	platforms regardless of OS kernel support.
+	kernel audit support (present in FreeBSD and Mac OS X, and in fact
+	derived from OpenBSM), but the basic library and audit trail tools
+	run on all three platforms regardless of OS kernel support.
 	Written in portable C and built using autoconf/automake, it is easy
 	to adapt OpenBSM for use on new platforms.</p>
 
@@ -90,18 +90,20 @@
 
       <p>OpenBSM is derived from the BSM audit implementation found in
 	Apple's open source Darwin operating system, generously released by
-	Apple under a BSD license.  The Darwin BSM implementation was
-	created by McAfee Research under contract to Apple Computer, and has
-	since been extended by the volunteer TrustedBSD team.</p>
+	Apple under a BSD license.
+	The Darwin BSM implementation was created by McAfee Research under
+	contract to Apple Computer, and has since been maintained and
+	extended by the volunteer TrustedBSD team.</p>
 
       <p>OpenBSM is the core user space component of the <a
 	href="audit.html">TrustedBSD Audit Implementation</a> for
-	FreeBSD, providing tools, libraries, and include files.  OpenBSM
-	ships with FreeBSD 6.2 and later, with the first full release of
-	OpenBSM (1.0) in FreeBSD 6.3 and FreeBSD 7.0.</p>
+	FreeBSD, providing tools, libraries, and include files.
+	OpenBSM ships with FreeBSD 6.2 and later, with the first full
+	release of OpenBSM (1.0) in FreeBSD 6.3 and FreeBSD 7.0.</p>
 
-      <p><a href="bsmtrace.html">BSMtrace</a> is a BSM-based host
-	intrusion detection system that relies on OpenBSM audit trails.</p>
+      <p><a href="bsmtrace.html">BSMtrace</a> is an independently
+	distributed  BSM-based host intrusion detection system that relies
+	on OpenBSM audit trails.</p>
 
     </html>
   </section>
@@ -243,9 +245,23 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
 	</tr>
-
-	<tr><td colspan="5">There have been no new development snapshots
-	  since OpenBSM 1.1.</td></tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.2 alpha1</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha1.tgz">openbsm-1.2-alpha1.tgz</a></td>
+	  <td bgcolor="#eeeeee">640K</td>
+	  <td bgcolor="#eeeeee">2012-07-22</td>
+	  <td bgcolor="#eeeeee">
+	    <p>OpenBSM 1.2a1 is the first test release of the OpenBSM 1.2
+	      release stream.
+	      In this revision, OpenBSM grows suport for Capsicum system calls
+	      and events, has various fixes to address warnings from the Clang
+	      static analyser, fixes trail expiration when the host parameter
+	      is used, adds support for privilege tokens, fixes a directory
+	      descriptor leak that arose in low disk space conditions, added
+	      build support for more recent Linux versions, fixed bugs in XML
+	      rendering of BSM, and improved the documentation.</p>
+	  </td>
+	</tr>
       </table>
 
     </html>
