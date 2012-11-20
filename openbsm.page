@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#41 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#42 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -66,8 +66,10 @@
 
       <p>The OpenBSM distribution provides system include files, the libbsm
 	library, command-line tools such as praudit and auditreduce, sample
-	/etc configuration files, and an audit daemon for use on systems with
-	kernel support.
+	/etc configuration files, an audit daemon for use on systems with
+	kernel support, and an audit trail distribution daemon to allow
+	trails to be securely submitted by end hosts to a central audit trail
+	server (to appear in OpenBSM 1.2).
 	It is appropriate for use stand-alone in processing trails generated
 	by BSM-enabled systems, as well as for use as the foundation of OS
 	audit implementations requiring libraries, command-line tools,
@@ -93,7 +95,9 @@
 	Apple under a BSD license.
 	The Darwin BSM implementation was created by McAfee Research under
 	contract to Apple Computer, and has since been maintained and
-	extended by the volunteer TrustedBSD team.</p>
+	extended by the volunteer TrustedBSD team.
+	The FreeBSD Foundation sponsored the development of auditdistd, a
+	distributed audit trail daemon.</p>
 
       <p>OpenBSM is the core user space component of the <a
 	href="audit.html">TrustedBSD Audit Implementation</a> for

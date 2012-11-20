@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/audit.page#10 $
+      $P4: //depot/projects/trustedbsd/www/audit.page#11 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -84,7 +84,9 @@
 
       <p>The TrustedBSD Project greatfully acknowledges Apple Computer, Inc.,
 	for its generous donation of the Darwin audit implementation under a
-	BSD license.</p>
+	BSD license.
+	The FreeBSD Foundation sponsored development of auditdistd, a
+	distributed audit trail daemon.</p>
 
     </html>
   </section>
