@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#42 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#43 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -248,6 +248,25 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.2 alpha2</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha2.tgz">openbsm-1.2-alpha2.tgz</a></td>
+	  <td bgcolor="#eeeeee">704K</td>
+	  <td bgcolor="#eeeeee">2012-11-23</td>
+	  <td bgcolor="#eeeeee">
+	    <p>OpenBSM 1.2a2 is the second test release of the OpenBSM 1.2
+	      release stream.
+	      In this revision, OpenBSM grows a new daemon, auditdistd, which
+	      provides secure audit trail distribution over the network.
+	      Implemented by Pawel Jakub Dawidek and sponsored by the FreeBSD
+	      Foundation, auditdistd provides a client to run on hosts
+	      generating audit trails, and a server to run on a central secure
+	      audit host.  auditdist uses TLS to encrypt trails on the wire,
+	      and does is append-only, so that audit trails leading up to a
+	      compromise on the client are tamper-proof on the client.  This
+	      feature is considered experimental.</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td bgcolor="#eeeeee">1.2 alpha1</td>

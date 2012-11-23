@@ -1,6 +1,6 @@
 <!--
      Copyright (c) 2002 Networks Associates Technology, Inc.
-     Copyright (c) 2006-2009 Robert N. M. Watson
+     Copyright (c) 2006-2012 Robert N. M. Watson
      Copyright (c) 2008-2009 Apple, Inc.
      All rights reserved.
      
@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#26 $
+      $P4: //depot/projects/trustedbsd/www/news.page#27 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -49,6 +49,14 @@
 	Project.</p>
 
       <dl>
+
+	<dt>November 23, 2012 <b> OpenBSM 1.2 alpha 2 released</b></dt>
+	<dd><p>OpenBSM 1.2 alpha 2 has been released; this is a test release
+	  of OpenBSM, and includes a new audit trail distribution daemon,
+	  auditdistd, written by Pawel Jakub Dawidek and sponsored by the
+	  FreeBSD Foundation.  See the <a href="openbsm.html">OpenBSM web
+	  page</a> for more information.</p></dd>
+
 
 	<dt>July 22, 2012 <b>TrustedBSD web site updated</b></dt>
 	<dd><p>Following a period of quietude, the TrustedBSD web site has
