@@ -28,7 +28,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 # 
-# $P4: //depot/projects/trustedbsd/www/Makefile#17 $
+# $P4: //depot/projects/trustedbsd/www/Makefile#18 $
 
 STYLESHEET=	page.xsl
 
@@ -77,7 +77,7 @@ IMGS+=		sourcecode.png sourcecode-selected.png
 IMGS+=		trustyteenie.gif verticalbar1.gif wwwheader.gif
 IMGS+=		trustyheader.png
 
-DATA=		trustedbsd-supfile trustedbsd-bsdcon-2000.pdf
+DATA=		trustedbsd-bsdcon-2000.pdf
 DATA+=		trustedbsd-freenix-2001.pdf
 DATA+=		trustedbsd-usenix2003freenix.pdf
 DATA+=		trustedbsd-discex3.pdf

@@ -29,7 +29,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sourcecode.page#2 $
+      $P4: //depot/projects/trustedbsd/www/sourcecode.page#3 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -49,8 +49,8 @@
 	<a href="http://www.apple.com/">Apple</a>, rather than downloaded
 	directly from the TrustedBSD site by end users.</p>
 
-      <p>Individual component web pages may include Perforce, CVSUP, or
-	direct source code download options.</p>
+      <p>Individual component web pages may include Perforce, or direct
+	source code download options.</p>
 
     </html>
   </section>

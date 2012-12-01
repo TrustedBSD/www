@@ -38,7 +38,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sebsd.page#10 $
+      $P4: //depot/projects/trustedbsd/www/sebsd.page#11 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -75,10 +75,6 @@
       <p>
 	<span id="collection-label">Perforce:</span>
 	<span id="cvsup-collection">//depot/projects/trustedbsd/sebsd/...</span>
-      </p>
-      <p>
-	<span id="collection-label">Collection:</span>
-	<span id="cvsup-collection">p4-cvs-trustedbsd-sebsd</span>
       </p>
       -->
 
