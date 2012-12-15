@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#44 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#45 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -245,39 +245,17 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
 	</tr>
 	<tr>
-	  <td bgcolor="#eeeeee">1.2 alpha2</td>
-	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha2.tgz">openbsm-1.2-alpha2.tgz</a></td>
-	  <td bgcolor="#eeeeee">704K</td>
-	  <td bgcolor="#eeeeee">2012-11-23</td>
+	  <td bgcolor="#eeeeee">1.2 alpha3</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha3.tgz">openbsm-1.2-alpha3.tgz</a></td>
+	  <td bgcolor="#eeeeee">736K</td>
+	  <td bgcolor="#eeeeee">2012-12-15</td>
 	  <td bgcolor="#eeeeee">
-	    <p>OpenBSM 1.2a2 is the second test release of the OpenBSM 1.2
+	    <p>OpenBSM 1.2-alpha3 is the third test release of the OpenBSM 1.2
 	      release stream.
-	      In this revision, OpenBSM grows a new daemon, auditdistd, which
-	      provides secure audit trail distribution over the network.
-	      Implemented by Pawel Jakub Dawidek and sponsored by the FreeBSD
-	      Foundation, auditdistd provides a client to run on hosts
-	      generating audit trails, and a server to run on a central secure
-	      audit host.  auditdist uses TLS to encrypt trails on the wire,
-	      and does is append-only, so that audit trails leading up to a
-	      compromise on the client are tamper-proof on the client.  This
-	      feature is considered experimental.</p>
-	  </td>
-	</tr>
-	<tr>
-	  <td bgcolor="#eeeeee">1.2 alpha1</td>
-	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha1.tgz">openbsm-1.2-alpha1.tgz</a></td>
-	  <td bgcolor="#eeeeee">640K</td>
-	  <td bgcolor="#eeeeee">2012-07-22</td>
-	  <td bgcolor="#eeeeee">
-	    <p>OpenBSM 1.2a1 is the first test release of the OpenBSM 1.2
-	      release stream.
-	      In this revision, OpenBSM grows suport for Capsicum system calls
-	      and events, has various fixes to address warnings from the Clang
-	      static analyser, fixes trail expiration when the host parameter
-	      is used, adds support for privilege tokens, fixes a directory
-	      descriptor leak that arose in low disk space conditions, added
-	      build support for more recent Linux versions, fixed bugs in XML
-	      rendering of BSM, and improved the documentation.</p>
+	      In this revision, a number of (largely minor) refinements are
+	      made to auditdistd; perhaps most importantly, header files and
+	      build elements are cleaned up to support better integration into
+	      the FreeBSD 10-CURRENT source tree.</p>
 	  </td>
 	</tr>
       </table>
@@ -300,6 +278,38 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.2 alpha2</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha2.tgz">openbsm-1.2-alpha2.tgz</a></td>
+	  <td bgcolor="#eeeeee">736K</td>
+	  <td bgcolor="#eeeeee">2012-11-23</td>
+	  <td bgcolor="#eeeeee">
+	    <p>In this revision, OpenBSM grows a new daemon, auditdistd, which
+	      provides secure audit trail distribution over the network.
+	      Implemented by Pawel Jakub Dawidek and sponsored by the FreeBSD
+	      Foundation, auditdistd provides a client to run on hosts
+	      generating audit trails, and a server to run on a central secure
+	      audit host.  auditdist uses TLS to encrypt trails on the wire,
+	      and does is append-only, so that audit trails leading up to a
+	      compromise on the client are tamper-proof on the client.  This
+	      feature is considered experimental.</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.2 alpha1</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha1.tgz">openbsm-1.2-alpha1.tgz</a></td>
+	  <td bgcolor="#eeeeee">640K</td>
+	  <td bgcolor="#eeeeee">2012-07-22</td>
+	  <td bgcolor="#eeeeee">
+	    <p>In this revision, OpenBSM grows suport for Capsicum system calls
+	      and events, has various fixes to address warnings from the Clang
+	      static analyser, fixes trail expiration when the host parameter
+	      is used, adds support for privilege tokens, fixes a directory
+	      descriptor leak that arose in low disk space conditions, added
+	      build support for more recent Linux versions, fixed bugs in XML
+	      rendering of BSM, and improved the documentation.</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td bgcolor="#eeeeee">1.1 beta 1</td>

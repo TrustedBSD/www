@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#27 $
+      $P4: //depot/projects/trustedbsd/www/news.page#28 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -49,6 +49,13 @@
 	Project.</p>
 
       <dl>
+
+	<dt>December 16, 2012 <b> OpenBSM 1.2 alpha 3 released</b></dt>
+	<dd><p>OpenBSM 1.2 alpha 3 has been released; this is a test release
+	  of OpenBSM, and includes a variety of bug fixes and refinements for
+	  the new auditdistd distributed audit daemon feature.  See the <a
+	  href="openbsm.html">OpenBSM web page</a> for more
+	  information.</p></dd>
 
 	<dt>November 23, 2012 <b> OpenBSM 1.2 alpha 2 released</b></dt>
 	<dd><p>OpenBSM 1.2 alpha 2 has been released; this is a test release
