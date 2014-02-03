@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/home.page#8 $
+      $P4: //depot/projects/trustedbsd/www/home.page#9 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -77,7 +77,7 @@
 	Advanced Research Projects Agency (DARPA), the National Security
 	Agency (NSA), Network Associates Laboratories, Safeport Network
 	Services, the University of Pennsylvania, Yahoo!, McAfee Research,
-	SPARTA, Inc., Apple Computer, Inc., nCirce Network Security, Inc.,
+	SPARTA, Inc., Apple Computer, Inc., nCircle Network Security, Inc.,
 	Google, Inc., the University of Cambridge Computer Laboratory, the
 	FreeBSD Foundation, and others.
 	Contributions to support the TrustedBSD Project are welcome; please
