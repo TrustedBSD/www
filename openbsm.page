@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#45 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#46 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -290,8 +290,8 @@
 	      Implemented by Pawel Jakub Dawidek and sponsored by the FreeBSD
 	      Foundation, auditdistd provides a client to run on hosts
 	      generating audit trails, and a server to run on a central secure
-	      audit host.  auditdist uses TLS to encrypt trails on the wire,
-	      and does is append-only, so that audit trails leading up to a
+	      audit host.  auditdistd uses TLS to encrypt trails on the wire,
+	      and does it append-only, so that audit trails leading up to a
 	      compromise on the client are tamper-proof on the client.  This
 	      feature is considered experimental.</p>
 	  </td>
@@ -302,7 +302,7 @@
 	  <td bgcolor="#eeeeee">640K</td>
 	  <td bgcolor="#eeeeee">2012-07-22</td>
 	  <td bgcolor="#eeeeee">
-	    <p>In this revision, OpenBSM grows suport for Capsicum system calls
+	    <p>In this revision, OpenBSM grows support for Capsicum system calls
 	      and events, has various fixes to address warnings from the Clang
 	      static analyser, fixes trail expiration when the host parameter
 	      is used, adds support for privilege tokens, fixes a directory
@@ -320,7 +320,7 @@
 	    <p>In this revision, OpenBSM's auditd(8) grows support for audit
 	      trail expiration based on age and trail size, various defaults
 	      in audit_control(5) are modernized (such as smaller percent
-	      free default, and enabling execve(2)argument auditing by
+	      free default, and enabling execve(2) argument auditing by
 	      default), socket types and domains are converted to BSM format
 	      when written out, and bugs are fixed in IPC permission token
 	      encoding.</p>
