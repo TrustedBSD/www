@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#46 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#47 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -125,7 +125,8 @@
 
       <p>OpenBSM source code is available for download via occasional
 	snapshot and release tarballs, vendor integrated source code (such as
-	the FreeBSD source tree), and the TrustedBSD Perforce repository.
+	the FreeBSD source tree), and the <a href="https://github.com/openbsm/openbsm">
+	OpenBSM GitHub repository</a>.
 	The current release is OpenBSM 1.1p2, released on 2 August, 2009.
 	Please see the file README present in the OpenBSM distribution for
 	build and installation instructions.</p>
