@@ -1,5 +1,5 @@
 <!--
-     Copyright (c) 2012 Robert N. M. Watson
+     Copyright (c) 2012-2015 Robert N. M. Watson
      Copyright (c) 2003-2005 McAfee, Inc.
      All rights reserved.
      
@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sedarwin.page#8 $
+      $P4: //depot/projects/trustedbsd/www/sedarwin.page#9 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -56,12 +56,14 @@
 	available as part of the shipping Mac OS X product.
 	It also appears in Apple's iOS on the iPhone and iPad.</p>
 
+<!--
       <p>The SEDarwin project moved to it's own website at <a
 	href="http://www.sedarwin.org">www.sedarwin.org</a>, which
 	unfortunately appears to have gone down.  Please contact the
 	trustedbsd-discuss mailing list with any questions, or for access
 	to historic source code available via the FreeBSD Project Perforce
 	server.</p>
+-->
 
     </html>
   </section>
