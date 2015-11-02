@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#48 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#49 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -102,7 +102,7 @@
 	release of OpenBSM (1.0) in FreeBSD 6.3 and FreeBSD 7.0.</p>
 
       <p><a href="bsmtrace.html">BSMtrace</a> is an independently
-	distributed  BSM-based host intrusion detection system that relies
+	distributed BSM-based host intrusion detection system that relies
 	on OpenBSM audit trails.</p>
 
     </html>
@@ -230,7 +230,7 @@
     <html>
 
       <p>Development snapshots reflect work-in-progress snapshots of the
-	OpenBSM development branch in Perforce.
+	OpenBSM development branch on GitHub.
 	They are appropriate for use in production systems, but consumers of
 	these snapshots should be aware that APIs, file formats, and tools
 	are under active development, and may change at any time.
@@ -246,17 +246,19 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
 	</tr>
 	<tr>
-	  <td bgcolor="#eeeeee">1.2 alpha3</td>
-	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha3.tgz">openbsm-1.2-alpha3.tgz</a></td>
-	  <td bgcolor="#eeeeee">736K</td>
-	  <td bgcolor="#eeeeee">2012-12-15</td>
+	  <td bgcolor="#eeeeee">1.2 alpha4</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha4.tgz">openbsm-1.2-alpha4.tgz</a></td>
+	  <td bgcolor="#eeeeee">SHA256: 35b0370d19a742a387f10aaae187a38abee536d8a7b57c0e9d997d3ceaf02429</td>
+	  <td bgcolor="#eeeeee">683K</td>
+	  <td bgcolor="#eeeeee">2015-11-02</td>
 	  <td bgcolor="#eeeeee">
-	    <p>OpenBSM 1.2-alpha3 is the third test release of the OpenBSM 1.2
+	    <p>OpenBSM 1.2-alpha4 is the fourth test release of the OpenBSM 1.2
 	      release stream.
-	      In this revision, a number of (largely minor) refinements are
-	      made to auditdistd; perhaps most importantly, header files and
-	      build elements are cleaned up to support better integration into
-	      the FreeBSD 10-CURRENT source tree.</p>
+	      In this revision, a number of bugs have been fixed in auditdistd.
+	      A bug in praudit has been fixes that caused it to emit invalid XML
+	      output.  Manpage links, broken since the switch to autotools, are
+	      installed once again.  Additionally, event definitions were updated,
+	      and the documentation has been improved.</p>
 	  </td>
 	</tr>
       </table>
@@ -279,6 +281,18 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.2 alpha3</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha3.tgz">openbsm-1.2-alpha3.tgz</a></td>
+	  <td bgcolor="#eeeeee">736K</td>
+	  <td bgcolor="#eeeeee">2012-12-15</td>
+	  <td bgcolor="#eeeeee">
+	    <p>In this revision, a number of (largely minor) refinements are
+	      made to auditdistd; perhaps most importantly, header files and
+	      build elements are cleaned up to support better integration into
+	      the FreeBSD 10-CURRENT source tree.</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td bgcolor="#eeeeee">1.2 alpha2</td>
