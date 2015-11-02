@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#49 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#50 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -248,10 +248,10 @@
 	<tr>
 	  <td bgcolor="#eeeeee">1.2 alpha4</td>
 	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha4.tgz">openbsm-1.2-alpha4.tgz</a></td>
-	  <td bgcolor="#eeeeee">SHA256: 35b0370d19a742a387f10aaae187a38abee536d8a7b57c0e9d997d3ceaf02429</td>
 	  <td bgcolor="#eeeeee">683K</td>
 	  <td bgcolor="#eeeeee">2015-11-02</td>
 	  <td bgcolor="#eeeeee">
+	    <p>SHA256: 35b0370d19a742a387f10aaae187a38abee536d8a7b57c0e9d997d3ceaf02429</p>
 	    <p>OpenBSM 1.2-alpha4 is the fourth test release of the OpenBSM 1.2
 	      release stream.
 	      In this revision, a number of bugs have been fixed in auditdistd.
