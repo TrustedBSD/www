@@ -30,7 +30,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#50 $
+      $P4: //depot/projects/trustedbsd/www/openbsm.page#51 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -246,19 +246,21 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
 	</tr>
 	<tr>
-	  <td bgcolor="#eeeeee">1.2 alpha4</td>
-	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha4.tgz">openbsm-1.2-alpha4.tgz</a></td>
-	  <td bgcolor="#eeeeee">683K</td>
-	  <td bgcolor="#eeeeee">2015-11-02</td>
+	  <td bgcolor="#eeeeee">1.2 alpha5</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha5.tgz">openbsm-1.2-alpha5.tgz</a></td>
+	  <td bgcolor="#eeeeee">648K</td>
+	  <td bgcolor="#eeeeee">2016-12-04</td>
 	  <td bgcolor="#eeeeee">
-	    <p>SHA256: 35b0370d19a742a387f10aaae187a38abee536d8a7b57c0e9d997d3ceaf02429</p>
-	    <p>OpenBSM 1.2-alpha4 is the fourth test release of the OpenBSM 1.2
+	    <p>SHA256: 4c615e92c445bbdd345119708ba5c6a7385cc4f8e2ea90c661dfddaf7e17f81a</p>
+	    <p>OpenBSM 1.2-alpha5 is the fifth test release of the OpenBSM 1.2
 	      release stream.
-	      In this revision, a number of bugs have been fixed in auditdistd.
-	      A bug in praudit has been fixes that caused it to emit invalid XML
-	      output.  Manpage links, broken since the switch to autotools, are
-	      installed once again.  Additionally, event definitions were updated,
-	      and the documentation has been improved.</p>
+	      In this revision several new features were added, among them: support for
+	      setting the kernel's maximum audit queue length; the ability to push a
+	      mapping between audit event names and event numbers into a kernel supporting
+	      this feature; sandboxing support for auditreduce(1) and praudit(1) on systems
+	      supporting Capsicum; and the ability to leave the flags and naflags parameters
+	      empty.  Additionally, event definitions for several FreeBSD subsystems were
+	      added.</p>
 	  </td>
 	</tr>
       </table>
@@ -281,6 +283,22 @@
 	  <td valign="top" bgcolor="#eeeeee"><b>Size</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Date</b></td>
 	  <td valign="top" bgcolor="#eeeeee"><b>Description</b></td>
+	</tr>
+	<tr>
+	  <td bgcolor="#eeeeee">1.2 alpha4</td>
+	  <td bgcolor="#eeeeee"><a href="downloads/openbsm-1.2-alpha4.tgz">openbsm-1.2-alpha4.tgz</a></td>
+	  <td bgcolor="#eeeeee">683K</td>
+	  <td bgcolor="#eeeeee">2015-11-02</td>
+	  <td bgcolor="#eeeeee">
+	    <p>SHA256: 35b0370d19a742a387f10aaae187a38abee536d8a7b57c0e9d997d3ceaf02429</p>
+	    <p>OpenBSM 1.2-alpha4 is the fourth test release of the OpenBSM 1.2
+	      release stream.
+	      In this revision, a number of bugs have been fixed in auditdistd.
+	      A bug in praudit has been fixes that caused it to emit invalid XML
+	      output.  Manpage links, broken since the switch to autotools, are
+	      installed once again.  Additionally, event definitions were updated,
+	      and the documentation has been improved.</p>
+	  </td>
 	</tr>
 	<tr>
 	  <td bgcolor="#eeeeee">1.2 alpha3</td>

@@ -37,7 +37,7 @@
 
   <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
     <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/news.page#30 $
+      $P4: //depot/projects/trustedbsd/www/news.page#31 $
     </cvs:keyword>
   </cvs:keywords>
 
@@ -49,6 +49,12 @@
 	Project.</p>
 
       <dl>
+	<dt>December 4, 2016 <b>OpenBSM 1.2 alpha 5 released</b></dt>
+	<dd><p>OpenBSM 1.2 alpha 5 has been released; this is a test release
+	  of OpenBSM, and includes several new features, bug fixes, and updated
+	  event definitions.  See the <a
+	  href="openbsm.html">OpenBSM web page</a> for more information.</p></dd>
+
 	<dt>November 2, 2015 <b>OpenBSM 1.2 alpha 4 released</b></dt>
 	<dd><p>OpenBSM 1.2 alpha 4 has been released; this is a test release
 	  of OpenBSM, and includes a variety of bug fixes for auditdistd and
