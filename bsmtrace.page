@@ -41,7 +41,7 @@
     <html>
       <p>
       <span id="collection-label">GitHub:</span>
-      <a href="https://github.com/openbsm/openbsm">https://github.com/openbsm/bsmtrace</a>
+      <a href="https://github.com/openbsm/bsmtrace">https://github.com/openbsm/bsmtrace</a>
       </p>
 
       <p>BSMtrace is a utility that processes audit trails, or real-time
