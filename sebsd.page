@@ -35,13 +35,6 @@
 
 <page role="sebsd">
   <title>SEBSD</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sebsd.page#11 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>SEBSD: Port of SELinux FLASK and Type Enforcement to
       TrustedBSD</title>

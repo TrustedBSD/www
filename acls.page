@@ -26,13 +26,6 @@
 
 <page role="acls">
   <title>TrustedBSD Access Control Lists (ACLs)</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/acls.page#3 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>TrustedBSD File System Access Control Lists (ACLs)
       Implementation</title>

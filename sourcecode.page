@@ -26,13 +26,6 @@
 
 <page role="sourcecode">
   <title>Source Code</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sourcecode.page#3 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>Source Code</title>
 

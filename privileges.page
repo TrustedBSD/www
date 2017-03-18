@@ -26,13 +26,6 @@
 
 <page role="privileges">
   <title>TrustedBSD POSIX.1e Privileges</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/privileges.page#7 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>TrustedBSD POSIX.1e Privileges</title>
 

@@ -34,13 +34,6 @@
 
 <page role="sedarwin">
   <title>SEDarwin</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/sedarwin.page#9 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>SEDarwin: Port of the TrustedBSD MAC Framework and SEBSD
       policy module to Apple's Darwin operating system</title>

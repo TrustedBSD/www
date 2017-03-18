@@ -26,13 +26,6 @@
 
 <page role="audit">
   <title>Security Event Auditing</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/audit.page#11 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>TrustedBSD Security Event Auditing</title>
 

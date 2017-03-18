@@ -26,13 +26,6 @@
 
 <page role="openpam">
   <title>OpenPAM</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openpam.page#1 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>OpenPAM</title>
 

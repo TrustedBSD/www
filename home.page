@@ -34,13 +34,6 @@
 
 <page role="home">
   <title>Home</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/home.page#9 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>TrustedBSD Project</title>
 

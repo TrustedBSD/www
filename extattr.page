@@ -26,13 +26,6 @@
 
 <page role="extattr">
   <title>TrustedBSD Extended Attributes and UFS2</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/extattr.page#2 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>TrustedBSD File System Access Extended Attributes and UFS2</title>
 

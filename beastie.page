@@ -34,13 +34,6 @@
 
 <page role="home">
   <title>BSD Daemon</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/beastie.page#2 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>Daemon Copyright Information</title>
 

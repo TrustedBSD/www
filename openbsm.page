@@ -27,13 +27,6 @@
 
 <page role="openbsm">
   <title>OpenBSM</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/openbsm.page#51 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>OpenBSM: Open Source Basic Security Module (BSM) Audit
       Implementation</title>

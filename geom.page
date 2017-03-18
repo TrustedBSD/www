@@ -26,13 +26,6 @@
 
 <page role="geom">
   <title>GEOM Storage Framework and GBDE Encrypted Storage</title>
-
-  <cvs:keywords xmlns:cvs="http://www.FreeBSD.org/XML/CVS" version="1.0">
-    <cvs:keyword name="freebsd">
-      $P4: //depot/projects/trustedbsd/www/geom.page#3 $
-    </cvs:keyword>
-  </cvs:keywords>
-
   <section>
     <title>GEOM Storage Framework and GBDE Encrypted Storage</title>
 

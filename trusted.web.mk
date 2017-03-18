@@ -27,8 +27,6 @@
 # LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
-# 
-# $P4: //depot/projects/trustedbsd/www/trusted.web.mk#2 $
 
 TIDY?=		tidy -i -m -f /dev/null
 XSLTPROC?=	xsltproc -nonet
